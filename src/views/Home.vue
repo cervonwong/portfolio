@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <h1>Hi, welcome to my website :)</h1>
-    <p>This website is still work in progress...</p>
-    <a href="https://play.cervonwong.com"
-      >In the meantime, visit my playground</a
-    >
+    <div class="section-container">
+      <p></p>
+      <h1 id="nameTitle">Cervon Wong</h1>
+      <p>Work in progress... Come back soon :)</p>
+    </div>
   </div>
 </template>
 
