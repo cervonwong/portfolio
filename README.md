@@ -1,24 +1,5 @@
-# website-vue
+# Here lies the code to my website...
 
-## Project setup
-```
-npm install
-```
+My [website](https://cervonwong.com) is entirely built from Vue from the ground up.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Right now, the website is still work in progress. I'm taking the time to learn HTML, CSS, JS/TS, and Vue.js. :)
