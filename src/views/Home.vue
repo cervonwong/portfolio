@@ -1,10 +1,13 @@
 <template>
   <div class="home">
-    <div class="section-container">
-      <p></p>
-      <h1 id="nameTitle">Cervon Wong</h1>
-      <p>Work in progress... Come back soon :)</p>
-    </div>
+    <p></p>
+    <h1 id="name-title">Welcome to my website :)</h1>
+    <p>
+      This site is currently being developed. Come again soon for updates!
+      ~24/11/2021
+    </p>
+    <a href="https://play.cervonwong.com">Visit my playground</a>
+    <a href="https://github.com/cervonwong">Visit my GitHub profile</a>
   </div>
 </template>
 
