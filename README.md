@@ -1,6 +1,6 @@
 # Here lies the code to my website...
 
-My [website](https://cervonwong.com) is entirely built from Vue from the ground up.
+My [website](https://cervonwong.com) is built from the ground up in Vue.js without any templates or CMS.
 
 Right now, the website is still work in progress. I'm taking the time to learn HTML, CSS, JS/TS, and Vue.js. :)
 
