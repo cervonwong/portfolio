@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 

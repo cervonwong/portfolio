@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";

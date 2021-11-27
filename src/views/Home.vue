@@ -1,3 +1,7 @@
+<!--
+  - Copyright (C) 2021 Cervon Wong.
+  -->
+
 <template>
   <div class="home">
     <p></p>

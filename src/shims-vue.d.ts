@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
 /* eslint-disable */
 declare module '*.vue' {
   import type { DefineComponent } from 'vue'
