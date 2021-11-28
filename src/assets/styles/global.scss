@@ -17,6 +17,10 @@ a {
   color: $primary-black;
 }
 
+p {
+  font-size: 1rem;
+}
+
 button {
   font-family: inherit; /* Use default font-family. */
   cursor: pointer; /* When cursor over button, use pointer. */
