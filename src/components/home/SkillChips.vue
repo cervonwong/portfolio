@@ -72,7 +72,7 @@ div {
 }
 
 span {
-  border: $primary-black solid 1.5px;
+  border: $primary-black solid 0.09375rem; /* 1.5px */
   padding: 0.375rem 1rem; /* 6px 16px */
   border-radius: 9rem;
   font-size: 0.875rem; /* 14px */

@@ -55,13 +55,13 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 section {
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 120px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 7.5rem; /* 120px */
 }
 
 .section-cta {
-  margin-top: 40px;
+  margin-top: 2.5rem; /* 40px */
 }
 
 .section-cta__link:hover {
@@ -80,7 +80,7 @@ section {
   font-size: 1rem;
   font-weight: 500;
   padding: 0.5rem 1rem;
-  border: 2px solid $primary-black;
+  border: 0.125rem solid $primary-black; /* 2px */
   border-radius: 99rem;
   margin-top: 0.5rem;
 }
@@ -91,7 +91,7 @@ section {
 
   &:hover {
     font-style: italic;
-    text-decoration: underline solid $primary-white 1px;
+    text-decoration: underline solid $primary-white 0.0625rem; /* 1px */
   }
 }
 
@@ -101,7 +101,7 @@ section {
 
   &:hover {
     font-style: italic;
-    text-decoration: underline solid $primary-black 1px;
+    text-decoration: underline solid $primary-black 0.0625rem; /* 1px */
   }
 }
 
