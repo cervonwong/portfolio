@@ -7,15 +7,7 @@
 
 body {
   margin: 0; /* Removes default margin. */
-  font-family: "DM Sans", sans-serif;
-  text-align: center;
-}
-
-.home {
-  margin: 150px 32px;
-  display: flex;
-  place-items: center;
-  flex-direction: column;
+  font-family: "DM Sans", sans-serif; /* Sets default font-family for all elements. */
 }
 
 a {
@@ -23,11 +15,5 @@ a {
 }
 
 button {
-  font-family: inherit;
-}
-
-#name-title {
-  font-size: 48px;
-  font-weight: normal;
-  display: block;
+  font-family: inherit; /* Use default font-family. */
 }
