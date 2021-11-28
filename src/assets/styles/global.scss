@@ -3,7 +3,10 @@
  */
 
 /* Imports all DM Sans styles. */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+$primary-black: #000000;
+$primary-white: #ffffff;
 
 body {
   margin: 0; /* Removes default margin. */
@@ -11,7 +14,7 @@ body {
 }
 
 a {
-  color: #000000;
+  color: $primary-black;
 }
 
 button {
