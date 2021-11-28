@@ -36,16 +36,18 @@
 
     <section class="section-skills">
       <h2>Technical Skills</h2>
+      <SkillChips></SkillChips>
     </section>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import SkillChips from "../components/home/SkillChips.vue";
 
 export default defineComponent({
   name: "Home",
-  components: {},
+  components: { SkillChips },
 });
 </script>
 
