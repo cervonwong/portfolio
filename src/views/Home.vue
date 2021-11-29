@@ -87,6 +87,11 @@ section {
     font-size: 1.25rem; /* 20px */
     padding: 1rem 2rem;
   }
+
+  &:hover {
+    background-color: $primary-white;
+    color: $primary-black;
+  }
 }
 
 .line-length-limit-wrapper {
