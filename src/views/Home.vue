@@ -14,10 +14,10 @@
       </h1>
       <div class="section-cta__button-group">
         <button class="section-cta__button section-cta__button--filled">
-          View my projects here
+          Check out my projects
         </button>
         <button class="section-cta__button section-cta__button--outlined">
-          Download résumé
+          Download my résumé
         </button>
       </div>
     </section>
