@@ -64,3 +64,13 @@ $large-laptop-max-width: 87.5em; /* 1400px */
     max-width: 45.125rem; /* 722px */
   }
 }
+
+@mixin bp-content-width-fill {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

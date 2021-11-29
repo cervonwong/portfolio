@@ -4,6 +4,8 @@
 
 <template>
   <main>
+    <NavBar></NavBar>
+
     <section class="section-cta">
       <h1>
         Hi, I am a
@@ -50,12 +52,13 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import SkillChips from "@/components/home/SkillChips.vue";
+import NavBar from "@/components/shared/NavBar.vue";
 import Footer from "@/components/shared/Footer.vue";
+import SkillChips from "@/components/home/SkillChips.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { SkillChips, Footer },
+  components: { NavBar, Footer, SkillChips },
 });
 </script>
 
