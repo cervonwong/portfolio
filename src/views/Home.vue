@@ -14,14 +14,7 @@
         <a href="#" class="section-cta__link">back-end development</a> and
         <a href="#" class="section-cta__link">machine learning</a>.
       </h1>
-      <div class="section-cta__button-group">
-        <button class="section-cta__button section-cta__button--filled">
-          Check out my projects
-        </button>
-        <button class="section-cta__button section-cta__button--outlined">
-          Download my résumé
-        </button>
-      </div>
+      <button class="section-cta__button">Check out my projects</button>
     </section>
 
     <section class="section-about-me">
@@ -80,34 +73,20 @@ section {
   color: $primary-white;
 }
 
-.section-cta__button-group {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .section-cta__button {
   font-size: 1rem;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem; /* 12px 24px */
+  background-color: $primary-black;
+  color: $primary-white;
   border: 0.125rem solid $primary-black; /* 2px */
   border-radius: 99rem;
   margin-top: 0.5rem;
 
   @include bp-laptop-and-up {
     font-size: 1.25rem; /* 20px */
-    padding: 0.75rem 1.5rem; /* 12px 24px */
+    padding: 1rem 2rem;
   }
-}
-
-.section-cta__button--filled {
-  background-color: $primary-black;
-  color: $primary-white;
-}
-
-.section-cta__button--outlined {
-  background-color: $primary-white;
-  color: $primary-black;
 }
 
 .line-length-limit-wrapper {
