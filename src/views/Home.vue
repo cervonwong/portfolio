@@ -9,10 +9,10 @@
     <section class="section-cta">
       <h1>
         Hi, I am a
-        <a href="/" class="section-cta__link">front-end developer</a> and
-        <a href="/" class="section-cta__link">UI/UX designer</a>, dabbling in
-        <a href="/" class="section-cta__link">back-end development</a> and
-        <a href="/" class="section-cta__link">machine learning</a>.
+        <a href="#" class="section-cta__link">front-end developer</a> and
+        <a href="#" class="section-cta__link">UI/UX designer</a>, dabbling in
+        <a href="#" class="section-cta__link">back-end development</a> and
+        <a href="#" class="section-cta__link">machine learning</a>.
       </h1>
       <div class="section-cta__button-group">
         <button class="section-cta__button section-cta__button--filled">
@@ -35,7 +35,7 @@
           In my free time, I like to stare at typography for hours. Currently, I
           am learning how to develop websites with Vue.js.
         </p>
-        <a href="/"
+        <a href="#"
           >P.S. This website was built from the ground-up in Vue.js.</a
         >
       </div>
