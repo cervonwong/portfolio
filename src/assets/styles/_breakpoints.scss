@@ -1,0 +1,76 @@
+/*
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
+/* Order of breakpoints from smallest: */
+/* Phone, Small Tablet, Tablet, Laptop, Large Laptop, Desktop */
+
+$phone-max-width: 36em; /* 576px */
+$small-tablet-max-width: 48em; /* 786px */
+$tablet-max-width: 62em; /* 992px */
+$laptop-max-width: 75em; /* 1200px */
+$large-laptop-max-width: 87.5em; /* 1400px */
+
+/*
+ * Breakpoint and up mixins
+ */
+@mixin bp-small-tablet-and-up {
+  @media (min-width: #{$phone-max-width}) {
+    @content;
+  }
+}
+
+@mixin bp-tablet-and-up {
+  @media (min-width: #{$small-tablet-max-width}) {
+    @content;
+  }
+}
+
+@mixin bp-laptop-and-up {
+  @media (min-width: #{$tablet-max-width}) {
+    @content;
+  }
+}
+
+@mixin bp-large-laptop-and-up {
+  @media (min-width: #{$laptop-max-width}) {
+    @content;
+  }
+}
+
+@mixin bp-desktop-and-up {
+  @media (min-width: #{$large-laptop-max-width}) {
+    @content;
+  }
+}
+
+/*
+ * Content width mixins
+ */
+
+/* Uses margin-left, margin-right, and max-width to make width of content responsive. */
+@mixin bp-content-width-normal {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  @include bp-tablet-and-up() {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45.125rem; /* 722px */
+  }
+}
+
+@mixin bp-content-width-fill {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
