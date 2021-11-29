@@ -23,15 +23,20 @@
     </section>
 
     <section class="section-about-me">
-      <h2>I'm Cervon Wong</h2>
-      <p class="p--large">
-        a high school student interested in developing real-world applications.
-      </p>
-      <p>
-        In my free time, I like to stare at typography for hours. Currently, I
-        am learning how to develop websites with Vue.js.
-      </p>
-      <a href="/">P.S. This website was built from the ground-up in Vue.js.</a>
+      <div class="line-length-limit-wrapper">
+        <h2>I'm Cervon Wong</h2>
+        <p class="p--large">
+          a high school student interested in developing real-world
+          applications.
+        </p>
+        <p>
+          In my free time, I like to stare at typography for hours. Currently, I
+          am learning how to develop websites with Vue.js.
+        </p>
+        <a href="/"
+          >P.S. This website was built from the ground-up in Vue.js.</a
+        >
+      </div>
     </section>
 
     <section class="section-skills">
@@ -85,6 +90,11 @@ section {
   border: 0.125rem solid $primary-black; /* 2px */
   border-radius: 99rem;
   margin-top: 0.5rem;
+
+  @include bp-laptop-and-up {
+    font-size: 1.25rem; /* 20px */
+    padding: 0.75rem 1.5rem; /* 12px 24px */
+  }
 }
 
 .section-cta__button--filled {
@@ -107,13 +117,47 @@ section {
   }
 }
 
+.line-length-limit-wrapper {
+  max-width: 25rem; /* 400px */
+}
+
 h1,
+.section-cta__link {
+  font-size: 2rem;
+  font-weight: bold;
+
+  @include bp-tablet-and-up {
+    font-size: 2.75rem; /* 44px */
+  }
+
+  @include bp-laptop-and-up {
+    font-size: 3.5rem; /* 56px */
+  }
+}
+
 h2 {
   font-size: 2rem;
   font-weight: bold;
+
+  @include bp-laptop-and-up {
+    font-size: 2.625rem; /* 42px */
+  }
 }
 
 .p--large {
   font-size: 1.375rem; /* 22px */
+
+  @include bp-laptop-and-up {
+    font-size: 1.625rem; /* 26px */
+  }
+}
+
+p,
+a {
+  font-size: 1rem;
+
+  @include bp-laptop-and-up {
+    font-size: 1.125rem; /* 18px */
+  }
 }
 </style>

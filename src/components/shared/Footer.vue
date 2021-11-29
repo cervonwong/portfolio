@@ -63,10 +63,18 @@ a {
 h2 {
   font-size: 2rem; /* 32px */
   font-weight: bold;
+
+  @include bp-laptop-and-up() {
+    font-size: 2.625rem; /* 42px */
+  }
 }
 
 p,
 a {
   font-size: 0.875rem; /* 14px */
+
+  @include bp-laptop-and-up() {
+    font-size: 1rem;
+  }
 }
 </style>
