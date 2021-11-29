@@ -55,8 +55,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 section {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  @include bp-content-width-normal;
   margin-bottom: 7.5rem; /* 120px */
 }
 
