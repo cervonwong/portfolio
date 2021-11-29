@@ -9,12 +9,17 @@
     <section class="section-cta">
       <h1>
         Hi, I am a
-        <a href="#" class="section-cta__link">front-end developer</a> and
-        <a href="#" class="section-cta__link">UI/UX designer</a>, dabbling in
-        <a href="#" class="section-cta__link">back-end development</a> and
-        <a href="#" class="section-cta__link">machine learning</a>.
+        <a href="#" class="cta-link">front-end developer</a> and
+        <a href="#" class="cta-link">UI/UX designer</a>, dabbling in
+        <a href="#" class="cta-link">back-end development</a> and
+        <a href="#" class="cta-link">machine learning</a>.
       </h1>
-      <button class="section-cta__button">Check out my projects</button>
+      <button class="cta-button">
+        <span class="cta-button-content-wrapper"
+          ><span>Check out my projects</span
+          ><span class="material-icons-sharp">east</span></span
+        >
+      </button>
     </section>
 
     <section class="section-about-me">
@@ -67,13 +72,13 @@ section {
   margin-top: 2.5rem; /* 40px */
 }
 
-.section-cta__link:hover {
+.cta-link:hover {
   font-style: italic;
   background-color: $primary-black;
   color: $primary-white;
 }
 
-.section-cta__button {
+.cta-button {
   font-size: 1rem;
   font-weight: 500;
   padding: 0.75rem 1.5rem; /* 12px 24px */
@@ -94,12 +99,31 @@ section {
   }
 }
 
+.cta-button-content-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem; /* 12px */
+
+  @include bp-laptop-and-up {
+    column-gap: 1rem;
+  }
+}
+
+.material-icons-sharp {
+  font-size: 1.25rem; /* 20px */
+  font-style: inherit;
+
+  @include bp-laptop-and-up {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+
 .line-length-limit-wrapper {
   max-width: 25rem; /* 400px */
 }
 
 h1,
-.section-cta__link {
+.cta-link {
   font-size: 2rem;
   font-weight: bold;
 
