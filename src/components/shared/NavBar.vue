@@ -11,7 +11,14 @@
         <li><a href="#" class="link link--non-last">Projects</a></li>
         <li><a href="#" class="link link--non-last">Blogs</a></li>
         <li><a href="#" class="link link--non-last">Résumé</a></li>
-        <li><a href="#" class="link link--non-last">Playground</a></li>
+        <li>
+          <a
+            href="https://play.cervonwong.com"
+            target="_blank"
+            class="link link--non-last"
+            >Playground</a
+          >
+        </li>
         <li><a href="#" class="link">Contact</a></li>
       </ul>
       <a href="#" class="menu"
