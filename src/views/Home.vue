@@ -38,16 +38,19 @@
       <h2>Technical Skills</h2>
       <SkillChips></SkillChips>
     </section>
+
+    <Footer></Footer>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import SkillChips from "../components/home/SkillChips.vue";
+import SkillChips from "@/components/home/SkillChips.vue";
+import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { SkillChips },
+  components: { SkillChips, Footer },
 });
 </script>
 
