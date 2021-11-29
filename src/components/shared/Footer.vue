@@ -22,7 +22,7 @@
         </p>
         <a href="mailto:hello@cervonwong.com">hello@cervonwong.com</a>
         <p>
-          Copyright (C) 2021 Cervon Wong.<br />Last updated 27 November 2021.
+          Copyright (C) 2021 Cervon Wong.<br />Last updated {{ lastUpdated }}.
         </p>
       </div>
     </div>
@@ -34,6 +34,9 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Footer",
+  data() {
+    return { lastUpdated: "29 November 2021" };
+  },
 });
 </script>
 
