@@ -100,21 +100,11 @@ section {
 .section-cta__button--filled {
   background-color: $primary-black;
   color: $primary-white;
-
-  &:hover {
-    font-style: italic;
-    text-decoration: underline solid $primary-white 0.0625rem; /* 1px */
-  }
 }
 
 .section-cta__button--outlined {
   background-color: $primary-white;
   color: $primary-black;
-
-  &:hover {
-    font-style: italic;
-    text-decoration: underline solid $primary-black 0.0625rem; /* 1px */
-  }
 }
 
 .line-length-limit-wrapper {
