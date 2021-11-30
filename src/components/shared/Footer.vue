@@ -35,7 +35,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "Footer",
   data() {
-    return { lastUpdated: "29 November 2021" };
+    return { lastUpdated: "30 November 2021" };
   },
 });
 </script>
