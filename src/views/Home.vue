@@ -143,6 +143,10 @@ h1,
   font-size: 2rem;
   font-weight: bold;
 
+  @include bp-small-tablet-and-up {
+    font-size: 2.375rem; /* 38px */
+  }
+
   @include bp-tablet-and-up {
     font-size: 2.75rem; /* 44px */
   }
