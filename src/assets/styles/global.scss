@@ -4,9 +4,9 @@
 
 @import "breakpoints";
 @import "colors";
+@import "normalize";
 
 body {
-  margin: 0; /* Removes default margin. */
   font-family: "DM Sans", sans-serif; /* Sets default font-family for all elements. */
 }
 
@@ -23,7 +23,6 @@ p {
 }
 
 button {
-  font-family: inherit; /* Use default font-family. */
   cursor: pointer; /* When cursor over button, use pointer. */
 }
 
