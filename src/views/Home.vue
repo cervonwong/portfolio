@@ -26,7 +26,7 @@
       <div class="line-length-limit-wrapper">
         <h2>I'm Cervon Wong</h2>
         <p class="p--large">
-          a high school student interested in developing real-world
+          a high school student passionate about developing real-world
           applications.
         </p>
         <p>
