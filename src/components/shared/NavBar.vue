@@ -21,7 +21,7 @@
         </li>
         <li><a href="#" class="link">Contact</a></li>
       </ul>
-      <a href="#" class="menu"
+      <a href="#" class="hamburger"
         ><span class="material-icons-sharp">menu</span></a
       >
     </nav>
@@ -98,7 +98,11 @@ li {
   height: 0.0625rem; /* 1px */
 }
 
-.menu {
+.hamburger {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
   @include bp-laptop-and-up {
     display: none;
   }
