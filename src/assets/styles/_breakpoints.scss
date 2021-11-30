@@ -65,9 +65,9 @@ $large-laptop-max-width: 87.5em; /* 1400px */
   }
 }
 
-@mixin bp-content-width-fill {
+@mixin bp-content-width-nav-bar {
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 
   @include bp-small-tablet-and-up() {
     margin-left: 2rem;

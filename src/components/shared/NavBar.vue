@@ -41,7 +41,7 @@ export default defineComponent({
 @import "../../assets/styles/global";
 
 nav {
-  @include bp-content-width-fill;
+  @include bp-content-width-nav-bar;
 
   display: flex;
   justify-content: space-between;
