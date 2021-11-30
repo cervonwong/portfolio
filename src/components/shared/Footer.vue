@@ -9,7 +9,7 @@
         <h2 class="footer-heading">Cervon Wong</h2>
         <p>
           Thanks for dropping by my personal portfolio site. I built this site
-          from scratch without templates of CMS. Check out the
+          from scratch without templates or CMS. Check out the
           <a href="https://github.com/cervonwong/website-vue" target="_blank"
             >source code on GitHub</a
           >.
