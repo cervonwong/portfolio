@@ -15,10 +15,8 @@
         <a href="#" class="cta-link">machine learning</a>.
       </h1>
       <button class="cta-button">
-        <span class="cta-button-content-wrapper"
-          ><span>Check out my projects</span
-          ><span class="material-icons-sharp">east</span></span
-        >
+        Check out my projects
+        <span class="material-icons-sharp">east</span>
       </button>
     </section>
 
@@ -98,19 +96,18 @@ section {
 }
 
 .cta-button {
-  font-size: 1rem;
+  @include p--18;
+
+  display: flex;
+  align-items: center;
   font-weight: 500;
-  padding: 0.75rem 1.5rem; /* 12px 24px */
+  padding: 0.75em 1.5em;
   background-color: $primary-black;
   color: $primary-white;
   border: 0.125rem solid $primary-black; /* 2px */
   border-radius: 99rem;
   margin-top: 0.5rem;
-
-  @include bp-laptop-and-up {
-    font-size: 1.25rem; /* 20px */
-    padding: 1rem 2rem;
-  }
+  column-gap: 0.75em;
 
   &:hover {
     background-color: $primary-white;
@@ -118,23 +115,9 @@ section {
   }
 }
 
-.cta-button-content-wrapper {
-  display: flex;
-  align-items: center;
-  column-gap: 0.75rem; /* 12px */
-
-  @include bp-laptop-and-up {
-    column-gap: 1rem;
-  }
-}
-
 .material-icons-sharp {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25em;
   font-style: inherit;
-
-  @include bp-laptop-and-up {
-    font-size: 1.5rem; /* 24px */
-  }
 }
 
 .line-length-limit-wrapper {
