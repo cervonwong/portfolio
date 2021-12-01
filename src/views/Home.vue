@@ -93,7 +93,6 @@ section {
 }
 
 .cta-link:hover {
-  font-style: italic;
   background-color: $primary-black;
   color: $primary-white;
 }
@@ -144,20 +143,7 @@ section {
 
 h1,
 .cta-link {
-  font-size: 2rem;
-  font-weight: bold;
-
-  @include bp-small-tablet-and-up {
-    font-size: 2.375rem; /* 38px */
-  }
-
-  @include bp-tablet-and-up {
-    font-size: 2.75rem; /* 44px */
-  }
-
-  @include bp-laptop-and-up {
-    font-size: 3.5rem; /* 56px */
-  }
+  @include h1--standard;
 }
 
 h2 {
@@ -170,19 +156,11 @@ h2 {
 }
 
 .p--large {
-  font-size: 1.375rem; /* 22px */
-
-  @include bp-laptop-and-up {
-    font-size: 1.625rem; /* 26px */
-  }
+  @include p--22;
 }
 
 p,
 a {
-  font-size: 1rem;
-
-  @include bp-laptop-and-up {
-    font-size: 1.125rem; /* 18px */
-  }
+  @include p--16;
 }
 </style>

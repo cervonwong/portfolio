@@ -74,10 +74,6 @@ h2 {
 
 p,
 a {
-  font-size: 0.875rem; /* 14px */
-
-  @include bp-laptop-and-up() {
-    font-size: 1rem;
-  }
+  @include p--14;
 }
 </style>

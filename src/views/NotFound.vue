@@ -49,29 +49,12 @@ main {
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
+  @include h1--standard;
   margin-bottom: 1em;
-
-  @include bp-small-tablet-and-up {
-    font-size: 2.375rem; /* 38px */
-  }
-
-  @include bp-tablet-and-up {
-    font-size: 2.75rem; /* 44px */
-  }
-
-  @include bp-laptop-and-up {
-    font-size: 3.5rem; /* 56px */
-  }
 }
 
 p,
 a {
-  font-size: 1.125rem; /* 18px */
-
-  @include bp-laptop-and-up {
-    font-size: 1.375rem; /* 22px */
-  }
+  @include p--18;
 }
 </style>
