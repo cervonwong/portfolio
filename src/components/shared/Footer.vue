@@ -54,7 +54,8 @@ footer {
 }
 
 .line-length-limit-wrapper {
-  max-width: 25rem; /* 400px */
+  @include p--14;
+  @include layout-limit-chars-per-line(60);
 }
 
 h2,

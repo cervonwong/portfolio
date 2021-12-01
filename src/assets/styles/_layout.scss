@@ -5,3 +5,9 @@
 @mixin layout-push-footer {
   flex: 1;
 }
+
+// Accepts a unitless number, the desired average number of characters a line.
+@mixin layout-limit-chars-per-line($char-count) {
+  // Multiplied by the heuristically-determined factor.
+  max-width: $char-count * 0.7ch;
+}

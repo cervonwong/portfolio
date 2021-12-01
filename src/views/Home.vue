@@ -138,7 +138,8 @@ section {
 }
 
 .line-length-limit-wrapper {
-  max-width: 25rem; /* 400px */
+  @include p--16;
+  @include layout-limit-chars-per-line(60);
 }
 
 h1,
