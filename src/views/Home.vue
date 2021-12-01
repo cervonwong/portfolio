@@ -3,9 +3,9 @@
   -->
 
 <template>
-  <main>
-    <NavBar></NavBar>
+  <NavBar></NavBar>
 
+  <main>
     <section class="section-cta">
       <h1>
         Hi, I am a
@@ -43,9 +43,9 @@
       <h2>Technical Skills</h2>
       <SkillChips></SkillChips>
     </section>
-
-    <Footer></Footer>
   </main>
+
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
@@ -62,6 +62,10 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 @import "../assets/styles/global";
+
+main {
+  flex: 1; /* Allows sticky footer */
+}
 
 section {
   @include bp-content-width-normal;

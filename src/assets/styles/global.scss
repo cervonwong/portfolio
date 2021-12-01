@@ -6,9 +6,25 @@
 @import "colors";
 @import "normalize";
 
+/* Typography */
+
 body {
   font-family: "DM Sans", sans-serif; /* Sets default font-family for all elements. */
 }
+
+/* Sticky footer */
+/* To make footer sticky, put 'flex: 1' on main content */
+
+html, body, #app {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Other defaults */
 
 a {
   color: $primary-black;
