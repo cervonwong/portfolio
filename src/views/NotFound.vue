@@ -34,7 +34,7 @@ export default defineComponent({
 
 main {
   @include bp-content-width-normal;
-  flex: 1; /* Allows sticky footer */
+  @include push-footer;
 
   margin-top: 2.5rem; /* 40px */
   margin-bottom: 15rem;

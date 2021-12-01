@@ -4,6 +4,7 @@
 
 @import "breakpoints";
 @import "colors";
+@import "layout";
 @import "normalize";
 @import "typography";
 
@@ -16,7 +17,9 @@ body {
 /* Sticky footer */
 /* To make footer sticky, put 'flex: 1' on main content */
 
-html, body, #app {
+html,
+body,
+#app {
   height: 100%;
 }
 

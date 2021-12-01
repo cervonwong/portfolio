@@ -64,7 +64,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  flex: 1; /* Allows sticky footer */
+  @include push-footer;
 }
 
 section {
