@@ -6,12 +6,14 @@
   <NavBar></NavBar>
 
   <main>
-    <h1>So, you wanna talk?</h1>
-    <p>
-      I haven't set up a contact form yet, so I guess you'll just have to
-      <a href="mailto:hello@cervonwong.com">drop me an email</a>.
-      <br /><br />Thanks!
-    </p>
+    <div class="line-length-limit-wrapper">
+      <h1>So, you wanna talk?</h1>
+      <p>
+        I haven't set up a contact form yet, so I guess you'll just have to
+        <a href="mailto:hello@cervonwong.com">drop me an email</a>.
+        <br /><br />Thanks!
+      </p>
+    </div>
   </main>
 
   <Footer></Footer>
@@ -45,6 +47,11 @@ main {
   @include bp-laptop-and-up {
     margin-top: 5rem; /* 80px */
   }
+}
+
+.line-length-limit-wrapper {
+  @include p--18;
+  @include layout-limit-chars-per-line(60);
 }
 
 h1 {

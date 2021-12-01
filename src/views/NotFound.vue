@@ -6,13 +6,16 @@
   <NavBar></NavBar>
 
   <main>
-    <h1>Uh-oh, where did the page go?! (404)</h1>
-    <p>
-      I'm sorry, it looks like the page is gone for good. Anyway, let's
-      <router-link :to="{ name: 'Home' }">head back to the homepage</router-link
-      >. <br /><br />You can also explore each section of the site via the
-      navigation bar at the top of the page.
-    </p>
+    <div class="line-length-limit-wrapper">
+      <h1>Uh-oh, where did the page go?! (404)</h1>
+      <p>
+        I'm sorry, it looks like the page is gone for good. Anyway, let's
+        <router-link :to="{ name: 'Home' }"
+          >head back to the homepage</router-link
+        >. <br /><br />You can also explore each section of the site via the
+        navigation bar at the top of the page.
+      </p>
+    </div>
   </main>
 
   <Footer></Footer>
@@ -46,6 +49,11 @@ main {
   @include bp-laptop-and-up {
     margin-top: 5rem; /* 80px */
   }
+}
+
+.line-length-limit-wrapper {
+  @include p--18;
+  @include layout-limit-chars-per-line(60);
 }
 
 h1 {
