@@ -5,7 +5,7 @@
 <template>
   <header>
     <nav>
-      <a href="#" class="logo">Cervon Wong</a>
+      <router-link :to="{ name: 'Home' }" class="logo">Cervon Wong</router-link>
       <ul>
         <li><a href="#" class="link link--non-last">About Me</a></li>
         <li><a href="#" class="link link--non-last">Projects</a></li>
@@ -19,7 +19,11 @@
             >Playground</a
           >
         </li>
-        <li><a href="#" class="link">Contact</a></li>
+        <li>
+          <router-link :to="{ name: 'Contact' }" class="link"
+            >Contact</router-link
+          >
+        </li>
       </ul>
       <a href="#" class="hamburger"
         ><span class="material-icons-sharp">menu</span></a
