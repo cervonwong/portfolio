@@ -7,11 +7,13 @@
 
   <main>
     <div class="line-length-limit-wrapper">
-      <h1>So, you wanna talk?</h1>
+      <h1>Uh-oh, where did the page go?! (404)</h1>
       <p>
-        I haven't set up a contact form yet, so I guess you'll just have to
-        <a href="mailto:hello@cervonwong.com">drop me an email</a>.
-        <br /><br />Thanks!
+        I'm sorry, it looks like the page is gone for good. Anyway, let's
+        <router-link :to="{ name: 'Home' }"
+          >head back to the homepage</router-link
+        >. <br /><br />You can also explore each section of the site via the
+        navigation bar at the top of the page.
       </p>
     </div>
   </main>
@@ -25,8 +27,8 @@ import NavBar from "@/components/shared/NavBar.vue";
 import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
-  name: "Contact",
-  components: { NavBar, Footer },
+  name: "NotFound",
+  components: { Footer, NavBar },
 });
 </script>
 

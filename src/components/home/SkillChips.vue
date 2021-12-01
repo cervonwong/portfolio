@@ -75,15 +75,11 @@ div {
 }
 
 span {
+  @include p--16;
   border: $primary-black solid 0.09375rem; /* 1.5px */
-  padding: 0.375rem 1rem; /* 6px 16px */
+  padding: 0.375em 1em;
   border-radius: 9rem;
-  font-size: 0.875rem; /* 14px */
   margin: 0 0.25rem 0.25rem 0; /* 0 4px 4px */
-
-  @include bp-laptop-and-up {
-    font-size: 1rem;
-  }
 }
 
 .span--category {

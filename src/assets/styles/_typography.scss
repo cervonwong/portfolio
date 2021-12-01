@@ -1,0 +1,59 @@
+/*!
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
+@import "breakpoints";
+
+@mixin h1--standard {
+  font-size: 2rem;
+  font-weight: bold;
+
+  @include bp-small-tablet-and-up {
+    font-size: 2.375rem; /* 38px */
+  }
+
+  @include bp-tablet-and-up {
+    font-size: 2.75rem; /* 44px */
+  }
+
+  @include bp-laptop-and-up {
+    font-size: 3.5rem; /* 56px */
+  }
+}
+
+@mixin p--14 {
+  font-size: 0.875rem; /* 14px */
+
+  @include bp-laptop-and-up() {
+    font-size: 1rem;
+  }
+}
+
+// Starts at 16px / 1rem at phone breakpoint.
+@mixin p--16 {
+  font-size: 1rem;
+
+  @include bp-laptop-and-up {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+// Starts at 18px / 1.125rem at phone breakpoint.
+@mixin p--18 {
+  font-size: 1.125rem; /* 18px */
+
+  @include bp-laptop-and-up {
+    font-size: 1.375rem; /* 22px */
+  }
+}
+
+// Starts at 22px / 1.375rem at phone breakpoint.
+@mixin p--22 {
+  font-size: 1.375rem; /* 22px */
+
+  @include bp-laptop-and-up {
+    font-size: 1.625rem; /* 26px */
+  }
+}
+
+
