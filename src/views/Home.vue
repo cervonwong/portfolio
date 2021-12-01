@@ -64,7 +64,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include push-footer;
+  @include layout-push-footer;
 }
 
 section {

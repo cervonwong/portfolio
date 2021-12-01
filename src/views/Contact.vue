@@ -33,7 +33,7 @@ export default defineComponent({
 
 main {
   @include bp-content-width-normal;
-  @include push-footer;
+  @include layout-push-footer;
 
   margin-top: 2.5rem; /* 40px */
   margin-bottom: 15rem;
