@@ -9,7 +9,7 @@
       <ul>
         <li><a href="#" class="link link--non-last">About Me</a></li>
         <li><a href="#" class="link link--non-last">Projects</a></li>
-        <li><a href="#" class="link link--non-last">Blogs</a></li>
+        <li><a href="#" class="link link--non-last">Blog</a></li>
         <li><a href="#" class="link link--non-last">Résumé</a></li>
         <li>
           <a
