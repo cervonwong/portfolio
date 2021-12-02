@@ -6,7 +6,7 @@
   <header>
     <nav>
       <router-link :to="{ name: 'Home' }" class="logo">Cervon Wong</router-link>
-      <ul>
+      <ul class="link-list">
         <li><a href="#" class="link link--non-last">About Me</a></li>
         <li><a href="#" class="link link--non-last">Projects</a></li>
         <li><a href="#" class="link link--non-last">Blog</a></li>
@@ -25,11 +25,11 @@
           >
         </li>
       </ul>
-      <a href="#" class="hamburger"
+      <a href="#" class="menu_icon"
         ><span class="material-icons-sharp">menu</span></a
       >
     </nav>
-    <div class="divider"></div>
+    <div class="bottom_divider"></div>
   </header>
 </template>
 
@@ -57,13 +57,13 @@ nav {
   text-decoration: none;
   font-size: 1.375rem; /* 22px */
   font-weight: bold;
+
+  &:hover {
+    font-style: normal;
+  }
 }
 
-.logo:hover {
-  font-style: normal;
-}
-
-ul {
+.link-list {
   display: none;
   list-style-type: none;
   padding-left: 0;
@@ -77,28 +77,25 @@ ul {
   text-decoration: none;
   font-size: 1.125rem; /* 18px */
   font-weight: 500;
+
+  &:hover {
+    text-decoration: underline solid $primary-black 0.0625rem; /* 1px */
+  }
+
+  &--non-last {
+    &::after {
+      display: inline-block;
+      content: "/";
+      margin: 0 0.625rem; /* 10px */
+    }
+
+    &:hover::after {
+      font-style: normal;
+    }
+  }
 }
 
-.link:hover {
-  text-decoration: underline solid $primary-black 0.0625rem; /* 1px */
-}
-
-.link--non-last::after {
-  display: inline-block;
-  content: "/";
-  margin: 0 0.625rem; /* 10px */
-}
-
-.link--non-last:hover::after {
-  font-style: normal;
-}
-
-.divider {
-  background-color: $primary-black;
-  height: 0.0625rem; /* 1px */
-}
-
-.hamburger {
+.menu_icon {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -106,5 +103,10 @@ ul {
   @include bp-laptop-and-up {
     display: none;
   }
+}
+
+.bottom_divider {
+  background-color: $primary-black;
+  height: 0.0625rem; /* 1px */
 }
 </style>
