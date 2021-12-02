@@ -69,12 +69,8 @@ ul {
   padding-left: 0;
 
   @include bp-laptop-and-up {
-    display: unset;
+    display: flex;
   }
-}
-
-li {
-  display: inline-block;
 }
 
 .link {
