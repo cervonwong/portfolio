@@ -152,20 +152,6 @@ nav {
     margin-top: auto;
     margin-bottom: auto;
     row-gap: 0.5rem; /* 8px */
-  }
-
-  @include bp-laptop-and-up {
-  }
-}
-
-.link {
-  text-decoration: none;
-  font-size: 1.125rem; /* 18px */
-  font-weight: 500;
-
-  @include bp-tablet-and-down() {
-    @include bp-content-width-nav-bar;
-    color: $primary-white;
     font-size: 2.635rem; /* 42px */
 
     @include bp-small-tablet-and-up {
@@ -175,6 +161,20 @@ nav {
     @include bp-tablet-and-up {
       font-size: 3.375rem; /* 54px */
     }
+  }
+
+  @include bp-laptop-and-up {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+
+  @include bp-tablet-and-down() {
+    @include bp-content-width-nav-bar;
+    color: $primary-white;
   }
 
   @include bp-laptop-and-up {
@@ -207,7 +207,7 @@ nav {
 
 .close-mobile-nav-icon {
   color: $primary-white;
-  font-size: 3.5rem; /* 56px */
+  font-size: 1.2em; /* 1.2 times larger than links */
 }
 
 .open-mobile-nav-button {
