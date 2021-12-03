@@ -3,8 +3,6 @@
   -->
 
 <template>
-  <NavBar></NavBar>
-
   <main>
     <div class="line-length-limit-wrapper">
       <h1>So, you wanna talk?</h1>
@@ -15,18 +13,14 @@
       </p>
     </div>
   </main>
-
-  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavBar from "@/components/shared/NavBar.vue";
-import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "Contact",
-  components: { NavBar, Footer },
+  components: {},
 });
 </script>
 

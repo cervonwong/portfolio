@@ -3,8 +3,6 @@
   -->
 
 <template>
-  <NavBar></NavBar>
-
   <main>
     <section class="section-cta">
       <h1>
@@ -42,19 +40,15 @@
       <SkillChips></SkillChips>
     </section>
   </main>
-
-  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavBar from "@/components/shared/NavBar.vue";
-import Footer from "@/components/shared/Footer.vue";
 import SkillChips from "@/components/home/SkillChips.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { NavBar, Footer, SkillChips },
+  components: { SkillChips },
 });
 </script>
 

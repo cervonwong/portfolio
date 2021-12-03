@@ -6,42 +6,76 @@
   <header>
     <nav>
       <router-link :to="{ name: 'Home' }" class="logo">Cervon Wong</router-link>
-      <div class="link-list-wrapper">
+      <div
+        :class="
+          mobileNavOpen
+            ? 'mobile-nav-layout-wrapper mobile-nav-open'
+            : 'mobile-nav-layout-wrapper'
+        "
+      >
         <ul class="link-list">
           <li>
-            <span class="material-icons-sharp close-nav-button-icon"
-              >close</span
+            <button
+              class="close-mobile-nav-icon-button"
+              @click="closeMobileNav"
             >
+              <span class="material-icons-sharp close-mobile-nav-button-icon"
+                >close</span
+              >
+            </button>
           </li>
           <li>
-            <router-link :to="{ name: 'Home' }" class="link link--home"
+            <router-link
+              :to="{ name: 'Home' }"
+              class="link link--home"
+              @click="closeMobileNav"
               >Home</router-link
             >
           </li>
-          <li><a href="#" class="link link--non-last">About Me</a></li>
-          <li><a href="#" class="link link--non-last">Projects</a></li>
-          <li><a href="#" class="link link--non-last">Blog</a></li>
-          <li><a href="#" class="link link--non-last">Résumé</a></li>
+          <li>
+            <a href="#" class="link link--non-last" @click="closeMobileNav"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="#" class="link link--non-last" @click="closeMobileNav"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#" class="link link--non-last" @click="closeMobileNav"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="#" class="link link--non-last" @click="closeMobileNav"
+              >Résumé</a
+            >
+          </li>
           <li>
             <a
               href="https://play.cervonwong.com"
               target="_blank"
               class="link link--non-last"
+              @click="closeMobileNav"
               >Playground</a
             >
           </li>
           <li>
-            <router-link :to="{ name: 'Contact' }" class="link"
+            <router-link
+              :to="{ name: 'Contact' }"
+              class="link"
+              @click="closeMobileNav"
               >Contact
             </router-link>
           </li>
         </ul>
       </div>
-      <a href="#" class="menu_icon"
-        ><span class="material-icons-sharp">menu</span></a
-      >
+      <button class="open-mobile-nav-icon-button" @click="openMobileNav">
+        <span class="material-icons-sharp">menu</span>
+      </button>
     </nav>
-    <div class="bottom_divider"></div>
+    <div class="bottom-divider"></div>
   </header>
 </template>
 
@@ -50,6 +84,17 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "NavBar",
+  data() {
+    return { mobileNavOpen: false };
+  },
+  methods: {
+    openMobileNav() {
+      this.mobileNavOpen = true;
+    },
+    closeMobileNav() {
+      this.mobileNavOpen = false;
+    },
+  },
 });
 </script>
 
@@ -75,7 +120,7 @@ nav {
   }
 }
 
-.link-list-wrapper {
+.mobile-nav-layout-wrapper {
   @include bp-tablet-and-down {
     display: flex;
     align-items: center;
@@ -86,7 +131,14 @@ nav {
     background-color: $primary-black;
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in;
   }
+}
+
+.mobile-nav-open {
+  transform: translateY(0%);
 }
 
 .link-list {
@@ -149,22 +201,29 @@ nav {
   }
 }
 
-.close-nav-button-icon {
+.close-mobile-nav-icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.close-mobile-nav-button-icon {
   color: $primary-white;
   font-size: 4.5rem; /* 72px */
 }
 
-.menu_icon {
+.open-mobile-nav-icon-button {
   display: flex;
   align-items: center;
   text-decoration: none;
+  background-color: transparent;
+  border: none;
 
   @include bp-laptop-and-up {
     display: none;
   }
 }
 
-.bottom_divider {
+.bottom-divider {
   background-color: $primary-black;
   height: 0.0625rem; /* 1px */
 }
