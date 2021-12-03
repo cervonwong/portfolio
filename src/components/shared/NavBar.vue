@@ -176,11 +176,15 @@ nav {
   @include bp-tablet-and-down() {
     @include bp-content-width-nav-bar;
     color: $primary-white;
+
+    &:hover {
+      text-decoration: underline solid $primary-white 0.0625em;
+    }
   }
 
   @include bp-laptop-and-up {
     &:hover {
-      text-decoration: underline solid $primary-black 0.0625rem; /* 1px */
+      text-decoration: underline solid $primary-black 0.0625em;
     }
 
     &--home {
