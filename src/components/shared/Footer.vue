@@ -31,11 +31,12 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import lastUpdated from "../../assets/data/lastUpdated.json";
 
 export default defineComponent({
   name: "Footer",
   data() {
-    return { lastUpdated: "30 November 2021" };
+    return lastUpdated;
   },
 });
 </script>
