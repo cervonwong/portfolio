@@ -205,7 +205,7 @@ nav {
 
 .close-mobile-nav-icon {
   color: $primary-white;
-  font-size: 4.5rem; /* 72px */
+  font-size: 3.5rem; /* 56px */
 }
 
 .open-mobile-nav-button {
