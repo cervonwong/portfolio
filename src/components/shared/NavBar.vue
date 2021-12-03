@@ -132,12 +132,13 @@ nav {
     padding-bottom: 4rem;
 
     transform: translateY(-100%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.7s cubic-bezier(0.32, 0, 0.67, 0); // Ease in cubic
   }
 }
 
 .mobile-nav-open {
   transform: translateY(0%);
+  transition: transform 0.7s cubic-bezier(0.33, 1, 0.68, 1); // Ease out cubic
 }
 
 .link-list {
