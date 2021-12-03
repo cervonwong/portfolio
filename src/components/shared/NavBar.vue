@@ -87,9 +87,11 @@ export default defineComponent({
   methods: {
     openMobileNav() {
       this.mobileNavOpen = true;
+      this.$emit("mobile-nav-opened");
     },
     closeMobileNav() {
       this.mobileNavOpen = false;
+      this.$emit("mobile-nav-closed");
     },
   },
 });
