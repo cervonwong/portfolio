@@ -44,6 +44,12 @@ $large-laptop-max-width: 87.5em; /* 1400px */
   }
 }
 
+@mixin bp-tablet-and-down {
+  @media (max-width: #{$tablet-max-width - 0.02em}) {
+    @content;
+  }
+}
+
 /*
  * Content width mixins
  */
