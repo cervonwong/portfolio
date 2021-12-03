@@ -15,11 +15,8 @@
       >
         <ul class="link-list">
           <li>
-            <button
-              class="close-mobile-nav-icon-button"
-              @click="closeMobileNav"
-            >
-              <span class="material-icons-sharp close-mobile-nav-button-icon"
+            <button class="close-mobile-nav-button" @click="closeMobileNav">
+              <span class="material-icons-sharp close-mobile-nav-icon"
                 >close</span
               >
             </button>
@@ -71,7 +68,7 @@
           </li>
         </ul>
       </div>
-      <button class="open-mobile-nav-icon-button" @click="openMobileNav">
+      <button class="open-mobile-nav-button" @click="openMobileNav">
         <span class="material-icons-sharp">menu</span>
       </button>
     </nav>
@@ -201,17 +198,17 @@ nav {
   }
 }
 
-.close-mobile-nav-icon-button {
+.close-mobile-nav-button {
   background-color: transparent;
   border: none;
 }
 
-.close-mobile-nav-button-icon {
+.close-mobile-nav-icon {
   color: $primary-white;
   font-size: 4.5rem; /* 72px */
 }
 
-.open-mobile-nav-icon-button {
+.open-mobile-nav-button {
   display: flex;
   align-items: center;
   text-decoration: none;
