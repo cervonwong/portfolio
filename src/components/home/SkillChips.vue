@@ -72,6 +72,7 @@ export default defineComponent({
 div {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.25rem;
 }
 
 span {
@@ -79,7 +80,6 @@ span {
   border: $primary-black solid 0.09375rem; /* 1.5px */
   padding: 0.375em 1em;
   border-radius: 9rem;
-  margin: 0 0.25rem 0.25rem 0; /* 0 4px 4px */
 }
 
 .span--category {
