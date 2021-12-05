@@ -10,8 +10,11 @@
         I'm sorry, it looks like the page is gone for good. Anyway, let's
         <router-link :to="{ name: 'Home' }"
           >head back to the homepage</router-link
-        >. <br /><br />You can also explore each section of the site via the
-        navigation bar at the top of the page.
+        >.
+      </p>
+      <p>
+        You can also explore each section of the site via the navigation bar at
+        the top of the page.
       </p>
     </div>
   </main>

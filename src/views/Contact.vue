@@ -10,8 +10,8 @@
         If you want to discuss anything about my projects or found any errors on
         this site, please
         <a href="mailto:hello@cervonwong.com">drop me an email</a>.
-        <br /><br />Thanks!
       </p>
+      <p>Thanks!</p>
     </div>
   </main>
 </template>
