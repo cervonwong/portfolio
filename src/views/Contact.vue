@@ -5,9 +5,10 @@
 <template>
   <main>
     <div class="line-length-limit-wrapper">
-      <h1>So, you wanna talk?</h1>
+      <h1>Contact me!</h1>
       <p>
-        I haven't set up a contact form yet, so I guess you'll just have to
+        If you want to discuss anything about my projects or found any errors on
+        this site, please
         <a href="mailto:hello@cervonwong.com">drop me an email</a>.
         <br /><br />Thanks!
       </p>
