@@ -20,9 +20,15 @@
             >my online playground</a
           >.
         </p>
-        <a href="mailto:hello@cervonwong.com">hello@cervonwong.com</a>
+        <address>
+          Contact me at
+          <a href="mailto:hello@cervonwong.com">hello@cervonwong.com</a>.
+        </address>
         <p>
-          Copyright (C) 2021 Cervon Wong.<br />Last updated {{ lastUpdated }}.
+          Copyright (C) 2021 Cervon Wong.
+          <br />
+          Last updated <time :datetime="lastUpdatedIso">{{ lastUpdated }}</time
+          >.
         </p>
       </div>
     </div>
@@ -31,12 +37,15 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import lastUpdated from "../../assets/data/lastUpdated.json";
+import metadata from "../../assets/data/metadata.json";
 
 export default defineComponent({
   name: "Footer",
   data() {
-    return lastUpdated;
+    return {
+      lastUpdated: metadata.lastUpdated,
+      lastUpdatedIso: metadata.lastUpdatedIso,
+    };
   },
 });
 </script>
@@ -61,7 +70,8 @@ footer {
 
 h2,
 p,
-a {
+a,
+address {
   color: $primary-white;
 }
 
@@ -75,7 +85,12 @@ h2 {
 }
 
 p,
-a {
-  @include p--14;
+a,
+address {
+  font-size: inherit;
+}
+
+address {
+  font-style: unset;
 }
 </style>
