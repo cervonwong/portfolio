@@ -178,13 +178,15 @@ nav {
     color: $primary-white;
 
     &:hover {
-      text-decoration: underline solid $primary-white 0.0625em;
+      text-decoration-line: underline;
+      text-decoration-color: $primary-white;
     }
   }
 
   @include bp-laptop-and-up {
     &:hover {
-      text-decoration: underline solid $primary-black 0.0625em;
+      text-decoration-line: underline;
+      text-decoration-color: $primary-black;
     }
 
     &--home {

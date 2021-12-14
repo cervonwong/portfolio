@@ -2,8 +2,28 @@
  * Copyright (C) 2021 Cervon Wong.
  */
 
-// Custom styles not part of modern-normalize are annotated with 'Custom:'.
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/*
+Custom styles
+=============
+*/
+
+// Make the thickness and offset of underlines similar between browsers.
+a {
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.1em;
+}
+
+// Adjust line height for headings to 1.25.
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+}
+
+// Adjust line height for body text to 1.4.
+html {
+  line-height: 1.4;
+}
 
 /*
 Document
@@ -28,14 +48,9 @@ Use a better box model (opinionated).
 
 html {
   //line-height: 1.15; /* 1 */
-  line-height: 1.4; // Custom: Adjust line height for body text to 1.4.
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.25; // Custom: Adjust line height for headings to 1.25.
 }
 
 /*
