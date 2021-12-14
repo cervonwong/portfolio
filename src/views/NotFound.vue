@@ -7,7 +7,8 @@
     <div class="line-length-limit-wrapper">
       <h1>Uh-oh, where did the page go?! (404)</h1>
       <p>
-        I'm sorry, it looks like the page is gone for good. Anyway, let's
+        I'm sorry, it looks like the page is gone for good. If you'd like, we
+        could
         <router-link :to="{ name: 'Home' }"
           >head back to the homepage</router-link
         >.
