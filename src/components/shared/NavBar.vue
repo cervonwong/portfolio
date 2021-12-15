@@ -30,22 +30,20 @@
             >
           </li>
           <li>
-            <a href="#" class="link link--non-last" @click="closeMobileNav"
+            <a href="#" class="link link--about-me" @click="closeMobileNav"
               >About Me</a
             >
           </li>
           <li>
-            <a href="#" class="link link--non-last" @click="closeMobileNav"
+            <a href="#" class="link link--projects" @click="closeMobileNav"
               >Projects</a
             >
           </li>
           <li>
-            <a href="#" class="link link--non-last" @click="closeMobileNav"
-              >Blog</a
-            >
+            <a href="#" class="link link--blog" @click="closeMobileNav">Blog</a>
           </li>
           <li>
-            <a href="#" class="link link--non-last" @click="closeMobileNav"
+            <a href="#" class="link link--resume" @click="closeMobileNav"
               >Résumé</a
             >
           </li>
@@ -53,7 +51,7 @@
             <a
               href="https://play.cervonwong.com"
               target="_blank"
-              class="link link--non-last"
+              class="link link--playground"
               @click="closeMobileNav"
               >Playground</a
             >
@@ -61,7 +59,7 @@
           <li>
             <router-link
               :to="{ name: 'Contact' }"
-              class="link"
+              class="link link--contact"
               @click="closeMobileNav"
               >Contact
             </router-link>
@@ -193,7 +191,11 @@ nav {
       display: none;
     }
 
-    &--non-last {
+    &--about-me,
+    &--projects,
+    &--blog,
+    &--resume,
+    &--playground {
       &::after {
         display: inline-block;
         content: "/";
