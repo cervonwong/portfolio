@@ -212,6 +212,10 @@ nav {
 .close-mobile-nav-button {
   background-color: transparent;
   border: none;
+
+  @include bp-laptop-and-up {
+    display: none;
+  }
 }
 
 .close-mobile-nav-icon {
