@@ -10,7 +10,7 @@
         <p>
           Thanks for dropping by my personal portfolio site. I built this site
           from scratch without templates or CMS. Check out the
-          <a href="https://github.com/cervonwong/website-vue" target="_blank"
+          <a href="https://github.com/cervonwong/portfolio" target="_blank"
             >source code on GitHub</a
           >.
         </p>
