@@ -12,10 +12,12 @@
 
 body {
   font-family: "DM Sans", sans-serif; /* Sets default font-family for all elements. */
+  color: $primary-black;
+  background-color: $primary-white;
 }
 
 a {
-  color: $primary-black;
+  color: inherit;
 }
 
 p {

@@ -54,7 +54,7 @@ export default defineComponent({
 @import "../../assets/styles/global";
 
 footer {
-  background-color: black;
+  background-color: $primary-black;
 }
 
 .content-wrapper {
