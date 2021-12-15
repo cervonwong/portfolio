@@ -58,3 +58,9 @@ iframe,
     outline-offset: 0.2rem;
   }
 }
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
