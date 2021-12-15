@@ -179,6 +179,10 @@ nav {
       text-decoration-line: underline;
       text-decoration-color: $primary-white;
     }
+
+    &:focus-visible {
+      outline-color: $primary-white;
+    }
   }
 
   @include bp-laptop-and-up {
@@ -212,6 +216,10 @@ nav {
 .close-mobile-nav-button {
   background-color: transparent;
   border: none;
+
+  &:focus-visible {
+    outline-color: $primary-white;
+  }
 
   @include bp-laptop-and-up {
     display: none;
