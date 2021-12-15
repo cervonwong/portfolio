@@ -53,7 +53,7 @@ button,
 iframe,
 [tabindex],
 [contentEditable="true"] {
-  &:focus {
+  &:focus-visible {
     outline: $primary-black solid 0.2rem;
     outline-offset: 0.2rem;
   }

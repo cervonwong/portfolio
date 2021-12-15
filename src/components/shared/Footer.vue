@@ -84,7 +84,7 @@ h2 {
   }
 }
 
-a:focus {
+a:focus-visible {
   outline-color: $primary-white;
 }
 
