@@ -41,3 +41,18 @@ body,
 button {
   cursor: pointer; /* When cursor over button, use pointer. */
 }
+
+a,
+area,
+input,
+select,
+textarea,
+button,
+iframe,
+[tabindex],
+[contentEditable="true"] {
+  &:focus {
+    outline: $primary-black solid 0.2rem;
+    outline-offset: 0.2rem;
+  }
+}

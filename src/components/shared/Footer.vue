@@ -84,6 +84,10 @@ h2 {
   }
 }
 
+a:focus {
+  outline-color: $primary-white;
+}
+
 p,
 a,
 address {
