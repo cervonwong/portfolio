@@ -2,11 +2,11 @@
  * Copyright (C) 2021 Cervon Wong.
  */
 
-@import "breakpoints";
-@import "colors";
-@import "layout";
-@import "normalize";
-@import "typography";
+@import "mixins/breakpoints";
+@import "mixins/layout";
+@import "mixins/typography";
+@import "variables/colors";
+@import "vendor/normalize";
 
 /* Typography */
 
