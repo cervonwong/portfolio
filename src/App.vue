@@ -3,7 +3,10 @@
   -->
 
 <template>
-  <div :style="{ overflow: canScroll ? 'unset' : 'hidden' }">
+  <div
+    class="g-app-content-wrapper"
+    :style="{ overflow: canScroll ? 'unset' : 'hidden' }"
+  >
     <NavBar
       @mobile-nav-opened="disableScroll"
       @mobile-nav-closed="enableScroll"

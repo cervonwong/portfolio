@@ -29,11 +29,12 @@ p {
 
 html,
 body,
-#app {
+#app,
+.g-app-content-wrapper {
   height: 100%;
 }
 
-#app {
+.g-app-content-wrapper {
   display: flex;
   flex-direction: column;
 }
