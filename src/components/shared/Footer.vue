@@ -6,7 +6,7 @@
   <footer>
     <div class="content-wrapper">
       <div class="line-length-limit-wrapper">
-        <h2 class="footer-heading">Cervon Wong</h2>
+        <h2>Cervon Wong</h2>
         <p>
           Thanks for dropping by my personal portfolio site. I built this site
           from scratch without templates or CMS. Check out the
