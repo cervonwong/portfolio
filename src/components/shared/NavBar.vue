@@ -40,7 +40,12 @@
             >
           </li>
           <li>
-            <a href="#" class="link link--blog" @click="closeMobileNav">Blog</a>
+            <router-link
+              :to="{ name: 'Blog Catalog' }"
+              class="link link--blog"
+              @click="closeMobileNav"
+              >Blog</router-link
+            >
           </li>
           <li>
             <a href="#" class="link link--resume" @click="closeMobileNav"
@@ -61,8 +66,8 @@
               :to="{ name: 'Contact' }"
               class="link link--contact"
               @click="closeMobileNav"
-              >Contact
-            </router-link>
+              >Contact</router-link
+            >
           </li>
         </ul>
       </div>
