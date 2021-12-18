@@ -30,12 +30,14 @@
             >
           </li>
           <li>
-            <a href="#" class="link link--about-me" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--about-me" @click="closeMobileNav"
               >About Me</a
             >
           </li>
           <li>
-            <a href="#" class="link link--projects" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--projects" @click="closeMobileNav"
               >Projects</a
             >
           </li>
@@ -48,7 +50,8 @@
             >
           </li>
           <li>
-            <a href="#" class="link link--resume" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--resume" @click="closeMobileNav"
               >Résumé</a
             >
           </li>

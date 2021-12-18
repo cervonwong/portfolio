@@ -3,7 +3,8 @@
   -->
 
 <template>
-  <a href="#" class="wrapper">
+  <!--suppress HtmlUnknownAnchorTarget -->
+  <a href="#!" class="wrapper">
     <img
       src="../../assets/images/blog/sample/article_image_1.png"
       alt="A sample article image."
