@@ -93,7 +93,7 @@ main {
 }
 
 .margin-wrapper {
-  @include bp-content-width-normal;
+  @include bp-content-width-blog-catalog;
 
   margin-top: 2.5rem; /* 40px */
   margin-bottom: 15rem;
@@ -140,7 +140,7 @@ h1 {
 .article-list {
   display: grid;
   gap: 2.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 
   list-style-type: none;
   margin: 0;

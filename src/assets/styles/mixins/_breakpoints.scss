@@ -67,7 +67,23 @@ $large-laptop-max-width: 87.5em; /* 1400px */
   @include bp-tablet-and-up() {
     margin-left: auto;
     margin-right: auto;
-    width: 45.125rem; /* 722px */
+    width: 45.125rem; /* 786-32-32 px */
+  }
+}
+
+@mixin bp-content-width-blog-catalog {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  @include bp-large-laptop-and-up() {
+    margin-left: auto;
+    margin-right: auto;
+    width: 71rem; /* 1200-32-32 px */
   }
 }
 
