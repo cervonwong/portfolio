@@ -3,22 +3,24 @@
   -->
 
 <template>
-  <!--suppress HtmlUnknownAnchorTarget -->
-  <a href="#!" class="wrapper">
-    <img
-      src="../../assets/images/blog/sample/article_image_1.png"
-      alt="A sample article image."
-    />
-    <div class="content">
-      <div class="metadata">
-        <span class="collection-tag">Project</span>
-        <time class="last-updated-date" datetime="2021-12-14"
-          >December 14, 2021</time
-        >
+  <article>
+    <!--suppress HtmlUnknownAnchorTarget -->
+    <a href="#!">
+      <img
+        src="../../assets/images/blog/sample/article_image_1.png"
+        alt="A sample article image."
+      />
+      <div class="content">
+        <div class="metadata">
+          <span class="collection-tag">Project</span>
+          <time class="last-updated-date" datetime="2021-12-14"
+            >December 14, 2021
+          </time>
+        </div>
+        <h2>This is a short title</h2>
       </div>
-      <h2>This is a short title</h2>
-    </div>
-  </a>
+    </a>
+  </article>
 </template>
 
 <script lang="ts">
@@ -32,9 +34,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
 
-.wrapper {
-  display: block;
-  text-decoration: none;
+article {
   border: $border-width solid $primary-black;
   border-radius: $border-radius-16;
 
@@ -44,6 +44,10 @@ export default defineComponent({
     transform: translateY(-0.8rem);
     box-shadow: 0 12px 24px 0 $shadow-black;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
