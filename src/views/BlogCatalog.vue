@@ -7,50 +7,68 @@
     <div class="margin-wrapper">
       <header>
         <h1>Blog</h1>
-        <button
-          v-if="!filterOptionsVisible"
-          class="filter-button"
-          @click="showFilterOptions"
-        >
-          <span class="material-icons-sharp">filter_list</span>
-          Filter
-        </button>
-        <div v-else class="filter-options">
+        <div class="filter-controls">
           <button
-            class="filter-option-button filter-option-button--project"
-            @click="hideFilterOptions"
+            v-if="!filterOptionsVisible"
+            class="filter-button"
+            @click="showFilterOptions"
           >
-            Project
+            <span class="material-icons-sharp">filter_list</span>
+            Filter
           </button>
-          <button
-            class="filter-option-button filter-option-button--ui"
-            @click="hideFilterOptions"
-          >
-            UI design
-          </button>
-          <button
-            class="filter-option-button filter-option-button--ux"
-            @click="hideFilterOptions"
-          >
-            UX design
-          </button>
-          <button
-            class="filter-option-button filter-option-button--web"
-            @click="hideFilterOptions"
-          >
-            Web dev
-          </button>
+          <div v-else class="filter-options">
+            <button
+              class="filter-option-button filter-option-button--project"
+              @click="hideFilterOptions"
+            >
+              Project
+            </button>
+            <button
+              class="filter-option-button filter-option-button--ui"
+              @click="hideFilterOptions"
+            >
+              UI design
+            </button>
+            <button
+              class="filter-option-button filter-option-button--ux"
+              @click="hideFilterOptions"
+            >
+              UX design
+            </button>
+            <button
+              class="filter-option-button filter-option-button--web"
+              @click="hideFilterOptions"
+            >
+              Web dev
+            </button>
+          </div>
         </div>
       </header>
+      <ul class="article-list">
+        <li class="article-list-item">
+          <BlogCatalogCard></BlogCatalogCard>
+        </li>
+        <li class="article-list-item">
+          <BlogCatalogCard></BlogCatalogCard>
+        </li>
+        <li class="article-list-item">
+          <BlogCatalogCard></BlogCatalogCard>
+        </li>
+        <li class="article-list-item">
+          <BlogCatalogCard></BlogCatalogCard>
+        </li>
+      </ul>
     </div>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import BlogCatalogCard from "@/components/blog/BlogCatalogCard.vue";
 
 export default defineComponent({
   name: "Blog Catalog",
+  components: { BlogCatalogCard },
   data() {
     return {
       filterOptionsVisible: false,
@@ -98,6 +116,13 @@ h1 {
   }
 }
 
+.filter-controls {
+  margin-bottom: 1.5rem;
+  @include bp-laptop-and-up {
+    margin-bottom: 3rem;
+  }
+}
+
 .filter-button {
   @include button--outlined-icon-left-16;
 }
@@ -110,5 +135,18 @@ h1 {
 
 .filter-option-button {
   @include button--outlined-16;
+}
+
+.article-list {
+  display: grid;
+  gap: 2.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.article-list-item {
 }
 </style>
