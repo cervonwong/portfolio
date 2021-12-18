@@ -3,6 +3,7 @@
  */
 
 @import "../variables/colors";
+@import "../variables/layout";
 @import "breakpoints";
 
 // Internal util mixins
@@ -24,8 +25,8 @@
 @mixin _button--outlined {
   background-color: transparent;
   color: $primary-black;
-  border: 0.1em solid $primary-black;
-  border-radius: 99rem;
+  border: $border-width solid $primary-black;
+  border-radius: $border-radius-stadium;
 
   &:hover {
     background-color: $primary-black;

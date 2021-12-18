@@ -98,8 +98,8 @@ section {
   padding: 0.75em 1.5em;
   background-color: $primary-black;
   color: $primary-white;
-  border: 0.125rem solid $primary-black; /* 2px */
-  border-radius: 99rem;
+  border: $border-width solid $primary-black; /* 2px */
+  border-radius: $border-radius-stadium;
   margin-top: 0.5rem;
   column-gap: 0.75em;
 
