@@ -35,7 +35,7 @@ export default defineComponent({
   display: block;
   text-decoration: none;
   border: $border-width solid $primary-black;
-  border-radius: 1rem;
+  border-radius: $border-radius-16;
 
   transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1),
     box-shadow 0.3s cubic-bezier(0.65, 0, 0.35, 1);
@@ -48,7 +48,8 @@ export default defineComponent({
 img {
   display: block;
   max-width: 100%;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: $border-radius-16 - $border-width $border-radius-16 -
+    $border-width 0 0;
   margin-bottom: 1rem;
 }
 
