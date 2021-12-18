@@ -5,6 +5,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
 const Home = () => import(/* webpackChunkName: "home" */ "@/views/Home.vue");
+const BlogCatalog = () =>
+  import(/* webpackChunkName: "blog_catalog" */ "@/views/BlogCatalog.vue");
 const Contact = () =>
   import(/* webpackChunkName: "contact" */ "@/views/Contact.vue");
 const NotFound = () =>
@@ -15,6 +17,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/blog",
+    name: "Blog Catalog",
+    component: BlogCatalog,
   },
   {
     path: "/contact",

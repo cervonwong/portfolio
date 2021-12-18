@@ -30,20 +30,28 @@
             >
           </li>
           <li>
-            <a href="#" class="link link--about-me" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--about-me" @click="closeMobileNav"
               >About Me</a
             >
           </li>
           <li>
-            <a href="#" class="link link--projects" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--projects" @click="closeMobileNav"
               >Projects</a
             >
           </li>
           <li>
-            <a href="#" class="link link--blog" @click="closeMobileNav">Blog</a>
+            <router-link
+              :to="{ name: 'Blog Catalog' }"
+              class="link link--blog"
+              @click="closeMobileNav"
+              >Blog</router-link
+            >
           </li>
           <li>
-            <a href="#" class="link link--resume" @click="closeMobileNav"
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="link link--resume" @click="closeMobileNav"
               >Résumé</a
             >
           </li>
@@ -51,6 +59,7 @@
             <a
               href="https://play.cervonwong.com"
               target="_blank"
+              rel="noopener"
               class="link link--playground"
               @click="closeMobileNav"
               >Playground</a
@@ -61,8 +70,8 @@
               :to="{ name: 'Contact' }"
               class="link link--contact"
               @click="closeMobileNav"
-              >Contact
-            </router-link>
+              >Contact</router-link
+            >
           </li>
         </ul>
       </div>

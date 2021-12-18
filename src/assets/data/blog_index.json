@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "This is the title of my first article",
+    "category": "Project",
+    "lastUpdated": "14 December 2021",
+    "lastUpdatedIso": "2021-12-14",
+    "imageFileName": "article_image_1.png",
+    "imageAltText": "Article 1 placeholder image.",
+    "route": "article-1"
+  },
+  {
+    "id": 2,
+    "title": "Second article",
+    "category": "UI design",
+    "lastUpdated": "17 December 2021",
+    "lastUpdatedIso": "2021-12-17",
+    "imageFileName": "article_image_1.png",
+    "imageAltText": "Article 2 placeholder image.",
+    "route": "article-2"
+  }
+]

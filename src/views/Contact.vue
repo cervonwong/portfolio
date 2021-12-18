@@ -4,14 +4,16 @@
 
 <template>
   <main>
-    <div class="line-length-limit-wrapper">
-      <h1>Contact me</h1>
-      <p>
-        Want to talk about my projects or found any errors on my site? If so,
-        please
-        <a href="mailto:hello@cervonwong.com">drop me an email</a>.
-      </p>
-      <p>Thanks!</p>
+    <div class="margin-wrapper">
+      <div class="line-length-limit-wrapper">
+        <h1>Contact me</h1>
+        <p>
+          Want to talk about my projects or found any errors on my site? If so,
+          please
+          <a href="mailto:hello@cervonwong.com">drop me an email</a>.
+        </p>
+        <p>Thanks!</p>
+      </div>
     </div>
   </main>
 </template>
@@ -29,8 +31,11 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include bp-content-width-normal;
   @include layout-push-footer;
+}
+
+.margin-wrapper {
+  @include bp-content-width-normal;
 
   margin-top: 2.5rem; /* 40px */
   margin-bottom: 15rem;

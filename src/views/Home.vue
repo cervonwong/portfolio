@@ -7,10 +7,14 @@
     <section class="section-cta">
       <h1>
         Hi, I am a
-        <a href="#" class="cta-link">front-end developer</a> and
-        <a href="#" class="cta-link">UI/UX designer</a>, dabbling in
-        <a href="#" class="cta-link">back-end development</a> and
-        <a href="#" class="cta-link">machine learning</a>.
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <a href="#!" class="cta-link">front-end developer</a> and
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <a href="#!" class="cta-link">UI/UX designer</a>, dabbling in
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <a href="#!" class="cta-link">back-end development</a> and
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <a href="#!" class="cta-link">machine learning</a>.
       </h1>
       <button class="cta-button">
         Check out my projects
@@ -29,7 +33,8 @@
           In my free time, I like to stare at typography for hours. Currently, I
           am learning how to develop websites with Vue.js.
         </p>
-        <a href="#"
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <a href="#!"
           >P.S. This website was built from the ground-up in Vue.js.</a
         >
       </div>
@@ -98,8 +103,8 @@ section {
   padding: 0.75em 1.5em;
   background-color: $primary-black;
   color: $primary-white;
-  border: 0.125rem solid $primary-black; /* 2px */
-  border-radius: 99rem;
+  border: $border-width solid $primary-black; /* 2px */
+  border-radius: $border-radius-stadium;
   margin-top: 0.5rem;
   column-gap: 0.75em;
 

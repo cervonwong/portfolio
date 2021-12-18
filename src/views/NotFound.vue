@@ -4,19 +4,22 @@
 
 <template>
   <main>
-    <div class="line-length-limit-wrapper">
-      <h1>Uh-oh, where did the page go?! (404)</h1>
-      <p>
-        I'm sorry, it looks like the page is gone for good. If you'd like, we
-        could
-        <router-link :to="{ name: 'Home' }"
-          >head back to the homepage</router-link
-        >.
-      </p>
-      <p>
-        You can also explore each section of the site via the navigation bar at
-        the top of the page.
-      </p>
+    <div class="margin-wrapper">
+      <div class="line-length-limit-wrapper">
+        <h1>Uh-oh, where did the page go?! (404)</h1>
+        <p>
+          I'm sorry, it looks like the page is gone for good. If you'd like, we
+          could
+          <router-link :to="{ name: 'Home' }"
+            >head back to the homepage
+          </router-link>
+          .
+        </p>
+        <p>
+          You can also explore each section of the site via the navigation bar
+          at the top of the page.
+        </p>
+      </div>
     </div>
   </main>
 </template>
@@ -34,8 +37,11 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include bp-content-width-normal;
   @include layout-push-footer;
+}
+
+.margin-wrapper {
+  @include bp-content-width-normal;
 
   margin-top: 2.5rem; /* 40px */
   margin-bottom: 15rem;

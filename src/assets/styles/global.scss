@@ -3,9 +3,11 @@
  */
 
 @import "mixins/breakpoints";
+@import "mixins/buttons";
 @import "mixins/layout";
 @import "mixins/typography";
 @import "variables/colors";
+@import "variables/layout";
 @import "vendor/normalize";
 
 /* Typography */
@@ -29,11 +31,12 @@ p {
 
 html,
 body,
-#app {
+#app,
+.g-app-content-wrapper {
   height: 100%;
 }
 
-#app {
+.g-app-content-wrapper {
   display: flex;
   flex-direction: column;
 }
