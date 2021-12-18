@@ -5,7 +5,43 @@
 <template>
   <main>
     <div class="margin-wrapper">
-      <h1>Blog</h1>
+      <header>
+        <h1>Blog</h1>
+        <button
+          v-if="!filterOptionsVisible"
+          class="filter-button"
+          @click="showFilterOptions"
+        >
+          <span class="material-icons-sharp">filter_list</span>
+          Filter
+        </button>
+        <div v-else class="filter-options">
+          <button
+            class="filter-option-button filter-option-button--project"
+            @click="hideFilterOptions"
+          >
+            Project
+          </button>
+          <button
+            class="filter-option-button filter-option-button--ui"
+            @click="hideFilterOptions"
+          >
+            UI design
+          </button>
+          <button
+            class="filter-option-button filter-option-button--ux"
+            @click="hideFilterOptions"
+          >
+            UX design
+          </button>
+          <button
+            class="filter-option-button filter-option-button--web"
+            @click="hideFilterOptions"
+          >
+            Web dev
+          </button>
+        </div>
+      </header>
     </div>
   </main>
 </template>
@@ -15,6 +51,19 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Blog Catalog",
+  data() {
+    return {
+      filterOptionsVisible: false,
+    };
+  },
+  methods: {
+    showFilterOptions() {
+      this.filterOptionsVisible = true;
+    },
+    hideFilterOptions() {
+      this.filterOptionsVisible = false;
+    },
+  },
 });
 </script>
 
@@ -42,6 +91,24 @@ main {
 
 h1 {
   @include h1--standard;
-  margin-bottom: 1em;
+
+  margin-bottom: 1.25rem;
+  @include bp-laptop-and-up {
+    margin-bottom: 1.875rem;
+  }
+}
+
+.filter-button {
+  @include button--outlined-icon-left-16;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-option-button {
+  @include button--outlined-16;
 }
 </style>
