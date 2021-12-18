@@ -53,17 +53,12 @@
         </div>
       </header>
       <ul class="article-list">
-        <li class="article-list-item">
-          <BlogCatalogCard></BlogCatalogCard>
-        </li>
-        <li class="article-list-item">
-          <BlogCatalogCard></BlogCatalogCard>
-        </li>
-        <li class="article-list-item">
-          <BlogCatalogCard></BlogCatalogCard>
-        </li>
-        <li class="article-list-item">
-          <BlogCatalogCard></BlogCatalogCard>
+        <li
+          v-for="article in blogIndex"
+          :key="article.id"
+          class="article-list-item"
+        >
+          <BlogCatalogCard :article="article"></BlogCatalogCard>
         </li>
       </ul>
     </div>
@@ -73,6 +68,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import BlogCatalogCard from "@/components/blog/BlogCatalogCard.vue";
+import blogIndex from "../assets/data/blog_index.json";
 
 export default defineComponent({
   name: "Blog Catalog",
@@ -80,6 +76,7 @@ export default defineComponent({
   data() {
     return {
       filterOptionsVisible: false,
+      blogIndex,
     };
   },
   methods: {

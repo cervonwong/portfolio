@@ -7,17 +7,17 @@
     <!--suppress HtmlUnknownAnchorTarget -->
     <a href="#!">
       <img
-        src="../../assets/images/blog/sample/article_image_1.png"
-        alt="A sample article image."
+        :src="'/blog-images/' + article.imageFileName"
+        :alt="article.imageAltText"
       />
       <div class="content">
         <div class="metadata">
-          <span class="collection-tag">Project</span>
-          <time class="last-updated-date" datetime="2021-12-14"
-            >December 14, 2021
+          <span class="collection-tag">{{ article.category }}</span>
+          <time class="last-updated-date" :datetime="article.lastUpdatedIso"
+            >{{ article.lastUpdated }}
           </time>
         </div>
-        <h2>This is a short title</h2>
+        <h2>{{ article.title }}</h2>
       </div>
     </a>
   </article>
@@ -28,6 +28,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "BlogCatalogCard",
+  props: ["article"],
 });
 </script>
 
