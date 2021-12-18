@@ -11,12 +11,20 @@
           <button
             v-if="!filterOptionsVisible"
             class="filter-button"
+            aria-label="Show filter options"
             @click="showFilterOptions"
           >
             <span class="material-icons-sharp">filter_list</span>
             Filter
           </button>
           <div v-else class="filter-options">
+            <button
+              class="close-filter-options-button"
+              aria-label="Hide filter options"
+              @click="hideFilterOptions"
+            >
+              <span class="material-icons-sharp">close</span>
+            </button>
             <button
               class="filter-option-button filter-option-button--project"
               @click="hideFilterOptions"
@@ -131,6 +139,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.close-filter-options-button {
+  @include button--outlined-icon-only-16;
 }
 
 .filter-option-button {
