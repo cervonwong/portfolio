@@ -59,6 +59,7 @@
             <a
               href="https://play.cervonwong.com"
               target="_blank"
+              rel="noopener"
               class="link link--playground"
               @click="closeMobileNav"
               >Playground</a

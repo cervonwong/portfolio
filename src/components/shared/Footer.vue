@@ -10,13 +10,16 @@
         <p>
           Thanks for dropping by my personal portfolio site. I built this site
           from scratch without templates or CMS. Check out the
-          <a href="https://github.com/cervonwong/portfolio" target="_blank"
+          <a
+            href="https://github.com/cervonwong/portfolio"
+            target="_blank"
+            rel="noopener"
             >source code on GitHub</a
           >.
         </p>
         <p>
           Looking for something fun? Visit
-          <a href="https://play.cervonwong.com" target="_blank"
+          <a href="https://play.cervonwong.com" target="_blank" rel="noopener"
             >my online playground</a
           >.
         </p>
