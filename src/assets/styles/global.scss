@@ -64,6 +64,7 @@ iframe,
 
 /* Smooth scrolling */
 
-html {
-  scroll-behavior: smooth;
-}
+// 19 December 2021: Disabled as prevents scrollBehavior in router from working in Firefox in some scenarios.
+//html {
+//  scroll-behavior: smooth;
+//}
