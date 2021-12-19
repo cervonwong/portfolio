@@ -214,10 +214,6 @@ nav {
         content: "/";
         margin: 0 0.625rem; /* 10px */
       }
-
-      &:hover::after {
-        font-style: normal;
-      }
     }
   }
 }
