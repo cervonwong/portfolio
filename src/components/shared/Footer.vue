@@ -8,8 +8,10 @@
       <div class="line-length-limit-wrapper">
         <h2>Cervon Wong</h2>
         <p>
-          Thanks for dropping by my personal portfolio site. I built this site
-          from scratch without templates or CMS. Check out the
+          Thanks for dropping by my personal portfolio site. Learn
+          <!--suppress HtmlUnknownAnchorTarget -->
+          <a href="#!">how I built this site</a>
+          from scratch in my blog post. Check out the
           <a
             href="https://github.com/cervonwong/portfolio"
             target="_blank"
@@ -18,15 +20,60 @@
           >.
         </p>
         <p>
-          Looking for something fun? Visit
+          Looking for something more fun and casual? Visit
           <a href="https://play.cervonwong.com" target="_blank" rel="noopener"
             >my online playground</a
           >.
         </p>
-        <address>
-          Contact me at
-          <a href="mailto:hello@cervonwong.com">hello@cervonwong.com</a>.
-        </address>
+        <p>
+          I hang out in various parts of the internet:
+          <br />
+          <a
+            href="https://www.linkedin.com/in/cervonwong/"
+            target="_blank"
+            rel="noopener"
+            class="social-anchor"
+            ><span class="fab fa-linkedin"></span>LinkedIn</a
+          >
+          <a
+            href="https://github.com/cervonwong"
+            target="_blank"
+            rel="noopener"
+            class="social-anchor"
+            ><span class="fab fa-github"></span>GitHub</a
+          >
+          <a
+            href="https://stackoverflow.com/users/13432136/r0wletc0der"
+            target="_blank"
+            rel="noopener"
+            class="social-anchor"
+            ><span class="fab fa-stack-overflow"></span>Stack Overflow</a
+          >
+        </p>
+        <ul>
+          <li>
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="list-anchor list-anchor--about-me">About me</a>
+          </li>
+          <li>
+            <router-link
+              :to="{ name: 'Blog Catalog' }"
+              class="list-anchor list-anchor--blog"
+              >Blog</router-link
+            >
+          </li>
+          <li>
+            <router-link
+              :to="{ name: 'Contact' }"
+              class="list-anchor list-anchor--contact"
+              >Contact</router-link
+            >
+          </li>
+          <li>
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!" class="list-anchor list-anchor--colophon">Colophon</a>
+          </li>
+        </ul>
         <p>
           Copyright (C) 2021 Cervon Wong.
           <br />
@@ -73,8 +120,7 @@ footer {
 
 h2,
 p,
-a,
-address {
+a {
   color: $primary-white;
 }
 
@@ -92,12 +138,34 @@ a:focus-visible {
 }
 
 p,
-a,
-address {
+a {
   font-size: inherit;
 }
 
-address {
-  font-style: unset;
+.fab {
+  font-size: 1.5rem;
+  margin-right: 0.25rem;
+  vertical-align: bottom;
+}
+
+.social-anchor {
+  margin-right: 1rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.list-anchor--about-me,
+.list-anchor--blog,
+.list-anchor--contact {
+  &::after {
+    display: inline-block;
+    content: "/";
+    margin: 0 0.625rem; /* 10px */
+  }
 }
 </style>
