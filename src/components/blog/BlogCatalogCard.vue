@@ -3,9 +3,9 @@
   -->
 
 <template>
-  <article>
-    <!--suppress HtmlUnknownAnchorTarget -->
-    <a href="#!">
+  <!--suppress HtmlUnknownAnchorTarget -->
+  <a href="#!">
+    <article>
       <img
         :src="'/blog-images/' + article.imageFileName"
         :alt="article.imageAltText"
@@ -19,8 +19,8 @@
         </div>
         <h2>{{ article.title }}</h2>
       </div>
-    </a>
-  </article>
+    </article>
+  </a>
 </template>
 
 <script lang="ts">
@@ -35,21 +35,20 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
 
-article {
+a {
+  text-decoration: none;
+  display: block;
   border: $border-width solid $border-black;
   border-radius: $border-radius-16;
   height: 100%;
 
   transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1),
     box-shadow 0.3s cubic-bezier(0.65, 0, 0.35, 1);
-  &:hover {
+  &:hover,
+  &:focus-visible {
     transform: translateY(-0.8rem);
     box-shadow: 0 12px 24px 0 $shadow-black;
   }
-}
-
-a {
-  text-decoration: none;
 }
 
 img {
