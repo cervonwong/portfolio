@@ -103,7 +103,7 @@ section {
   padding: 0.75em 1.5em;
   background-color: $primary-black;
   color: $primary-white;
-  border: $border-width solid $primary-black; /* 2px */
+  border: $border-width solid $border-black;
   border-radius: $border-radius-stadium;
   margin-top: 0.5rem;
   column-gap: 0.75em;

@@ -36,7 +36,7 @@ export default defineComponent({
 @import "../../assets/styles/global";
 
 article {
-  border: $border-width solid $primary-black;
+  border: $border-width solid $border-black;
   border-radius: $border-radius-16;
 
   transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1),

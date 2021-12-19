@@ -26,7 +26,7 @@
 @mixin _button--outlined {
   background-color: transparent;
   color: $primary-black;
-  border: $border-width solid $primary-black;
+  border: $border-width solid $border-black;
   border-radius: $border-radius-stadium;
 
   &:hover {

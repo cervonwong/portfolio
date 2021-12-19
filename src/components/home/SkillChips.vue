@@ -77,7 +77,7 @@ div {
 
 span {
   @include p--16;
-  border: $border-width solid $primary-black; /* 1.5px */
+  border: $border-width solid $border-black; /* 1.5px */
   padding: 0.375em 1em;
   border-radius: $border-radius-stadium;
 }
