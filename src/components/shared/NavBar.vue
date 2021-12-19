@@ -32,7 +32,7 @@
           <li>
             <!--suppress HtmlUnknownAnchorTarget -->
             <a href="#!" class="link link--about-me" @click="closeMobileNav"
-              >About Me</a
+              >About me</a
             >
           </li>
           <li>
