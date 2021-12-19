@@ -7,11 +7,13 @@
     <div class="margin-wrapper">
       <div class="line-length-limit-wrapper">
         <h1>Contact me</h1>
-        <p>
-          Want to talk about my projects or found any errors on my site? If so,
-          please
-          <a href="mailto:hello@cervonwong.com">drop me an email</a>.
-        </p>
+        <address>
+          <p>
+            Want to talk about my projects or found any errors on my site? If
+            so, please
+            <a href="mailto:hello@cervonwong.com">drop me an email</a>.
+          </p>
+        </address>
         <p>Thanks!</p>
       </div>
     </div>
@@ -62,5 +64,9 @@ h1 {
 p,
 a {
   @include p--18;
+}
+
+address {
+  font-style: unset;
 }
 </style>
