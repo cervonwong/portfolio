@@ -6,7 +6,9 @@
   <footer>
     <div class="content-wrapper">
       <div class="line-length-limit-wrapper">
-        <h2>Cervon Wong</h2>
+        <router-link :to="{ name: 'Home' }" class="logo-anchor"
+          ><h2>Cervon Wong</h2></router-link
+        >
         <p>
           Thanks for dropping by my personal portfolio site. Learn
           <!--suppress HtmlUnknownAnchorTarget -->
@@ -122,6 +124,10 @@ h2,
 p,
 a {
   color: $primary-white;
+}
+
+.logo-anchor {
+  text-decoration: none;
 }
 
 h2 {
