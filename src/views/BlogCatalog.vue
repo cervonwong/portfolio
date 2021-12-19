@@ -157,7 +157,4 @@ h1 {
   margin: 0;
   padding-left: 0;
 }
-
-.article-list-item {
-}
 </style>
