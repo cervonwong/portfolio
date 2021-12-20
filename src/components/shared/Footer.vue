@@ -56,8 +56,10 @@
           <ul>
             <li>
               <!--suppress HtmlUnknownAnchorTarget -->
-              <a href="#!" class="list-anchor list-anchor--about-me"
-                >About me</a
+              <router-link
+                :to="{ name: 'About me' }"
+                class="list-anchor list-anchor--about-me"
+                >About me</router-link
               >
             </li>
             <li>

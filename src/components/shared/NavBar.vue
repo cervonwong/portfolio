@@ -30,15 +30,19 @@
             >
           </li>
           <li>
-            <!--suppress HtmlUnknownAnchorTarget -->
-            <a href="#!" class="link link--about-me" @click="closeMobileNav"
-              >About me</a
+            <router-link
+              :to="{ name: 'About me' }"
+              class="link link--about-me"
+              @click="closeMobileNav"
+              >About me</router-link
             >
           </li>
           <li>
-            <!--suppress HtmlUnknownAnchorTarget -->
-            <a href="#!" class="link link--projects" @click="closeMobileNav"
-              >Projects</a
+            <router-link
+              :to="{ name: 'Project showcase' }"
+              class="link link--projects"
+              @click="closeMobileNav"
+              >Projects</router-link
             >
           </li>
           <li>
@@ -50,9 +54,11 @@
             >
           </li>
           <li>
-            <!--suppress HtmlUnknownAnchorTarget -->
-            <a href="#!" class="link link--resume" @click="closeMobileNav"
-              >Résumé</a
+            <router-link
+              :to="{ name: 'Resume' }"
+              class="link link--resume"
+              @click="closeMobileNav"
+              >Résumé</router-link
             >
           </li>
           <li>
