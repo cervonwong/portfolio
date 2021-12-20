@@ -7,7 +7,7 @@
     "lastUpdatedIso": "2021-12-14",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 1 placeholder image.",
-    "route": "post-1"
+    "slug": "post-1"
   },
   {
     "id": 2,
@@ -17,6 +17,6 @@
     "lastUpdatedIso": "2021-12-17",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 2 placeholder image.",
-    "route": "post-2"
+    "slug": "post-2"
   }
 ]
