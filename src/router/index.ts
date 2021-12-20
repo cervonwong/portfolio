@@ -40,7 +40,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/blog",
-    name: "Blog Catalog",
+    name: "Blog catalog",
     component: BlogCatalog,
   },
   {

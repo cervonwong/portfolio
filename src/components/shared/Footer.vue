@@ -63,7 +63,7 @@
             </li>
             <li>
               <router-link
-                :to="{ name: 'Blog Catalog' }"
+                :to="{ name: 'Blog catalog' }"
                 class="list-anchor list-anchor--blog"
                 >Blog</router-link
               >

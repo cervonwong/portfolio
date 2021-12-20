@@ -67,7 +67,7 @@ import BlogCatalogCard from "@/components/blog/BlogCatalogCard.vue";
 import blogIndex from "../assets/data/blog_index.json";
 
 export default defineComponent({
-  name: "Blog Catalog",
+  name: "BlogCatalog",
   components: { BlogCatalogCard },
   data() {
     return {

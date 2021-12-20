@@ -47,7 +47,7 @@
           </li>
           <li>
             <router-link
-              :to="{ name: 'Blog Catalog' }"
+              :to="{ name: 'Blog catalog' }"
               class="link link--blog"
               @click="closeMobileNav"
               >Blog</router-link
