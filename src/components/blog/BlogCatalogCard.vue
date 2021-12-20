@@ -7,17 +7,17 @@
   <a href="#!">
     <article>
       <img
-        :src="'/blog-images/' + article.imageFileName"
-        :alt="article.imageAltText"
+        :src="'/blog-images/' + post.imageFileName"
+        :alt="post.imageAltText"
       />
       <div class="content">
         <div class="metadata">
-          <span class="collection-tag">{{ article.category }}</span>
-          <time class="last-updated-date" :datetime="article.lastUpdatedIso"
-            >{{ article.lastUpdated }}
+          <span class="collection-tag">{{ post.category }}</span>
+          <time class="last-updated-date" :datetime="post.lastUpdatedIso"
+            >{{ post.lastUpdated }}
           </time>
         </div>
-        <h2>{{ article.title }}</h2>
+        <h2>{{ post.title }}</h2>
       </div>
     </article>
   </a>
@@ -28,7 +28,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "BlogCatalogCard",
-  props: ["article"],
+  props: ["post"],
 });
 </script>
 

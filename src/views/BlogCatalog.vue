@@ -52,13 +52,9 @@
           </div>
         </div>
       </header>
-      <ul class="article-list">
-        <li
-          v-for="article in blogIndex"
-          :key="article.id"
-          class="article-list-item"
-        >
-          <BlogCatalogCard :article="article"></BlogCatalogCard>
+      <ul class="post-list">
+        <li v-for="post in blogIndex" :key="post.id" class="post-list-item">
+          <BlogCatalogCard :post="post"></BlogCatalogCard>
         </li>
       </ul>
     </div>
@@ -148,7 +144,7 @@ h1 {
   @include button--outlined-16;
 }
 
-.article-list {
+.post-list {
   display: grid;
   gap: 2.25rem;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
