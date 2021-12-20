@@ -49,3 +49,45 @@
     margin-bottom: 20rem; /* 320px */
   }
 }
+
+@mixin layout--main-margin-horz-normal {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  @include bp-tablet-and-up() {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45.125rem; /* 786-32-32 px */
+  }
+}
+
+@mixin layout--main-margin-horz-blog-catalog {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  @include bp-large-laptop-and-up() {
+    margin-left: auto;
+    margin-right: auto;
+    width: 71rem; /* 1200-32-32 px */
+  }
+}
+
+@mixin layout--main-margin-horz-nav-bar {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+
+  @include bp-small-tablet-and-up() {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

@@ -116,7 +116,7 @@ footer {
 }
 
 .content-wrapper {
-  @include bp-content-width-normal;
+  @include layout--main-margin-horz-normal;
   padding-top: 3rem; /* 48px */
   padding-bottom: 3rem; /* 48 px */
 }

@@ -41,7 +41,7 @@ main {
 }
 
 .margin-wrapper {
-  @include bp-content-width-normal;
+  @include layout--main-margin-horz-normal;
   @include layout--main-margin-top-normal;
   @include layout--main-margin-bottom-large;
 }

@@ -108,7 +108,7 @@ export default defineComponent({
 @import "../../assets/styles/global";
 
 nav {
-  @include bp-content-width-nav-bar;
+  @include layout--main-margin-horz-nav-bar;
 
   display: flex;
   justify-content: space-between;
@@ -178,7 +178,7 @@ nav {
   font-weight: 500;
 
   @include bp-tablet-and-down() {
-    @include bp-content-width-nav-bar;
+    @include layout--main-margin-horz-nav-bar;
     color: $primary-white;
 
     &:hover {
