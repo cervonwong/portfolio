@@ -55,7 +55,6 @@
           </p>
           <ul>
             <li>
-              <!--suppress HtmlUnknownAnchorTarget -->
               <router-link
                 :to="{ name: 'About me' }"
                 class="list-anchor list-anchor--about-me"
@@ -77,9 +76,10 @@
               >
             </li>
             <li>
-              <!--suppress HtmlUnknownAnchorTarget -->
-              <a href="#!" class="list-anchor list-anchor--colophon"
-                >Colophon</a
+              <router-link
+                :to="{ name: 'About site' }"
+                class="list-anchor list-anchor--about-site"
+                >About this site</router-link
               >
             </li>
           </ul>

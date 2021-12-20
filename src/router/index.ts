@@ -17,6 +17,8 @@ const Resume = () =>
   import(/* webpackChunkName: "resume" */ "@/views/Resume.vue");
 const Contact = () =>
   import(/* webpackChunkName: "contact" */ "@/views/Contact.vue");
+const AboutSite = () =>
+  import(/* webpackChunkName: "about_site" */ "@/views/AboutSite.vue");
 const NotFound = () =>
   import(/* webpackChunkName: "not_found" */ "@/views/NotFound.vue");
 
@@ -50,6 +52,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/contact",
     name: "Contact",
     component: Contact,
+  },
+  {
+    path: "/about-site",
+    name: "About site",
+    component: AboutSite,
   },
   {
     path: "/:pathMatch(.*)*",
