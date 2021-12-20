@@ -165,10 +165,7 @@ a {
 }
 
 ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
+  @include util--reset-list;
 }
 
 .list-anchor--about-me,

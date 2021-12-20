@@ -1,0 +1,10 @@
+/*!
+ * Copyright (C) 2021 Cervon Wong.
+ */
+
+@mixin util--reset-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}

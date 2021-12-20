@@ -145,12 +145,10 @@ h1 {
 }
 
 .post-list {
+  @include util--reset-list;
+
   display: grid;
   gap: 2.25rem;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
 }
 </style>

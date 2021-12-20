@@ -149,11 +149,8 @@ nav {
 }
 
 .link-list {
-  display: flex;
+  @include util--reset-list;
   align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
 
   @include bp-tablet-and-down() {
     flex-direction: column;
