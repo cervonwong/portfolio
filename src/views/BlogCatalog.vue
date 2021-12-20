@@ -90,7 +90,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include layout-push-footer;
+  @include layout--push-footer;
 }
 
 .margin-wrapper {
@@ -103,14 +103,14 @@ h1 {
   @include h1--standard;
 
   margin-bottom: 1.25rem;
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     margin-bottom: 1.875rem;
   }
 }
 
 .filter-controls {
   margin-bottom: 1.5rem;
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     margin-bottom: 3rem;
   }
 }

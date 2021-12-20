@@ -14,37 +14,37 @@ $large-laptop-max-width: 87.5em; /* 1400px */
 /*
  * Breakpoint and up mixins
  */
-@mixin bp-small-tablet-and-up {
+@mixin bp--small-tablet-and-up {
   @media (min-width: #{$phone-max-width}) {
     @content;
   }
 }
 
-@mixin bp-tablet-and-up {
+@mixin bp--tablet-and-up {
   @media (min-width: #{$small-tablet-max-width}) {
     @content;
   }
 }
 
-@mixin bp-laptop-and-up {
+@mixin bp--laptop-and-up {
   @media (min-width: #{$tablet-max-width}) {
     @content;
   }
 }
 
-@mixin bp-large-laptop-and-up {
+@mixin bp--large-laptop-and-up {
   @media (min-width: #{$laptop-max-width}) {
     @content;
   }
 }
 
-@mixin bp-desktop-and-up {
+@mixin bp--desktop-and-up {
   @media (min-width: #{$large-laptop-max-width}) {
     @content;
   }
 }
 
-@mixin bp-tablet-and-down {
+@mixin bp--tablet-and-down {
   @media (max-width: #{$tablet-max-width - 0.02em}) {
     @content;
   }

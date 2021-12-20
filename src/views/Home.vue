@@ -61,7 +61,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include layout-push-footer;
+  @include layout--push-footer;
 }
 
 section {
@@ -105,7 +105,7 @@ section {
 
 .line-length-limit-wrapper {
   @include p--16;
-  @include layout-limit-chars-per-line(60);
+  @include layout--limit-chars-per-line(60);
 }
 
 h1,
@@ -117,7 +117,7 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
 
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     font-size: 2.625rem; /* 42px */
   }
 }

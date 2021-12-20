@@ -30,7 +30,7 @@ export default defineComponent({
 @import "../assets/styles/global";
 
 main {
-  @include layout-push-footer;
+  @include layout--push-footer;
 }
 
 .margin-wrapper {
@@ -41,7 +41,7 @@ main {
 
 .line-length-limit-wrapper {
   @include p--18;
-  @include layout-limit-chars-per-line(60);
+  @include layout--limit-chars-per-line(60);
 }
 
 h1 {

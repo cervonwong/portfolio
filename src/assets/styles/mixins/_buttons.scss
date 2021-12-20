@@ -17,7 +17,7 @@
 
 @mixin _button--font-16 {
   font-size: 1rem;
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     font-size: 1.25rem;
   }
   font-weight: 500;
@@ -56,7 +56,7 @@
 
   .material-icons-sharp {
     font-size: 1.25rem;
-    @include bp-laptop-and-up {
+    @include bp--laptop-and-up {
       font-size: 1.5rem;
     }
   }
@@ -73,7 +73,7 @@
 
   .material-icons-sharp {
     font-size: 1.25rem;
-    @include bp-laptop-and-up {
+    @include bp--laptop-and-up {
       font-size: 1.5rem;
     }
   }

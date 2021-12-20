@@ -133,7 +133,7 @@ nav {
 }
 
 .mobile-nav-layout-wrapper {
-  @include bp-tablet-and-down {
+  @include bp--tablet-and-down {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,23 +158,23 @@ nav {
   @include util--reset-list;
   align-items: center;
 
-  @include bp-tablet-and-down() {
+  @include bp--tablet-and-down() {
     flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
     row-gap: 0.5rem; /* 8px */
     font-size: 2.635rem; /* 42px */
 
-    @include bp-small-tablet-and-up {
+    @include bp--small-tablet-and-up {
       font-size: 3rem; /* 48px */
     }
 
-    @include bp-tablet-and-up {
+    @include bp--tablet-and-up {
       font-size: 3.375rem; /* 54px */
     }
   }
 
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     font-size: 1.125rem; /* 18px */
   }
 }
@@ -183,7 +183,7 @@ nav {
   text-decoration: none;
   font-weight: 500;
 
-  @include bp-tablet-and-down() {
+  @include bp--tablet-and-down() {
     @include layout--main-margin-horz-nav-bar;
     color: $primary-white;
 
@@ -197,7 +197,7 @@ nav {
     }
   }
 
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     &:hover {
       text-decoration-line: underline;
       text-decoration-color: $primary-black;
@@ -229,7 +229,7 @@ nav {
     outline-color: $primary-white;
   }
 
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     display: none;
   }
 }
@@ -246,7 +246,7 @@ nav {
   background-color: transparent;
   border: none;
 
-  @include bp-laptop-and-up {
+  @include bp--laptop-and-up {
     display: none;
   }
 }

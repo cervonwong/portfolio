@@ -125,7 +125,7 @@ footer {
 
 .line-length-limit-wrapper {
   @include p--14;
-  @include layout-limit-chars-per-line(60);
+  @include layout--limit-chars-per-line(60);
 }
 
 h2,
@@ -142,7 +142,7 @@ h2 {
   font-size: 2rem; /* 32px */
   font-weight: bold;
 
-  @include bp-laptop-and-up() {
+  @include bp--laptop-and-up() {
     font-size: 2.625rem; /* 42px */
   }
 }
