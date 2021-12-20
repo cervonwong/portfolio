@@ -4,7 +4,12 @@
 
 <template>
   <!--suppress HtmlUnknownAnchorTarget -->
-  <a href="#!">
+  <router-link
+    :to="{
+      name: 'Blog post',
+      params: { category: post.category.toLowerCase(), slug: post.slug },
+    }"
+  >
     <article>
       <img
         :src="'/blog-images/' + post.imageFileName"
@@ -20,7 +25,7 @@
         <h2>{{ post.title }}</h2>
       </div>
     </article>
-  </a>
+  </router-link>
 </template>
 
 <script lang="ts">
