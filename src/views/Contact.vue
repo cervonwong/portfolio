@@ -38,17 +38,8 @@ main {
 
 .margin-wrapper {
   @include bp-content-width-normal;
-
-  margin-top: 2.5rem; /* 40px */
-  margin-bottom: 15rem;
-
-  @include bp-tablet-and-up {
-    margin-top: 3.75rem; /* 60px */
-  }
-
-  @include bp-laptop-and-up {
-    margin-top: 5rem; /* 80px */
-  }
+  @include layout--main-margin-top-normal;
+  @include layout--main-margin-bottom-large;
 }
 
 .line-length-limit-wrapper {

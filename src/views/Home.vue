@@ -66,27 +66,11 @@ main {
 
 section {
   @include bp-content-width-normal;
-  margin-bottom: 7.5rem; /* 120px */
-
-  @include bp-tablet-and-up {
-    margin-bottom: 9.5rem; /* 152px */
-  }
-
-  @include bp-laptop-and-up {
-    margin-bottom: 11.25rem; /* 180px */
-  }
+  @include layout--main-margin-bottom-normal;
 }
 
 .section-cta {
-  margin-top: 2.5rem; /* 40px */
-
-  @include bp-tablet-and-up {
-    margin-top: 3.75rem; /* 60px */
-  }
-
-  @include bp-laptop-and-up {
-    margin-top: 5rem; /* 80px */
-  }
+  @include layout--main-margin-top-normal;
 }
 
 .cta-link:hover {

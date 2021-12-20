@@ -95,19 +95,8 @@ main {
 
 .margin-wrapper {
   @include bp-content-width-blog-catalog;
-
-  margin-top: 2.5rem; /* 40px */
-  margin-bottom: 7.5rem; /* 120px */
-
-  @include bp-tablet-and-up {
-    margin-top: 3.75rem; /* 60px */
-    margin-bottom: 9.5rem; /* 152px */
-  }
-
-  @include bp-laptop-and-up {
-    margin-top: 5rem; /* 80px */
-    margin-bottom: 11.25rem; /* 180px */
-  }
+  @include layout--main-margin-top-normal;
+  @include layout--main-margin-bottom-normal;
 }
 
 h1 {
