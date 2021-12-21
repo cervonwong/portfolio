@@ -168,6 +168,7 @@ a {
 
 ul {
   @include util--reset-list;
+  flex-wrap: wrap;
 }
 
 .list-anchor--about-me,
