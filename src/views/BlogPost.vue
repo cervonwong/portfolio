@@ -3,11 +3,13 @@
   -->
 
 <template>
-  <component :is="post.componentName" :post="post"></component>
+  <PostNotFound v-if="post === undefined"></PostNotFound>
+  <component v-else :is="post.componentName" :post="post"></component>
 </template>
 
 <script lang="ts">
 import { defineAsyncComponent, defineComponent } from "vue";
+import PostNotFound from "@/components/blog/PostNotFound.vue";
 import blogIndex from "../assets/data/blog_index.json";
 
 const PostOne = defineAsyncComponent(
@@ -34,7 +36,7 @@ export default defineComponent({
       );
     },
   },
-  components: { PostOne, PostTwo, PostThree, PostFour },
+  components: { PostNotFound, PostOne, PostTwo, PostThree, PostFour },
 });
 </script>
 
