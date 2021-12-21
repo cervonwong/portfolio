@@ -7,7 +7,7 @@
     "componentName": "PostOne",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 1 placeholder image.",
-    "posted": "14 December 2021",
+    "posted": "21 December 2021",
     "postedIso": "2021-12-14",
     "lastUpdated": "14 December 2021",
     "lastUpdatedIso": "2021-12-14"
@@ -20,7 +20,7 @@
     "componentName": "PostTwo",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 2 placeholder image.",
-    "posted": "14 December 2021",
+    "posted": "16 December 2021",
     "postedIso": "2021-12-14",
     "lastUpdated": "17 December 2021",
     "lastUpdatedIso": "2021-12-17"
@@ -46,7 +46,7 @@
     "componentName": "PostFour",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 4 placeholder image.",
-    "posted": "14 December 2021",
+    "posted": "11 December 2021",
     "postedIso": "2021-12-14",
     "lastUpdated": "17 December 2021",
     "lastUpdatedIso": "2021-12-17"
