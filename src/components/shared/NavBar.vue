@@ -62,16 +62,6 @@
             >
           </li>
           <li>
-            <a
-              href="https://play.cervonwong.com"
-              target="_blank"
-              rel="noopener"
-              class="link link--playground"
-              @click="closeMobileNav"
-              >Playground</a
-            >
-          </li>
-          <li>
             <router-link
               :to="{ name: 'Contact' }"
               class="link link--contact"
@@ -210,8 +200,7 @@ nav {
     &--about-me,
     &--projects,
     &--blog,
-    &--resume,
-    &--playground {
+    &--resume {
       &::after {
         display: inline-block;
         content: "/";
