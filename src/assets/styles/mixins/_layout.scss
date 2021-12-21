@@ -65,9 +65,9 @@
   }
 
   @include bp--tablet-and-up() {
-    // 45.125rem is 786-32-32 px
-    margin-left: calc((100vw - 45.125rem) * 0.5);
-    margin-right: calc((100vw - 45.125rem) * 0.5);
+    // 44rem is 768-32-32 px
+    margin-left: calc((100vw - 44rem) * 0.5);
+    margin-right: calc((100vw - 44rem) * 0.5);
   }
 }
 
