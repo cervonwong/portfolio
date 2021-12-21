@@ -18,7 +18,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "SkillChips",
+  name: "SkillList",
   data() {
     return {
       data: [
