@@ -8,55 +8,52 @@
       <div class="article-inner-wrapper">
         <PostHeader :post="post"></PostHeader>
         <div class="line-length-limit-wrapper">
-          <PostParagraph class="hook-paragraph">
+          <P_P class="hook-paragraph">
             <strong>Hook paragraph.</strong> Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Aliquid blanditiis dignissimos dolorem
             error exercitationem ipsum laboriosam nobis vero vitae voluptatibus.
-          </PostParagraph>
-          <PostHeadingPrimary>First section</PostHeadingPrimary>
-          <PostParagraph>
+          </P_P>
+          <P_H1>First section</P_H1>
+          <P_P>
             <strong>Body paragraphs.</strong> Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. A aperiam, blanditiis dolorum eligendi
             excepturi hic obcaecati quibusdam saepe ullam vero!
-          </PostParagraph>
-          <PostParagraph>
+          </P_P>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
             adipisci beatae culpa cumque earum enim est et fuga magnam nobis non
             odit optio perferendis, possimus quaerat, soluta totam. Animi,
             omnis?
-          </PostParagraph>
-          <PostHeadingSecondary>Subsection 1</PostHeadingSecondary>
-          <PostParagraph>
+          </P_P>
+          <P_H2>Subsection 1</P_H2>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
             ducimus illum itaque velit voluptatem? Deserunt doloremque earum ex
             iusto molestiae!
-          </PostParagraph>
-          <PostParagraph
-            >Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit.</PostParagraph
-          >
-          <PostHeadingSecondary>Subsection 2</PostHeadingSecondary>
-          <PostParagraph>
+          </P_P>
+          <P_P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P_P>
+          <P_H2>Subsection 2</P_H2>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
             et eum laborum magni molestiae nostrum numquam qui quia quisquam,
             voluptates!
-          </PostParagraph>
-          <PostParagraph>
+          </P_P>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
             culpa cumque dolor dolorem dolores eaque earum iure, maxime
             necessitatibus non obcaecati odit, quis quisquam quo repellat
             repudiandae rerum, veritatis. Aspernatur.
-          </PostParagraph>
-          <PostHeadingPrimary>Conclusion</PostHeadingPrimary>
-          <PostParagraph>
+          </P_P>
+          <P_H1>Conclusion</P_H1>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
             dolorum iusto labore natus nihil nobis omnis possimus quis quisquam
             sapiente? Cum dicta dolor fuga ipsam iusto minima nihil placeat ut?
-          </PostParagraph>
-          <PostParagraph>
+          </P_P>
+          <P_P>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima,
             qui.
-          </PostParagraph>
+          </P_P>
         </div>
       </div>
     </article>
@@ -74,9 +71,9 @@ export default defineComponent({
   name: "PostTwo",
   props: ["post"],
   components: {
-    PostHeadingSecondary,
-    PostHeadingPrimary,
-    PostParagraph,
+    P_P: PostParagraph,
+    P_H1: PostHeadingPrimary,
+    P_H2: PostHeadingSecondary,
     PostHeader,
   },
 });
