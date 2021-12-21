@@ -81,7 +81,7 @@
   }
 
   @include bp--large-laptop-and-up() {
-    // 45.125rem is 1200-32-32 px
+    // 71rem is 1200-32-32 px
     margin-left: calc((100% - 71rem) * 0.5);
     margin-right: calc((100% - 71rem) * 0.5);
   }
