@@ -3,14 +3,19 @@
   -->
 
 <template>
-  <div class="wrapper">
-    <span
-      v-for="(chipData, index) in data"
-      :key="index"
-      :class="chipData.type === 'Category' ? 'span--category' : 'span--skill'"
-    >
-      {{ chipData.label }}
-    </span>
+  <div class="categories-wrapper">
+    <div v-for="(category, index) in data" :key="index" class="category-group">
+      <h3 class="category-label">{{ category.label }}</h3>
+      <div class="skill-group">
+        <span
+          v-for="(skill, index) in category.skills"
+          :key="index"
+          class="skill"
+        >
+          {{ skill.label }}
+        </span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,44 +27,64 @@ export default defineComponent({
   data() {
     return {
       data: [
-        { label: "Front-end", type: "Category" },
-        { label: "Flutter", type: "Skill" },
-        { label: "Android dev", type: "Skill" },
-        { label: "Web dev", type: "Skill" },
-        { label: "Dart", type: "Skill" },
-        { label: "Vue.js", type: "Skill" },
-        { label: "HTML", type: "Skill" },
-        { label: "JavaScript", type: "Skill" },
-        { label: "TypeScript", type: "Skill" },
-        { label: "CSS", type: "Skill" },
-        { label: "Sass", type: "Skill" },
-        { label: "JavaFX", type: "Skill" },
-        { label: "Back-end", type: "Category" },
-        { label: "Java", type: "Skill" },
-        { label: "SQL", type: "Skill" },
-        { label: "SQLite", type: "Skill" },
-        { label: "Firebase", type: "Skill" },
-        { label: "Web hosting", type: "Skill" },
-        { label: "Serverless", type: "Skill" },
-        { label: "UI / UX", type: "Category" },
-        { label: "Figma", type: "Skill" },
-        { label: "Mobile design", type: "Skill" },
-        { label: "Web design", type: "Skill" },
-        { label: "Accessibility", type: "Skill" },
-        { label: "Responsive", type: "Skill" },
-        { label: "AI / ML", type: "Category" },
-        { label: "Python", type: "Skill" },
-        { label: "NumPy", type: "Skill" },
-        { label: "Pandas", type: "Skill" },
-        { label: "TensorFlow", type: "Skill" },
-        { label: "Keras", type: "Skill" },
-        { label: "Tools / Env", type: "Category" },
-        { label: "Git", type: "Skill" },
-        { label: "GitHub", type: "Skill" },
-        { label: "Windows", type: "Skill" },
-        { label: "VSCode", type: "Skill" },
-        { label: "IntelliJ", type: "Skill" },
-        { label: "Jupyter", type: "Skill" },
+        {
+          label: "Front-end",
+          skills: [
+            { label: "Flutter" },
+            { label: "Android dev" },
+            { label: "Web dev" },
+            { label: "Dart" },
+            { label: "Vue.js" },
+            { label: "HTML" },
+            { label: "JavaScript" },
+            { label: "TypeScript" },
+            { label: "CSS" },
+            { label: "Sass" },
+            { label: "JavaFX" },
+          ],
+        },
+        {
+          label: "Back-end",
+          skills: [
+            { label: "Java" },
+            { label: "SQL" },
+            { label: "SQLite" },
+            { label: "Firebase" },
+            { label: "Web hosting" },
+            { label: "Serverless" },
+          ],
+        },
+        {
+          label: "UI/UX design",
+          skills: [
+            { label: "Figma" },
+            { label: "Mobile design" },
+            { label: "Web design" },
+            { label: "Accessibility" },
+            { label: "Responsiveness" },
+          ],
+        },
+        {
+          label: "Machine learning",
+          skills: [
+            { label: "Python" },
+            { label: "NumPy" },
+            { label: "Pandas" },
+            { label: "TensorFlow" },
+            { label: "Keras" },
+          ],
+        },
+        {
+          label: "Tools/Envionments",
+          skills: [
+            { label: "Git" },
+            { label: "GitHub" },
+            { label: "Windows" },
+            { label: "VSCode" },
+            { label: "IntelliJ" },
+            { label: "Jupyter" },
+          ],
+        },
       ],
     };
   },
@@ -69,22 +94,44 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
 
-div {
+.categories-wrapper {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+
+  @include bp--tablet-and-up {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.category-label {
+  font-size: 1.25rem;
+
+  background-color: $primary-black;
+  color: $primary-white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.375em 1em;
+  border-radius: 0.5rem;
+}
+
+.category-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-group {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
 }
 
-span {
-  @include p--16;
-  border: $border-width solid $border-black; /* 1.5px */
-  padding: 0.375em 1em;
-  border-radius: $border-radius-stadium;
-}
+.skill {
+  font-size: 1rem;
 
-.span--category {
-  background-color: $primary-black;
-  color: $primary-white;
-  font-weight: bold;
+  border: $border-width solid $border-black; /* 1.5px */
+  padding: 0.2em 1em;
+  border-radius: $border-radius-stadium;
 }
 </style>
