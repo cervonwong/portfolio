@@ -94,7 +94,7 @@ main {
 }
 
 .margin-wrapper {
-  @include layout--main-margin-horz-blog-catalog;
+  @include layout--main-margin-horz-large;
   @include layout--main-margin-top-normal;
   @include layout--main-margin-bottom-normal;
 }
