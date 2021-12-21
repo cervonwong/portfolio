@@ -1,42 +1,54 @@
 [
   {
     "id": 1,
-    "title": "This is the title of my first post, which is longer than usual to test layouts in extreme conditions",
+    "title": "This is the title of my first post, which is longer than usual to test layouts in extreme conditions [PLACEHOLDER]",
     "category": "Guide",
-    "lastUpdated": "14 December 2021",
-    "lastUpdatedIso": "2021-12-14",
+    "slug": "post-1",
+    "componentName": "PostOne",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 1 placeholder image.",
-    "slug": "post-1"
+    "posted": "21 December 2021",
+    "postedIso": "2021-12-14",
+    "lastUpdated": "14 December 2021",
+    "lastUpdatedIso": "2021-12-14"
   },
   {
     "id": 2,
-    "title": "Second post",
+    "title": "Second post [PLACEHOLDER]",
     "category": "Story",
-    "lastUpdated": "17 December 2021",
-    "lastUpdatedIso": "2021-12-17",
+    "slug": "post-2",
+    "componentName": "PostTwo",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 2 placeholder image.",
-    "slug": "post-2"
+    "posted": "16 December 2021",
+    "postedIso": "2021-12-14",
+    "lastUpdated": "17 December 2021",
+    "lastUpdatedIso": "2021-12-17"
   },
   {
     "id": 3,
-    "title": "The third post has a moderate length title",
+    "title": "The third post has a moderate length title [PLACEHOLDER]",
     "category": "Opinion",
-    "lastUpdated": "20 December 2021",
-    "lastUpdatedIso": "2021-12-20",
+    "slug": "post-3",
+    "componentName": "PostThree",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 3 placeholder image.",
-    "slug": "post-3"
+    "posted": "14 December 2021",
+    "postedIso": "2021-12-14",
+    "lastUpdated": "20 December 2021",
+    "lastUpdatedIso": "2021-12-20"
   },
   {
     "id": 4,
-    "title": "Fourth post",
+    "title": "Fourth post [PLACEHOLDER]",
     "category": "Update",
-    "lastUpdated": "17 December 2021",
-    "lastUpdatedIso": "2021-12-17",
+    "slug": "post-4",
+    "componentName": "PostFour",
     "imageFileName": "article_image_1.png",
     "imageAltText": "Post 4 placeholder image.",
-    "slug": "post-4"
+    "posted": "11 December 2021",
+    "postedIso": "2021-12-14",
+    "lastUpdated": "17 December 2021",
+    "lastUpdatedIso": "2021-12-17"
   }
 ]

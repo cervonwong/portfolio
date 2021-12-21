@@ -13,6 +13,8 @@ const ProjectShowcase = () =>
   );
 const BlogCatalog = () =>
   import(/* webpackChunkName: "blog_catalog" */ "@/views/BlogCatalog.vue");
+const BlogPost = () =>
+  import(/* webpackChunkName: "blog_post" */ "@/views/BlogPost.vue");
 const Resume = () =>
   import(/* webpackChunkName: "resume" */ "@/views/Resume.vue");
 const Contact = () =>
@@ -42,6 +44,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/blog",
     name: "Blog catalog",
     component: BlogCatalog,
+  },
+  {
+    path: "/blog/:category/:slug",
+    name: "Blog post",
+    component: BlogPost,
   },
   {
     path: "/resume",

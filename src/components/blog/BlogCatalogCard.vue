@@ -4,7 +4,12 @@
 
 <template>
   <!--suppress HtmlUnknownAnchorTarget -->
-  <a href="#!">
+  <router-link
+    :to="{
+      name: 'Blog post',
+      params: { category: post.category.toLowerCase(), slug: post.slug },
+    }"
+  >
     <article>
       <img
         :src="'/blog-images/' + post.imageFileName"
@@ -13,14 +18,14 @@
       <div class="content">
         <div class="metadata">
           <span class="collection-tag">{{ post.category }}</span>
-          <time class="last-updated-date" :datetime="post.lastUpdatedIso"
-            >{{ post.lastUpdated }}
+          <time class="posted-date" :datetime="post.postedIso"
+            >{{ post.posted }}
           </time>
         </div>
         <h2>{{ post.title }}</h2>
       </div>
     </article>
-  </a>
+  </router-link>
 </template>
 
 <script lang="ts">
@@ -77,7 +82,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.last-updated-date {
+.posted-date {
   font-size: 0.8125rem;
 }
 
