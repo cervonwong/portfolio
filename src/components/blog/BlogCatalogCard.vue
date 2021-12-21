@@ -18,8 +18,8 @@
       <div class="content">
         <div class="metadata">
           <span class="collection-tag">{{ post.category }}</span>
-          <time class="last-updated-date" :datetime="post.lastUpdatedIso"
-            >{{ post.lastUpdated }}
+          <time class="posted-date" :datetime="post.postedIso"
+            >{{ post.posted }}
           </time>
         </div>
         <h2>{{ post.title }}</h2>
@@ -82,7 +82,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.last-updated-date {
+.posted-date {
   font-size: 0.8125rem;
 }
 
