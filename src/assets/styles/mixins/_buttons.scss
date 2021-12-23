@@ -23,6 +23,15 @@
   font-weight: 500;
 }
 
+// Temp values, only used in home intro, not sure if values work well with text.
+@mixin _button--font-20 {
+  font-size: 1.25rem;
+  @include bp--laptop-and-up {
+    font-size: 1.75rem;
+  }
+  font-weight: 500;
+}
+
 @mixin _button--outlined {
   background-color: transparent;
   color: $primary-black;
@@ -32,6 +41,18 @@
   &:hover {
     background-color: $primary-black;
     color: $primary-white;
+  }
+}
+
+@mixin _button--filled {
+  background-color: $primary-black;
+  color: $primary-white;
+  border: $border-width solid $border-black;
+  border-radius: $border-radius-stadium;
+
+  &:hover {
+    background-color: transparent;
+    color: $primary-black;
   }
 }
 
@@ -75,6 +96,24 @@
     font-size: 1.25rem;
     @include bp--laptop-and-up {
       font-size: 1.5rem;
+    }
+  }
+}
+
+// Temp values, only used in home intro, not sure if values work well with text.
+@mixin button--filled-icon-only-20 {
+  @include _button--align-icon;
+  @include _button--font-20;
+  @include _button--filled;
+
+  padding: 0.5em;
+  min-height: 2.5em;
+  min-width: 2.5em;
+
+  .material-icons-sharp {
+    font-size: 1.5rem;
+    @include bp--laptop-and-up {
+      font-size: 2.25rem;
     }
   }
 }

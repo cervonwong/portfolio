@@ -4,25 +4,15 @@
 
 <template>
   <main>
-    <section class="section-cta">
-      <h1>
-        Hi, I am a
-        <!--suppress HtmlUnknownAnchorTarget -->
-        <a href="#!" class="cta-link">front-end developer</a> and
-        <!--suppress HtmlUnknownAnchorTarget -->
-        <a href="#!" class="cta-link">UI/UX designer</a>, dabbling in
-        <!--suppress HtmlUnknownAnchorTarget -->
-        <a href="#!" class="cta-link">back-end development</a> and
-        <!--suppress HtmlUnknownAnchorTarget -->
-        <a href="#!" class="cta-link">machine learning</a>.
-      </h1>
-      <button class="cta-button">
-        Check out my projects
-        <span class="material-icons-sharp">east</span>
-      </button>
+    <section class="section-intro">
+      <h1>Hi! I’m a front-end developer and UI/UX designer from Singapore.</h1>
+      <p class="intro-subtitle">Scroll to learn more about what I do!</p>
+      <a href="#section-about-me" class="intro-scroll-anchor">
+        <span class="material-icons-sharp">south</span>
+      </a>
     </section>
 
-    <section class="section-about-me">
+    <section id="section-about-me" class="section-about-me">
       <div class="line-length-limit-wrapper">
         <h2>I'm Cervon Wong,</h2>
         <p class="p--large">
@@ -69,38 +59,17 @@ section {
   @include layout--main-margin-bottom-normal;
 }
 
-.section-cta {
+.section-intro {
   @include layout--main-margin-top-normal;
 }
 
-.cta-link:hover {
-  background-color: $primary-black;
-  color: $primary-white;
-}
-
-.cta-button {
+.intro-subtitle {
   @include p--18;
-
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  padding: 0.75em 1.5em;
-  background-color: $primary-black;
-  color: $primary-white;
-  border: $border-width solid $border-black;
-  border-radius: $border-radius-stadium;
-  margin-top: 0.5rem;
-  column-gap: 0.75em;
-
-  &:hover {
-    background-color: $primary-white;
-    color: $primary-black;
-  }
 }
 
-.material-icons-sharp {
-  font-size: 1.25em;
-  font-style: inherit;
+.intro-scroll-anchor {
+  @include button--filled-icon-only-20;
+  text-decoration: none;
 }
 
 .line-length-limit-wrapper {
@@ -108,8 +77,7 @@ section {
   @include layout--limit-chars-per-line(60);
 }
 
-h1,
-.cta-link {
+h1 {
   @include h1--standard;
 }
 
