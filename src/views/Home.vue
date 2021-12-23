@@ -20,13 +20,19 @@
           applications.
         </p>
         <p>
-          In my free time, I like to stare at typography for hours. Currently, I
-          am learning how to develop websites with Vue.js.
+          My first foray into coding was when I was 12, learning Python for the
+          first time and being awed that I could create my own hangman game with
+          it.
         </p>
-        <!--suppress HtmlUnknownAnchorTarget -->
-        <a href="#!"
-          >P.S. This website was built from the ground-up in Vue.js.</a
-        >
+        <p>
+          Years later, I’m still inspired by how code and design allows me to
+          create applications that are useful and meaningful to people around
+          me.
+        </p>
+        <router-link :to="{ name: 'About me' }" class="about-me-link">
+          Learn more about me
+          <span class="material-icons-sharp">east</span>
+        </router-link>
       </div>
     </section>
 
@@ -77,6 +83,12 @@ section {
   @include layout--limit-chars-per-line(60);
 }
 
+.about-me-link {
+  @include button--outlined-icon-right-16-18;
+  text-decoration: none;
+  margin-top: 0.75em;
+}
+
 h1 {
   @include h1--standard;
 }
@@ -94,8 +106,7 @@ h2 {
   @include p--22;
 }
 
-p,
-a {
+p {
   @include p--16;
 }
 </style>
