@@ -80,7 +80,7 @@
   @include _button--font-16;
   @include _button--outlined;
 
-  padding: 0.5em 1.5em 0.5em 1em;
+  padding: 0.5em 1.5em 0.5em 1.25em;
   min-height: 2.5em;
 
   .material-icons-sharp {
@@ -96,7 +96,7 @@
   @include _button--font-16-18;
   @include _button--outlined;
 
-  padding: 0.5em 1em 0.5em 1.5em;
+  padding: 0.5em 1.25em 0.5em 1.5em;
   min-height: 2.5em;
 
   .material-icons-sharp {
