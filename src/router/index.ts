@@ -76,7 +76,13 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    return savedPosition || { left: 0, top: 0 };
+    if (to.hash) {
+      return { el: to.hash };
+    } else if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { left: 0, top: 0 };
+    }
   },
 });
 
