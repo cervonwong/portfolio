@@ -37,7 +37,7 @@
     </section>
 
     <section class="section-skills">
-      <h2>Technical Skills</h2>
+      <h2>Technical skills</h2>
       <SkillList></SkillList>
     </section>
   </main>

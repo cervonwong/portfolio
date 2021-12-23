@@ -75,7 +75,7 @@ export default defineComponent({
           ],
         },
         {
-          label: "Tools/Envionments",
+          label: "Tools & environments",
           skills: [
             { label: "Git" },
             { label: "GitHub" },
