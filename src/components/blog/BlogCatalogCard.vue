@@ -47,11 +47,10 @@ a {
   border-radius: $border-radius-16;
   height: 100%;
 
-  transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1),
-    box-shadow 0.3s cubic-bezier(0.65, 0, 0.35, 1); // Ease in out cubic
+  transition: all 0.3s cubic-bezier(0.65, 0, 0.35, 1); // Ease in out cubic
   &:hover,
   &:focus-visible {
-    transform: translateY(-0.8rem);
+    transform: translateY(-0.8rem) scale(1.02);
     box-shadow: 0 12px 24px 0 $shadow-black;
   }
 }
