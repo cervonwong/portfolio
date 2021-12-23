@@ -49,6 +49,8 @@
   &:hover {
     background-color: $primary-black;
     color: $primary-white;
+
+    transition: all 0.2s ease;
   }
 }
 
@@ -61,6 +63,8 @@
   &:hover {
     background-color: transparent;
     color: $primary-black;
+
+    transition: all 0.2s ease;
   }
 }
 
