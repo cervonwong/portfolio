@@ -26,28 +26,28 @@
               <span class="material-icons-sharp">close</span>
             </button>
             <button
-              class="filter-option-button filter-option-button--project"
+              class="filter-option-button filter-option-button--guides"
               @click="hideFilterOptions"
             >
-              Project
+              Guides
             </button>
             <button
-              class="filter-option-button filter-option-button--ui"
+              class="filter-option-button filter-option-button--stories"
               @click="hideFilterOptions"
             >
-              UI design
+              Stories
             </button>
             <button
-              class="filter-option-button filter-option-button--ux"
+              class="filter-option-button filter-option-button--opinions"
               @click="hideFilterOptions"
             >
-              UX design
+              Opinions
             </button>
             <button
-              class="filter-option-button filter-option-button--web"
+              class="filter-option-button filter-option-button--updates"
               @click="hideFilterOptions"
             >
-              Web dev
+              Updates
             </button>
           </div>
         </div>
