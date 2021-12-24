@@ -97,14 +97,14 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import metadata from "../../assets/data/metadata.json";
+import siteInfo from "../../assets/data/site_info.json";
 
 export default defineComponent({
   name: "Footer",
   data() {
     return {
-      lastUpdated: metadata.lastUpdated,
-      lastUpdatedIso: metadata.lastUpdatedIso,
+      lastUpdated: siteInfo.lastUpdated,
+      lastUpdatedIso: siteInfo.lastUpdatedIso,
     };
   },
 });
