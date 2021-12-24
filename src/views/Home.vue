@@ -21,8 +21,8 @@
         </p>
         <p>
           My journey began when I built a simple text-based Python game when I
-          was 12. I was intrigued by how fun and fulfilling it was to code and
-          design things.
+          was twelve. I was intrigued by how fun and fulfilling it was to code
+          and design things.
         </p>
         <p>
           Fast forward to today, and I have learnt a lot more about front-end
