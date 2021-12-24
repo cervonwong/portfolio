@@ -16,18 +16,18 @@
       <div class="line-length-limit-wrapper">
         <h2>I'm Cervon Wong,</h2>
         <p class="p--large">
-          a high school student passionate about developing real-world
-          applications.
+          a high school student with a passion for creating meaningful and
+          enjoyable experiences.
         </p>
         <p>
-          My first foray into coding was when I was 12, learning Python for the
-          first time and being awed that I could create my own hangman game with
-          it.
+          My journey began when I built a simple text-based Python game when I
+          was 12. I was intrigued by how fun and fulfilling it was to code and
+          design things.
         </p>
         <p>
-          Years later, I’m still inspired by how code and design allows me to
-          create applications that are useful and meaningful to people around
-          me.
+          Fast forward to today, and I have learnt a lot more about front-end
+          and design. I’m always on the lookout for technologies to learn!
+          (Currently learning Vue.js).
         </p>
         <router-link :to="{ name: 'About me' }" class="about-me-link">
           Learn more about me
