@@ -22,11 +22,11 @@
 }
 
 @mixin h2--standard {
-  font-size: 1.625rem; /* 26px */
+  font-size: 1.75rem; /* 28px */
   font-weight: 500;
 
   @include bp--small-tablet-and-up {
-    font-size: 1.825rem; /* 30px */
+    font-size: 2rem; /* 32px */
   }
 
   @include bp--tablet-and-up {
@@ -35,6 +35,21 @@
 
   @include bp--laptop-and-up {
     font-size: 2.625rem; /* 42px */
+  }
+}
+
+@mixin h3--standard {
+  font-weight: 500;
+
+  font-size: 1.5rem;
+  @include bp--small-tablet-and-up {
+    font-size: 1.625rem;
+  }
+  @include bp--tablet-and-up {
+    font-size: 1.75rem;
+  }
+  @include bp--laptop-and-up {
+    font-size: 1.875rem;
   }
 }
 
