@@ -136,6 +136,121 @@
             Singapore.
           </figcaption>
         </figure>
+        <h2 id="What-I-do">What I do</h2>
+        <p>I mainly focus on these three aspects of software development:</p>
+        <ul>
+          <li><a href="#Front-end-development">Front-end development</a></li>
+          <li><a href="#UX-design">UX design</a></li>
+          <li><a href="#UI-design">UI design</a></li>
+        </ul>
+        <h3 id="Front-end-development">Front-end development</h3>
+        <p>
+          I love front-end development as it allows me to immediately see the
+          effects of the code I write. I also do more front-end development as I
+          mostly create educational or informational websites and apps. (This
+          doesn’t mean I don’t do back-end development at all, as it is still
+          essential).
+        </p>
+        <p>A non-exhaustive list of products I've developed:</p>
+        <ul>
+          <li>
+            A Progressive Web App for café trainees with mild intellectual
+            disability to learn recipes independently and effectively. (<!--suppress HtmlUnknownAnchorTarget -->
+            <a href="#!">Learn more about Mint</a>).
+          </li>
+          <li>
+            A website that organises NUS High School’s modules to act as a
+            reference for my peers.
+          </li>
+          <li>
+            An interactive virtual reality simulation to spread awareness of
+            cataracts and glaucoma.
+          </li>
+        </ul>
+        <figure>
+          <img
+            src="../assets/images/about-me--nush-modules.jpg"
+            alt="The overview page of a NUS High module reference website I created."
+          />
+          <figcaption>
+            Students were encouraged to learn something new over the holidays. I
+            was awarded the most impressive presentation in my class for
+            learning how to develop a module reference website.
+          </figcaption>
+        </figure>
+        <h3 id="UX-design">UX design</h3>
+        <p>
+          I always prioritise UX (user experience) when developing products. I
+          believe that designing products that are easy to use for all users (no
+          matter whether they have colour blindness or are using their device
+          one-handed) is one of the most crucial aspects of software
+          development. Hence, I always test that my product provides a great
+          experience for users in various scenarios.
+        </p>
+        <p>
+          <i
+            >After all, even if you have a lot of functionality in an app, users
+            are simply going to leave if they are frustrated or confused.</i
+          >
+        </p>
+        <p>Two things that I focus on:</p>
+        <ul>
+          <li>
+            <b>Accessibility</b> — developing products to be as accessible as
+            possible no matter a user’s physical and cognitive abilities.
+          </li>
+          <li>
+            <b>Affordances</b> — ensuring users know what UI elements do, and
+            where to find them.
+          </li>
+        </ul>
+        <figure>
+          <img
+            src="../assets/images/about-me--mint-accessibility.jpg"
+            alt="A summary slide of the accessibility considerations of Mint."
+          />
+          <figcaption>
+            The accessibility considerations I took when designing Mint for
+            users with semi-illiteracy and mild intellectual disability.
+          </figcaption>
+        </figure>
+        <h3 id="UI-design">UI design</h3>
+        <p>
+          Of course, for a product to be delightful to use, it has to be
+          <em>aesthetic!</em> With UI (user interface) design, I spend time
+          scrutinising colour pairings and layout to achieve the desired vibe of
+          the product.
+        </p>
+        <figure>
+          <img
+            src="../assets/images/about-me--chess-clock.jpg"
+            alt="A design concept for a chess clock app with bold colors and large shapes."
+          />
+          <figcaption>
+            I made this chess clock app design concept, experimenting with
+            Google’s new Material You guidelines for shape and colour.
+          </figcaption>
+        </figure>
+        <h2 id="Philosophy">Philosophy</h2>
+        <p>
+          A guiding principle that I abide by is to
+          <strong
+            ><i>develop products according to the needs of users</i></strong
+          >. (Aka <i>user-centred design</i>).
+        </p>
+        <p>
+          Some of the failures from my early endeavours in software development
+          stem from creating products based on ideas that are not in line with
+          real-world needs or problems. That posed a great deal of trouble
+          because there was no real drive to accomplish the product, and there
+          was no one that would actually use the product.
+        </p>
+        <p>
+          Since then, I have taken note to design products around problems that
+          I directly observe around me. Hence, most of the projects that I
+          embark on revolve around education, information, or my interests and
+          hobbies.
+        </p>
       </div>
     </div>
   </main>
