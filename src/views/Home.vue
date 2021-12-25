@@ -20,14 +20,14 @@
           enjoyable experiences.
         </p>
         <p>
-          My journey began when I built a simple text-based Python game when I
-          was twelve. I was intrigued by how fun and fulfilling it was to code
-          and design things.
+          My journey began when I learnt to build a simple text-based Python
+          game when I was twelve. I was intrigued by how fun and fulfilling it
+          was to code and design things.
         </p>
         <p>
-          Fast forward to today, and I have learnt a lot more about front-end
-          and design. I’m always on the lookout for technologies to learn!
-          (Currently learning Vue.js).
+          Fast forward to today, and I’m continuing to seek knowledge in
+          front-end and design. I’m always on the lookout for technologies to
+          learn! (Currently learning Vue.js).
         </p>
         <router-link :to="{ name: 'About me' }" class="about-me-link">
           Learn more about me
