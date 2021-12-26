@@ -52,13 +52,4 @@ main {
   @include layout--main-margin-top-normal;
   @include layout--main-margin-bottom-large;
 }
-
-h1 {
-  @include h1--standard;
-  margin-bottom: 1em;
-}
-
-p {
-  @include p--18;
-}
 </style>
