@@ -50,7 +50,7 @@
         </p>
         <p>
           <strong>Note:</strong> This site will not support Internet Explorer.
-          (It’s too much trouble).
+          (It's too much trouble).
         </p>
         <p>I test and verify that this site is functional on these browsers:</p>
         <ul>

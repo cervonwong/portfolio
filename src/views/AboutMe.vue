@@ -8,7 +8,7 @@
       <div class="line-length-limit-wrapper">
         <h1>About me</h1>
         <p>
-          Hi! I’m Cervon Wong. I’m currently studying my fourth year at NUS High
+          Hi! I'm Cervon Wong. I'm currently studying my fourth year at NUS High
           School of Math and Science. I have been working with code and design
           for about five years now.
         </p>
@@ -20,7 +20,7 @@
           people around me.
         </p>
         <p>
-          I’ll be sharing more details about myself in the sections below. The
+          I'll be sharing more details about myself in the sections below. The
           text below will be long-form and written like a story. For ease of
           navigation, you can jump to each section using the links below:
         </p>
@@ -92,7 +92,7 @@
           </figcaption>
         </figure>
         <p>
-          I’m always excited to hop into workshops, courses, or programmes about
+          I'm always excited to hop into workshops, courses, or programmes about
           coding or design to meet new people and gain new insights into these
           fields. For example, I signed up for a five-day workshop on AI and
           satellites organised by the Defence Science and Technology Agency
@@ -148,7 +148,7 @@
           I love front-end development as it allows me to immediately see the
           effects of the code I write. I also do more front-end development as I
           mostly create educational or informational websites and apps. (This
-          doesn’t mean I don’t do back-end development at all, as it is still
+          doesn't mean I don't do back-end development at all, as it is still
           essential).
         </p>
         <p>A non-exhaustive list of products I've developed:</p>
@@ -159,7 +159,7 @@
             <a href="#!">Learn more about Mint</a>).
           </li>
           <li>
-            A website that organises NUS High School’s modules to act as a
+            A website that organises NUS High School's modules to act as a
             reference for my peers.
           </li>
           <li>
@@ -197,7 +197,7 @@
         <ul>
           <li>
             <b>Accessibility</b> — developing products to be as accessible as
-            possible no matter a user’s physical and cognitive abilities.
+            possible no matter a user's physical and cognitive abilities.
           </li>
           <li>
             <b>Affordances</b> — ensuring users know what UI elements do, and
@@ -228,7 +228,7 @@
           />
           <figcaption>
             I made this chess clock app design concept, experimenting with
-            Google’s new Material You guidelines for shape and colour.
+            Google's new Material You guidelines for shape and colour.
           </figcaption>
         </figure>
         <h2 id="Philosophy">Philosophy</h2>
@@ -271,7 +271,7 @@
           language as a third language as an elective module in high school.
         </p>
         <p>
-          Here’s me receiving a certificate and prize vouchers for placing
+          Here's me receiving a certificate and prize vouchers for placing
           second in the finals of the national
           <a
             href="https://www.jas.org.sg/en/event/the-japanese-speech-contest-2021-report"
@@ -287,7 +287,7 @@
           />
           <figcaption>
             I gave a 4-minute oral presentation in Japanese on the importance
-            and benefits of listening to other people’s life stories. (It was
+            and benefits of listening to other people's life stories. (It was
             nerve-wracking).
           </figcaption>
         </figure>
@@ -295,7 +295,7 @@
           Language learning allows me to access a wider range of written works
           and videos on the internet, as well as to communicate with a greater
           proportion of the world. It also allows me to unlock a range of new
-          perspectives and opinions that can’t be translated. That’s why I find
+          perspectives and opinions that can't be translated. That's why I find
           language learning so fulfilling.
         </p>
         <h3>Contributing to open-source projects</h3>
@@ -306,9 +306,9 @@
             target="_blank"
             rel="noopener"
             >visit my GitHub profile</a
-          >, you’d realise that I am quite active on there. Another one of my
+          >, you'd realise that I am quite active on there. Another one of my
           hobbies is contributing to issues and documentation on GitHub,
-          depending on what I’m working on at the moment.
+          depending on what I'm working on at the moment.
         </p>
         <p>
           Most of the technologies that I am learning and using are open-source
@@ -357,8 +357,8 @@
           workshops.
         </p>
         <p>
-          I’m continuously learning more about technologies that I find
-          interesting and want to use. Here are some interesting things that I’m
+          I'm continuously learning more about technologies that I find
+          interesting and want to use. Here are some interesting things that I'm
           planning to check out in the future:
         </p>
         <ul>
