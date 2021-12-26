@@ -228,7 +228,11 @@
           />
           <figcaption>
             I made this chess clock app design concept, experimenting with
-            Google's new Material You guidelines for shape and colour.
+            Google's
+            <a href="https://m3.material.io" target="_blank" rel="noopener"
+              >new Material You guidelines</a
+            >
+            for shape and colour.
           </figcaption>
         </figure>
         <h2 id="Philosophy">Philosophy</h2>
