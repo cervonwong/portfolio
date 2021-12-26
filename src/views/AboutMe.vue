@@ -251,6 +251,136 @@
           embark on revolve around education, information, or my interests and
           hobbies.
         </p>
+        <h2 id="Interests-and-hobbies">Interests & hobbies</h2>
+        <p>Some fun activities I do in my free time!</p>
+        <h3>Language learning</h3>
+        <p>
+          Aside from coding and designing, you can probably find me learning
+          languages (spoken ones).
+        </p>
+        <p>Languages that I'm comfortable with:</p>
+        <ul>
+          <li>English (Native proficiency)</li>
+          <li>Chinese (Professional proficiency)</li>
+          <li>Japanese (Limited working proficiency)</li>
+          <li>French (Elementary proficiency)</li>
+        </ul>
+        <p>
+          One of the languages that I am actively pursuing is the Japanese
+          language. I took four years of formal education in the Japanese
+          language as a third language as an elective module in high school.
+        </p>
+        <p>
+          Here’s me receiving a certificate and prize vouchers for placing
+          second in the finals of the national
+          <a
+            href="https://www.jas.org.sg/en/event/the-japanese-speech-contest-2021-report"
+            target="_blank"
+            rel="noopener"
+            >Japanese Speech Contest 2021</a
+          >:
+        </p>
+        <figure>
+          <img
+            src="../assets/images/about-me--speech-contest.jpg"
+            alt="I stand on the auditorium stage holding my certificate and prize vouchers."
+          />
+          <figcaption>
+            I gave a 4-minute oral presentation in Japanese on the importance
+            and benefits of listening to other people’s life stories. (It was
+            nerve-wracking).
+          </figcaption>
+        </figure>
+        <p>
+          Language learning allows me to access a wider range of written works
+          and videos on the internet, as well as to communicate with a greater
+          proportion of the world. It also allows me to unlock a range of new
+          perspectives and opinions that can’t be translated. That’s why I find
+          language learning so fulfilling.
+        </p>
+        <h3>Contributing to open-source projects</h3>
+        <p>
+          If you
+          <a
+            href="https://github.com/cervonwong/"
+            target="_blank"
+            rel="noopener"
+            >visit my GitHub profile</a
+          >, you’d realise that I am quite active on there. Another one of my
+          hobbies is contributing to issues and documentation on GitHub,
+          depending on what I’m working on at the moment.
+        </p>
+        <p>
+          Most of the technologies that I am learning and using are open-source
+          projects.
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/flutter/flutter"
+              target="_blank"
+              rel="noopener"
+            >
+              Flutter</a
+            >
+            by Google
+          </li>
+          <li>
+            <a
+              href="https://github.com/vuejs/vue-next"
+              target="_blank"
+              rel="noopener"
+              >Vue.js</a
+            >
+            — the framework used to build this site.
+          </li>
+          <li>
+            <a
+              href="https://github.com/googlefonts/dm-fonts"
+              target="_blank"
+              rel="noopener"
+              >DM Sans</a
+            >
+            — the typeface that you are reading in right now!
+          </li>
+        </ul>
+        <p>
+          Interacting with developers who are actively involved in these
+          technologies is instrumental in accelerating my developer journey.
+          Contributing to open-source projects allows me to make these projects
+          that I love using even better.
+        </p>
+        <h2 id="Where-next">Where next?</h2>
+        <p>
+          I'm currently looking to expand my horizons in software development
+          and design by undertaking internships or attending courses and
+          workshops.
+        </p>
+        <p>
+          I’m continuously learning more about technologies that I find
+          interesting and want to use. Here are some interesting things that I’m
+          planning to check out in the future:
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://developer.android.com/jetpack/compose"
+              target="_blank"
+              rel="noopener"
+              >Jetpack Compose</a
+            >
+          </li>
+          <li>Server-side rendering for this website</li>
+        </ul>
+        <p>
+          I'm also working on some <em>secret</em> projects that I
+          <em>may or may not</em> write about in
+          <router-link :to="{ name: 'Blog catalog' }">my blog</router-link>.
+        </p>
+        <p>
+          You can find my contact details on
+          <router-link :to="{ name: 'Contact' }">my contact page</router-link>.
+        </p>
       </div>
     </div>
   </main>
