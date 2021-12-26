@@ -27,6 +27,16 @@ p {
   font-size: 1rem;
 }
 
+/* Layout */
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
 /* Sticky footer */
 /* To make footer sticky, put 'flex: 1' on main content */
 

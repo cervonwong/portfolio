@@ -5,7 +5,7 @@
 <template>
   <main>
     <section class="section-intro">
-      <h1>Hi! I’m a front-end developer and UI/UX designer from Singapore.</h1>
+      <h1>Hi! I'm a front-end developer and UI/UX designer from Singapore.</h1>
       <p class="intro-subtitle">Scroll to learn more about what I do!</p>
       <a href="#about" class="intro-scroll-anchor">
         <span class="material-icons-sharp">south</span>
@@ -25,8 +25,8 @@
           was to code and design things.
         </p>
         <p>
-          Fast forward to today, and I’m still seeking new knowledge in
-          front-end and design. I’m always on the lookout for technologies to
+          Fast forward to today, and I'm still seeking new knowledge in
+          front-end and design. I'm always on the lookout for technologies to
           learn! (Currently learning Vue.js).
         </p>
         <router-link :to="{ name: 'About me' }" class="about-me-link">
