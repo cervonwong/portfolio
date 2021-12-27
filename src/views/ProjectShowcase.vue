@@ -6,12 +6,12 @@
   <main>
     <div class="margin-wrapper">
       <h1>Projects</h1>
-      <div class="major-article-group">
-        <ProjectShowcaseMajorArticle
+      <div class="major-project-group">
+        <ProjectShowcaseMajorProjectArticle
           v-for="project in projects"
           :key="project.name"
           :project="project"
-        ></ProjectShowcaseMajorArticle>
+        ></ProjectShowcaseMajorProjectArticle>
       </div>
     </div>
   </main>
@@ -19,11 +19,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import ProjectShowcaseMajorArticle from "@/components/project_showcase/ProjectShowcaseMajorArticle.vue";
+import ProjectShowcaseMajorProjectArticle from "@/components/project_showcase/ProjectShowcaseMajorProjectArticle.vue";
 
 export default defineComponent({
   name: "ProjectShowcase",
-  components: { ProjectShowcaseMajorArticle },
+  components: { ProjectShowcaseMajorProjectArticle },
   data() {
     return {
       projects: [
@@ -119,7 +119,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-.major-article-group {
+.major-project-group {
   display: flex;
   flex-direction: column;
   gap: 6.25rem;

@@ -71,7 +71,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "ProjectShowcaseMajorArticle",
+  name: "ProjectShowcaseMajorProjectArticle",
   props: ["project"],
 });
 </script>
