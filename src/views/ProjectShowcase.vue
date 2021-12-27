@@ -13,6 +13,11 @@
           :project="project"
         ></ProjectShowcaseMajorProjectArticle>
       </div>
+      <div class="divider"></div>
+      <h2>Minor projects</h2>
+      <p>
+        I'll add other minor projects down here in the future. Come back later!
+      </p>
     </div>
   </main>
 </template>
@@ -115,13 +120,23 @@ main {
 }
 
 h1 {
-  @include h1--standard;
   margin-bottom: 1em;
 }
 
 .major-project-group {
   display: flex;
   flex-direction: column;
+
   gap: 6.25rem;
+  margin-bottom: 6.25rem;
+  @include bp--tablet-and-up {
+    gap: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.divider {
+  height: $border-width;
+  background-color: $border-gray;
 }
 </style>
