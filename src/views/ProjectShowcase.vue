@@ -5,24 +5,19 @@
 <template>
   <main>
     <div class="margin-wrapper">
-      <div class="line-length-limit-wrapper">
-        <h1>Projects [WIP]</h1>
-        <p>This page is currently incomplete.</p>
-        <p>
-          This page might show 2 to 3 major projects I have done and explain
-          more on the motivation, process, and so on of each.
-        </p>
-      </div>
+      <h1>Projects</h1>
+      <ProjectShowcaseMajorArticle></ProjectShowcaseMajorArticle>
     </div>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import ProjectShowcaseMajorArticle from "@/components/project_showcase/ProjectShowcaseMajorArticle.vue";
 
 export default defineComponent({
   name: "ProjectShowcase",
-  components: {},
+  components: { ProjectShowcaseMajorArticle },
 });
 </script>
 
@@ -34,14 +29,9 @@ main {
 }
 
 .margin-wrapper {
-  @include layout--main-margin-horz-normal;
+  @include layout--main-margin-horz-small;
   @include layout--main-margin-top-normal;
-  @include layout--main-margin-bottom-large;
-}
-
-.line-length-limit-wrapper {
-  @include p--18;
-  @include layout--limit-chars-per-line(60);
+  @include layout--main-margin-bottom-normal;
 }
 
 h1 {
