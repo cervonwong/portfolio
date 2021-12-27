@@ -6,51 +6,54 @@
   <article>
     <div class="image-group">
       <img
-        :src="'/project-images/' + images.primary.fileName"
-        :alt="images.primary.altText"
+        :src="'/project-images/' + project.images.primary.fileName"
+        :alt="project.images.primary.altText"
         class="primary-image"
       />
       <img
-        :src="'/project-images/' + images.secondary.fileName"
-        :alt="images.secondary.altText"
+        :src="'/project-images/' + project.images.secondary.fileName"
+        :alt="project.images.secondary.altText"
         class="secondary-image"
       />
       <img
-        :src="'/project-images/' + images.tertiary.fileName"
-        :alt="images.tertiary.altText"
+        :src="'/project-images/' + project.images.tertiary.fileName"
+        :alt="project.images.tertiary.altText"
         class="tertiary-image"
       />
     </div>
-    <h2 class="name-title">{{ name }}</h2>
+    <h2 class="name-title">{{ project.name }}</h2>
     <div class="content">
-      <p class="description">{{ description }}</p>
+      <p class="description">{{ project.description }}</p>
       <div class="quick-details">
         <h3 class="quick-details-title">Quick details:</h3>
         <div class="chips">
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">date_range</span
-            >{{ date_range }}</span
+            >{{ project.date_range }}</span
           >
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">groups</span
-            >{{ creators }}</span
+            >{{ project.creators }}</span
           >
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">lightbulb</span
-            >{{ idea }}</span
+            >{{ project.idea }}</span
           >
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">flag</span
-            >{{ status }}</span
+            >{{ project.status }}</span
           >
-          <span v-for="skill in skills" :key="skill" class="chip skill-chip">{{
-            skill
-          }}</span>
+          <span
+            v-for="skill in project.skills"
+            :key="skill"
+            class="chip skill-chip"
+            >{{ skill }}</span
+          >
         </div>
       </div>
       <div class="button-group">
         <router-link :to="{ name: 'Project showcase' }" class="story-button"
-          >View {{ name }}'s story<span class="material-icons-sharp"
+          >View {{ project.name }}'s story<span class="material-icons-sharp"
             >east</span
           ></router-link
         >
@@ -69,42 +72,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "ProjectShowcaseMajorArticle",
-  data() {
-    return {
-      name: "Mint",
-      description:
-        "A Progressive Web App (PWA) empowering café trainees with semi-illiteracy and mild intellectual disability to independently learn recipes",
-      date_range: "July 2021–pending",
-      creators: "2 co-creators",
-      creators_multiple: true,
-      idea: "Self-proposed",
-      status: "Pending",
-      skills: [
-        "Accessibility",
-        "PWA",
-        "Cross-platform",
-        "Web hosting",
-        "UI design",
-        "Version control",
-      ],
-      images: {
-        primary: {
-          fileName: "mint--featured-1.jpg",
-          altText: "The home screen in Mint on a tablet form factor.",
-        },
-        secondary: {
-          fileName: "mint--featured-2.jpg",
-          altText:
-            "The recipe step screen and congratulation screen in Mint on a phone form factor.",
-        },
-        tertiary: {
-          fileName: "mint--featured-3.jpg",
-          altText:
-            "The instructor console screen in Mint on a tablet form factor.",
-        },
-      },
-    };
-  },
+  props: ["project"],
 });
 </script>
 
