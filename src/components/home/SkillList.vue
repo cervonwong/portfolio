@@ -105,20 +105,18 @@ export default defineComponent({
 }
 
 .category-label {
-  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.4em 0;
 
-  background-color: $primary-black;
-  color: $primary-white;
-  font-weight: bold;
-  margin: 0;
-  padding: 0.375em 1em;
-  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  @include bp--tablet-and-up {
+    font-size: 1.75rem;
+  }
 }
 
 .category-group {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
 }
 
 .skill-group {
