@@ -32,7 +32,9 @@
             >{{ project.date_range }}</span
           >
           <span class="chip attribute-chip"
-            ><span class="chip-icon material-icons-sharp">groups</span
+            ><span class="chip-icon material-icons-sharp">{{
+              project.creators_multiple ? "groups" : "person"
+            }}</span
             >{{ project.creators }}</span
           >
           <span class="chip attribute-chip"
