@@ -8,6 +8,17 @@
       <img
         :src="'/project-images/' + images.primary.fileName"
         :alt="images.primary.altText"
+        class="primary-image"
+      />
+      <img
+        :src="'/project-images/' + images.secondary.fileName"
+        :alt="images.secondary.altText"
+        class="secondary-image"
+      />
+      <img
+        :src="'/project-images/' + images.tertiary.fileName"
+        :alt="images.tertiary.altText"
+        class="tertiary-image"
       />
     </div>
     <h2 class="name-title">{{ name }}</h2>
@@ -99,6 +110,45 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
+
+.image-group {
+  @include bp--tablet-and-up {
+    display: grid;
+    grid-template-areas:
+      "primary secondary"
+      "primary tertiary";
+    grid-template-columns: auto calc((200% - 5rem) / 6);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.primary-image {
+  @include bp--tablet-and-up {
+    grid-area: primary;
+  }
+}
+
+.secondary-image,
+.tertiary-image {
+  display: none;
+
+  @include bp--tablet-and-up {
+    display: unset;
+  }
+}
+
+.secondary-image {
+  @include bp--tablet-and-up {
+    grid-area: secondary;
+  }
+}
+
+.tertiary-image {
+  @include bp--tablet-and-up {
+    grid-area: tertiary;
+  }
+}
 
 .content {
   display: grid;
