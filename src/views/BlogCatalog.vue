@@ -100,8 +100,6 @@ main {
 }
 
 h1 {
-  @include h1--standard;
-
   margin-bottom: 1.25rem;
   @include bp--laptop-and-up {
     margin-bottom: 1.875rem;

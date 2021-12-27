@@ -88,10 +88,6 @@ section {
   margin-top: 0.75em;
 }
 
-h1 {
-  @include h1--standard;
-}
-
 h2 {
   font-size: 2rem;
   font-weight: bold;

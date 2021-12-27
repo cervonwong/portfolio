@@ -46,7 +46,6 @@ main {
 }
 
 h1 {
-  @include h1--standard;
   margin-bottom: 1em;
 }
 
