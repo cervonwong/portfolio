@@ -434,6 +434,7 @@ p {
 }
 
 img {
+  margin-bottom: 0.5rem;
   box-shadow: 0 6px 12px 0 $shadow-black;
 }
 

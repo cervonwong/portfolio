@@ -85,7 +85,6 @@ section {
 
 .about-me-link {
   @include button--outlined-icon-right-16-18;
-  text-decoration: none;
   margin-top: 0.75em;
 }
 

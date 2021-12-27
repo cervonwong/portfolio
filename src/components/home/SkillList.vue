@@ -128,7 +128,7 @@ export default defineComponent({
 .skill {
   font-size: 1rem;
 
-  border: $border-width solid $border-black; /* 1.5px */
+  border: $border-width solid $border-black;
   padding: 0.2em 1em;
   border-radius: $border-radius-stadium;
 }

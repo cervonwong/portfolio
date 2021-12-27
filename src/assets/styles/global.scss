@@ -24,12 +24,25 @@ a {
 }
 
 p {
-  font-size: 1rem;
+  @include p--16;
+}
+
+h1 {
+  @include h1--standard;
+}
+
+h2 {
+  @include h2--standard;
+}
+
+h3 {
+  @include h3--standard;
 }
 
 /* Layout */
 
 img {
+  display: block;
   max-width: 100%;
 }
 

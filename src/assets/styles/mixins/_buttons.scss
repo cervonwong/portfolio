@@ -8,6 +8,10 @@
 
 // Internal util mixins
 
+@mixin _button--reset-anchor {
+  text-decoration: none;
+}
+
 @mixin _button--align-icon {
   display: inline-flex;
   align-items: center;
@@ -17,6 +21,12 @@
 
 @mixin _button--font-16 {
   font-size: 1rem;
+  @include bp--small-tablet-and-up {
+    font-size: 1.0625rem;
+  }
+  @include bp--tablet-and-up {
+    font-size: 1.125rem;
+  }
   @include bp--laptop-and-up {
     font-size: 1.25rem;
   }
@@ -71,6 +81,7 @@
 // Public mixins
 
 @mixin button--outlined-16 {
+  @include _button--reset-anchor;
   @include _button--align-icon;
   @include _button--font-16;
   @include _button--outlined;
@@ -80,6 +91,7 @@
 }
 
 @mixin button--outlined-icon-left-16 {
+  @include _button--reset-anchor;
   @include _button--align-icon;
   @include _button--font-16;
   @include _button--outlined;
@@ -95,7 +107,25 @@
   }
 }
 
+@mixin button--outlined-icon-right-16 {
+  @include _button--reset-anchor;
+  @include _button--align-icon;
+  @include _button--font-16;
+  @include _button--outlined;
+
+  padding: 0.5em 1.25em 0.5em 1.5em;
+  min-height: 2.5em;
+
+  .material-icons-sharp {
+    font-size: 1.25rem;
+    @include bp--laptop-and-up {
+      font-size: 1.375rem;
+    }
+  }
+}
+
 @mixin button--outlined-icon-right-16-18 {
+  @include _button--reset-anchor;
   @include _button--align-icon;
   @include _button--font-16-18;
   @include _button--outlined;
@@ -112,6 +142,7 @@
 }
 
 @mixin button--outlined-icon-only-16 {
+  @include _button--reset-anchor;
   @include _button--align-icon;
   @include _button--font-16;
   @include _button--outlined;
@@ -130,6 +161,7 @@
 
 // Temp values, only used in home intro, not sure if values work well with text.
 @mixin button--filled-icon-only-20 {
+  @include _button--reset-anchor;
   @include _button--align-icon;
   @include _button--font-20;
   @include _button--filled;
