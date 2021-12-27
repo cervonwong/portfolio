@@ -14,6 +14,11 @@
   max-width: $char-count * 0.7ch;
 }
 
+/*
+ * Main margin mixins:
+ *   Used to style wrappers of main content to give appropriate top, bottom and horizontal margins.
+ */
+
 @mixin layout--main-margin-top-normal {
   margin-top: 2.5rem; /* 40px */
 
@@ -25,11 +30,6 @@
     margin-top: 5rem; /* 80px */
   }
 }
-
-/*
- * Main margin mixins:
- *   Used to style wrappers of main content to give appropriate top, bottom and horizontal margins.
- */
 
 @mixin layout--main-margin-bottom-normal {
   margin-bottom: 7.5rem; /* 120px */
