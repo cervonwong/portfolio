@@ -97,7 +97,7 @@ export default defineComponent({
 .categories-wrapper {
   display: grid;
   row-gap: 2rem;
-  column-gap: 1.5rem;
+  column-gap: 1rem;
 
   @include bp--tablet-and-up {
     grid-template-columns: 1fr 1fr;
@@ -126,7 +126,7 @@ export default defineComponent({
 }
 
 .skill {
-  font-size: 1rem;
+  @include p--16;
 
   border: $border-width solid $border-black;
   padding: 0.2em 1em;
