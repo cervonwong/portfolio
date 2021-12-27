@@ -21,6 +21,12 @@
 
 @mixin _button--font-16 {
   font-size: 1rem;
+  @include bp--small-tablet-and-up {
+    font-size: 1.0625rem;
+  }
+  @include bp--tablet-and-up {
+    font-size: 1.125rem;
+  }
   @include bp--laptop-and-up {
     font-size: 1.25rem;
   }
@@ -97,6 +103,23 @@
     font-size: 1.25rem;
     @include bp--laptop-and-up {
       font-size: 1.5rem;
+    }
+  }
+}
+
+@mixin button--outlined-icon-right-16 {
+  @include _button--reset-anchor;
+  @include _button--align-icon;
+  @include _button--font-16;
+  @include _button--outlined;
+
+  padding: 0.5em 1.25em 0.5em 1.5em;
+  min-height: 2.5em;
+
+  .material-icons-sharp {
+    font-size: 1.25rem;
+    @include bp--laptop-and-up {
+      font-size: 1.375rem;
     }
   }
 }

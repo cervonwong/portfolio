@@ -100,8 +100,34 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../../assets/styles/global";
 
+.content {
+  display: grid;
+
+  @include bp--tablet-and-up {
+    grid-template-areas:
+      "description quick-details"
+      "button-group quick-details";
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+  }
+}
+
 .name-title {
   margin-bottom: 0.5em;
+}
+
+.description {
+  margin: 0;
+
+  @include bp--tablet-and-up {
+    grid-area: description;
+  }
+}
+
+.quick-details {
+  @include bp--tablet-and-up {
+    grid-area: quick-details;
+  }
 }
 
 .quick-details-title {
@@ -118,6 +144,11 @@ export default defineComponent({
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
+
+  margin-top: 1rem;
+  @include bp--tablet-and-up {
+    margin-top: 0.75rem;
+  }
 }
 
 .chip {
@@ -140,6 +171,10 @@ export default defineComponent({
 }
 
 .button-group {
+  @include bp--tablet-and-up {
+    grid-area: button-group;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -148,10 +183,10 @@ export default defineComponent({
 }
 
 .story-button {
-  @include button--outlined-icon-right-16-18;
+  @include button--outlined-icon-right-16;
 }
 
 .gallery-button {
-  @include button--outlined-icon-right-16-18;
+  @include button--outlined-icon-right-16;
 }
 </style>
