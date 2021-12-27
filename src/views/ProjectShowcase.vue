@@ -6,13 +6,13 @@
   <main>
     <div class="margin-wrapper">
       <h1>Projects</h1>
-      <div class="major-project-group">
+      <section class="major-projects-section">
         <ProjectShowcaseMajorProjectArticle
           v-for="project in projects"
           :key="project.name"
           :project="project"
         ></ProjectShowcaseMajorProjectArticle>
-      </div>
+      </section>
       <div class="divider"></div>
       <h2>Minor projects</h2>
       <p>
@@ -123,7 +123,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-.major-project-group {
+.major-projects-section {
   display: flex;
   flex-direction: column;
 
