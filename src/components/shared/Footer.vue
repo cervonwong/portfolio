@@ -46,7 +46,7 @@
               ><span class="fab fa-github"></span>GitHub</a
             >
             <a
-              href="https://stackoverflow.com/users/13432136/r0wletc0der"
+              href="https://stackoverflow.com/users/13432136/cervonwong"
               target="_blank"
               rel="noopener"
               class="social-anchor"
