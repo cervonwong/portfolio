@@ -25,9 +25,9 @@
           was to code and design things.
         </p>
         <p>
-          Fast forward to today, and I'm still seeking new knowledge in
-          front-end and design. I'm always on the lookout for technologies to
-          learn! (Currently learning Vue.js).
+          These days, I'm still seeking new knowledge in front-end and design.
+          I'm always on the lookout for technologies to learn! (Currently
+          learning Vue.js).
         </p>
         <router-link :to="{ name: 'About me' }" class="about-me-link">
           Learn more about me
