@@ -18,9 +18,6 @@ export default defineComponent({
 @import "../../../assets/styles/global";
 
 .post-paragraph {
-  font-size: 1rem;
-  @include bp--small-tablet-and-up {
-    font-size: 1.125rem;
-  }
+  @include p--post;
 }
 </style>

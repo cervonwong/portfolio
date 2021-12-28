@@ -59,12 +59,8 @@ header {
 }
 
 .line-length-limit-wrapper {
+  @include p--post;
   @include layout--limit-chars-per-line($line-char-limit--post);
-
-  font-size: 1rem;
-  @include bp--small-tablet-and-up {
-    font-size: 1.125rem;
-  }
 }
 
 img {

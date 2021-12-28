@@ -103,3 +103,10 @@
     font-size: 1.625rem; /* 26px */
   }
 }
+
+@mixin p--post {
+  font-size: 1rem;
+  @include bp--small-tablet-and-up {
+    font-size: 1.125rem;
+  }
+}
