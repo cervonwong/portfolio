@@ -402,7 +402,7 @@ main {
 
 .line-length-limit-wrapper {
   @include p--16;
-  @include layout--limit-chars-per-line(60);
+  @include layout--limit-chars-per-line($line-char-limit--regular);
 }
 
 img {

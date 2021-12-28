@@ -42,7 +42,7 @@ main {
 
 .line-length-limit-wrapper {
   @include p--18;
-  @include layout--limit-chars-per-line(60);
+  @include layout--limit-chars-per-line($line-char-limit--regular);
 }
 
 h1 {

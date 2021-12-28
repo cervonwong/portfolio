@@ -97,7 +97,7 @@ article {
   }
 }
 .line-length-limit-wrapper {
-  @include layout--limit-chars-per-line(65);
+  @include layout--limit-chars-per-line($line-char-limit--post);
 
   font-size: 1rem;
   @include bp--small-tablet-and-up {

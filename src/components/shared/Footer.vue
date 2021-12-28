@@ -125,7 +125,7 @@ footer {
 
 .line-length-limit-wrapper {
   @include p--14;
-  @include layout--limit-chars-per-line(60);
+  @include layout--limit-chars-per-line($line-char-limit--regular);
 }
 
 h2,
