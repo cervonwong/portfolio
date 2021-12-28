@@ -79,18 +79,6 @@
           functionalities of my app more effectively, as well as to make my app
           easier and more enjoyable to use.
         </p>
-        <figure>
-          <img
-            src="../assets/images/about-me--material-website.jpg"
-            alt="Material Design's article on their website about how to design a responsive layout grid."
-          />
-          <figcaption>
-            <a href="https://material.io/" target="_blank" rel="noopener"
-              ><cite>Material Design</cite></a
-            >'s website is one of my favourite sources to reference how to
-            layout my app for both accessibility and clarity.
-          </figcaption>
-        </figure>
         <p>
           I'm always excited to hop into workshops, courses, or programmes about
           coding or design to meet new people and gain new insights into these
