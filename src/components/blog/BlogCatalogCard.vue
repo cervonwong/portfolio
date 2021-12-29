@@ -3,7 +3,6 @@
   -->
 
 <template>
-  <!--suppress HtmlUnknownAnchorTarget -->
   <router-link
     :to="{
       name: 'Blog post',
