@@ -3,9 +3,16 @@
   -->
 
 <template>
-  <PostNotFound v-if="post === undefined"></PostNotFound>
-  <component v-else :is="post.componentName" :post="post"></component>
-  <Footer></Footer>
+  <suspense>
+    <template #default>
+      <div>
+        <PostNotFound v-if="post === undefined"></PostNotFound>
+        <component v-else :is="post.componentName" :post="post"></component>
+        <Footer></Footer>
+      </div>
+    </template>
+    <template #fallback></template>
+  </suspense>
 </template>
 
 <script lang="ts">
@@ -38,7 +45,14 @@ export default defineComponent({
       );
     },
   },
-  components: { Footer, PostNotFound, PostOne, PostTwo, PostThree, PostFour },
+  components: {
+    Footer,
+    PostNotFound,
+    PostOne,
+    PostTwo,
+    PostThree,
+    PostFour,
+  },
 });
 </script>
 
