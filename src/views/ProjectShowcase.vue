@@ -38,6 +38,7 @@ export default defineComponent({
           name: "Mint",
           description:
             "A Progressive Web App (PWA) empowering café trainees with semi-illiteracy and mild intellectual disability to independently learn recipes",
+          storyRouteName: "Project story Mint",
           date_range: "July 2021–pending",
           creators: "2 co-creators",
           creators_multiple: true,
@@ -72,6 +73,7 @@ export default defineComponent({
           name: "cervonwong.com",
           description:
             "A Single Page Application (SPA) for visitors to view my portfolio and read my blog posts on guides, stories and research",
+          storyRouteName: "Project story cervonwong.com",
           date_range: "Nov 2021–ongoing",
           creators: "Sole creator",
           creators_multiple: false,

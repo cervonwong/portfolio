@@ -11,6 +11,14 @@ const ProjectShowcase = () =>
   import(
     /* webpackChunkName: "project_showcase" */ "@/views/ProjectShowcase.vue"
   );
+const ProjectStoryMint = () =>
+  import(
+    /* webpackChunkName: "project_story_mint" */ "@/views/ProjectStoryMint.vue"
+  );
+const ProjectStoryCervonwongCom = () =>
+  import(
+    /* webpackChunkName: "project_story_cervonwong_com" */ "@/views/ProjectStoryCervonwongCom.vue"
+  );
 const Gallery = () =>
   import(/* webpackChunkName: "gallery" */ "@/views/Gallery.vue");
 const BlogCatalog = () =>
@@ -41,6 +49,16 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects",
     name: "Project showcase",
     component: ProjectShowcase,
+  },
+  {
+    path: "/projects/mint",
+    name: "Project story Mint",
+    component: ProjectStoryMint,
+  },
+  {
+    path: "/projects/cervonwong-com",
+    name: "Project story cervonwong.com",
+    component: ProjectStoryCervonwongCom,
   },
   {
     path: "/gallery",

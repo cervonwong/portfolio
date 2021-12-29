@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="button-group">
-        <router-link :to="{ name: 'Project showcase' }" class="story-button"
+        <router-link :to="{ name: project.storyRouteName }" class="story-button"
           >View {{ project.name }}'s story<span class="material-icons-sharp"
             >east</span
           ></router-link
