@@ -110,8 +110,9 @@
           >, a semester-long innovation challenge where finalists iterate and
           design assistive technology based on real problem statements written
           by various organisations in Singapore. This is where
-          <!--suppress HtmlUnknownAnchorTarget -->
-          <a href="#!">my team and I created Mint</a>.
+          <router-link :to="{ name: 'Project story Mint' }"
+            >my team and I created Mint</router-link
+          >.
         </p>
         <figure>
           <img
@@ -143,8 +144,10 @@
         <ul>
           <li>
             A Progressive Web App for café trainees with mild intellectual
-            disability to learn recipes independently and effectively. (<!--suppress HtmlUnknownAnchorTarget -->
-            <a href="#!">Learn more about Mint</a>).
+            disability to learn recipes independently and effectively.
+            (<router-link :to="{ name: 'Project story Mint' }"
+              >Learn more about Mint</router-link
+            >).
           </li>
           <li>
             A website that organises NUS High School's modules to act as a

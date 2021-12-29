@@ -12,8 +12,9 @@
           >
           <p>
             Thanks for dropping by my personal portfolio site. Learn
-            <!--suppress HtmlUnknownAnchorTarget -->
-            <a href="#!">how I built this site from scratch</a>
+            <router-link :to="{ name: 'Project story cervonwong.com' }"
+              >how I built this site from scratch</router-link
+            >
             in my blog post. Check out the
             <a
               href="https://github.com/cervonwong/portfolio"
