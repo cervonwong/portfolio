@@ -47,6 +47,14 @@
           </li>
           <li>
             <router-link
+              :to="{ name: 'Gallery' }"
+              class="link link--gallery"
+              @click="closeMobileNav"
+              >Gallery</router-link
+            >
+          </li>
+          <li>
+            <router-link
               :to="{ name: 'Blog catalog' }"
               class="link link--blog"
               @click="closeMobileNav"
@@ -199,6 +207,7 @@ nav {
 
     &--about-me,
     &--projects,
+    &--gallery,
     &--blog,
     &--resume {
       &::after {

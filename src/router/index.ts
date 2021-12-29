@@ -11,6 +11,8 @@ const ProjectShowcase = () =>
   import(
     /* webpackChunkName: "project_showcase" */ "@/views/ProjectShowcase.vue"
   );
+const Gallery = () =>
+  import(/* webpackChunkName: "gallery" */ "@/views/Gallery.vue");
 const BlogCatalog = () =>
   import(/* webpackChunkName: "blog_catalog" */ "@/views/BlogCatalog.vue");
 const BlogPost = () =>
@@ -39,6 +41,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects",
     name: "Project showcase",
     component: ProjectShowcase,
+  },
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: Gallery,
   },
   {
     path: "/blog",
