@@ -63,11 +63,6 @@ header {
   @include layout--limit-chars-per-line($line-char-limit--post);
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 .post-image-wrapper {
   margin-bottom: 2rem;
 
