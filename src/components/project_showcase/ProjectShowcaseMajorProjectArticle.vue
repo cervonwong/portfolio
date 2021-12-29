@@ -93,6 +93,12 @@ export default defineComponent({
   }
 }
 
+.primary-image,
+.secondary-image,
+.tertiary-image {
+  aspect-ratio: 3/2;
+}
+
 .primary-image {
   @include bp--tablet-and-up {
     grid-area: primary;
