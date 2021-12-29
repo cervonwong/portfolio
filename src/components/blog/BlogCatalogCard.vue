@@ -56,9 +56,7 @@ a {
 }
 
 img {
-  display: block;
   aspect-ratio: 3/2;
-  max-width: 100%;
   border-radius: $border-radius-16 - $border-width $border-radius-16 -
     $border-width 0 0;
   margin-bottom: 1rem;
