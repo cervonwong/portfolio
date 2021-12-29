@@ -35,11 +35,11 @@
         <div class="chips">
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">date_range</span
-            >{{ project.date_range }}</span
+            >{{ project.dateRange }}</span
           >
           <span class="chip attribute-chip"
             ><span class="chip-icon material-icons-sharp">{{
-              project.creators_multiple ? "groups" : "person"
+              project.creatorsMultiple ? "groups" : "person"
             }}</span
             >{{ project.creators }}</span
           >
