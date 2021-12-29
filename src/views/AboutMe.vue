@@ -138,7 +138,7 @@
           effects of the code I write. I also do more front-end development as I
           mostly create educational or informational websites and apps. (This
           doesn't mean I don't do back-end development at all, as it is still
-          essential).
+          essential.)
         </p>
         <p>A non-exhaustive list of products I've developed:</p>
         <ul>
@@ -147,7 +147,7 @@
             disability to learn recipes independently and effectively.
             (<router-link :to="{ name: 'Project story Mint' }"
               >Learn more about Mint</router-link
-            >).
+            >.)
           </li>
           <li>
             A website that organises NUS High School's modules to act as a
@@ -231,7 +231,7 @@
           A guiding principle that I abide by is to
           <strong
             ><i>develop products according to the needs of users</i></strong
-          >. (Aka <i>user-centred design</i>).
+          >. (Aka <i>user-centred design.</i>)
         </p>
         <p>
           Some of the failures from my early endeavours in software development
@@ -283,7 +283,7 @@
           <figcaption>
             I gave a 4-minute oral presentation in Japanese on the importance
             and benefits of listening to other people's life stories. (It was
-            nerve-wracking).
+            nerve-wracking.)
           </figcaption>
         </figure>
         <p>

@@ -10,7 +10,7 @@
         <p>
           I decided to build this site in 2021 during the holidays. This site
           allows me to fully express myself and showcase my work with a more
-          <em>personal</em> touch. (LinkedIn doesn't allow me to do that).
+          <em>personal</em> touch. (LinkedIn doesn't allow me to do that.)
         </p>
         <p>
           I had a lot of fun designing and coding this site. I hope you find it
@@ -50,7 +50,7 @@
         </p>
         <p>
           <strong>Note:</strong> This site will not support Internet Explorer.
-          (It's too much trouble).
+          (It's too much trouble.)
         </p>
         <p>I test and verify that this site is functional on these browsers:</p>
         <ul>
