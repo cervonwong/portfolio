@@ -9,16 +9,22 @@
         :src="'/project-images/' + project.images.primary.fileName"
         :alt="project.images.primary.altText"
         class="primary-image"
+        width="3"
+        height="2"
       />
       <img
         :src="'/project-images/' + project.images.secondary.fileName"
         :alt="project.images.secondary.altText"
         class="secondary-image"
+        width="3"
+        height="2"
       />
       <img
         :src="'/project-images/' + project.images.tertiary.fileName"
         :alt="project.images.tertiary.altText"
         class="tertiary-image"
+        width="3"
+        height="2"
       />
     </div>
     <h2 class="name-title">{{ project.name }}</h2>
@@ -91,12 +97,6 @@ export default defineComponent({
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
   }
-}
-
-.primary-image,
-.secondary-image,
-.tertiary-image {
-  aspect-ratio: 3/2;
 }
 
 .primary-image {
