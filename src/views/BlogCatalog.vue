@@ -59,16 +59,18 @@
       </ul>
     </div>
   </main>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import BlogCatalogCard from "@/components/blog/BlogCatalogCard.vue";
 import blogIndex from "../assets/data/blog_index.json";
+import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "BlogCatalog",
-  components: { BlogCatalogCard },
+  components: { Footer, BlogCatalogCard },
   data() {
     return {
       filterOptionsVisible: false,

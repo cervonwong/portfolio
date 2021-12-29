@@ -5,12 +5,14 @@
 <template>
   <PostNotFound v-if="post === undefined"></PostNotFound>
   <component v-else :is="post.componentName" :post="post"></component>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineAsyncComponent, defineComponent } from "vue";
 import PostNotFound from "@/components/blog/PostNotFound.vue";
 import blogIndex from "../assets/data/blog_index.json";
+import Footer from "@/components/shared/Footer.vue";
 
 const PostOne = defineAsyncComponent(
   () => import("@/components/blog/posts/PostOne.vue")
@@ -36,7 +38,7 @@ export default defineComponent({
       );
     },
   },
-  components: { PostNotFound, PostOne, PostTwo, PostThree, PostFour },
+  components: { Footer, PostNotFound, PostOne, PostTwo, PostThree, PostFour },
 });
 </script>
 

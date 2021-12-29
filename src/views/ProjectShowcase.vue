@@ -20,15 +20,17 @@
       </p>
     </div>
   </main>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import ProjectShowcaseMajorProjectArticle from "@/components/project_showcase/ProjectShowcaseMajorProjectArticle.vue";
+import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "ProjectShowcase",
-  components: { ProjectShowcaseMajorProjectArticle },
+  components: { Footer, ProjectShowcaseMajorProjectArticle },
   data() {
     return {
       projects: [

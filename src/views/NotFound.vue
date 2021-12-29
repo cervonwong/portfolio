@@ -22,14 +22,16 @@
       </div>
     </div>
   </main>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "NotFound",
-  components: {},
+  components: { Footer },
 });
 </script>
 

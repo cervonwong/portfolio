@@ -41,15 +41,17 @@
       <SkillList></SkillList>
     </section>
   </main>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import SkillList from "@/components/home/SkillList.vue";
+import Footer from "@/components/shared/Footer.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { SkillList },
+  components: { Footer, SkillList },
 });
 </script>
 
