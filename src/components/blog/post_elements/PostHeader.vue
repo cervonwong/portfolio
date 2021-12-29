@@ -8,6 +8,8 @@
       <img
         :src="'/blog-images/' + post.imageFileName"
         :alt="post.imageAltText"
+        width="3"
+        height="2"
       />
     </div>
     <div class="line-length-limit-wrapper">

@@ -13,6 +13,8 @@
       <img
         :src="'/blog-images/' + post.imageFileName"
         :alt="post.imageAltText"
+        width="3"
+        height="2"
       />
       <div class="content">
         <div class="metadata">
