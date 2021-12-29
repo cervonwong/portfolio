@@ -56,14 +56,8 @@ figure {
 
 html,
 body,
-#app,
-.g-app-content-wrapper {
+#app {
   height: 100%;
-}
-
-.g-app-content-wrapper {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Interactive elements */

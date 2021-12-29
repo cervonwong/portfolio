@@ -3,10 +3,7 @@
   -->
 
 <template>
-  <div
-    class="g-app-content-wrapper"
-    :style="{ overflow: canScroll ? 'unset' : 'hidden' }"
-  >
+  <div class="wrapper" :style="{ overflow: canScroll ? 'unset' : 'hidden' }">
     <NavBar
       @mobile-nav-opened="disableScroll"
       @mobile-nav-closed="enableScroll"
@@ -36,3 +33,11 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+</style>
