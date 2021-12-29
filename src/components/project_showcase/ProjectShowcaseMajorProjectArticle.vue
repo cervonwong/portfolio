@@ -65,7 +65,7 @@
             >east</span
           ></router-link
         >
-        <router-link :to="{ name: 'Project showcase' }" class="gallery-button"
+        <router-link :to="{ name: 'Gallery' }" class="gallery-button"
           >View gallery<span class="material-icons-sharp"
             >east</span
           ></router-link
