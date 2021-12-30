@@ -282,8 +282,8 @@
           />
           <figcaption>
             I gave a 4-minute oral presentation in Japanese on the importance
-            and benefits of listening to other people's life stories; it was
-            nerve-wracking.
+            and benefits of listening to other people's life stories; giving a
+            speech was nerve-wracking.
           </figcaption>
         </figure>
         <p>
