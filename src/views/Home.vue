@@ -82,7 +82,7 @@ section {
 
 .line-length-limit-wrapper {
   @include p--16;
-  @include layout--limit-chars-per-line($line-char-limit--regular);
+  @include layout--limit-chars-per-line($line-char-limit--60);
 }
 
 .about-me-link {

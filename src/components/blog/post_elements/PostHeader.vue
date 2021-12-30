@@ -62,7 +62,7 @@ header {
 
 .line-length-limit-wrapper {
   @include p--post;
-  @include layout--limit-chars-per-line($line-char-limit--post);
+  @include layout--limit-chars-per-line($line-char-limit--75);
 }
 
 .post-image-wrapper {
