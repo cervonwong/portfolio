@@ -172,11 +172,11 @@
         <h3 id="UX-design">UX design</h3>
         <p>
           I always prioritise UX (user experience) when developing products. I
-          believe that designing products that are easy to use for all users (no
+          believe that designing products that are easy to use for all users—no
           matter whether they have colour blindness or are using their device
-          one-handed) is one of the most crucial aspects of software
-          development. Hence, I always test that my product provides a great
-          experience for users in various scenarios.
+          one-handed—is one of the most crucial aspects of software development.
+          Hence, I always test that my product provides a great experience for
+          users in various scenarios.
         </p>
         <p>
           <i
@@ -231,7 +231,7 @@
           A guiding principle that I abide by is to
           <strong
             ><i>develop products according to the needs of users</i></strong
-          >. (Aka <i>user-centred design.</i>)
+          >. (Aka <i>user-centred design</i>.)
         </p>
         <p>
           Some of the failures from my early endeavours in software development
@@ -282,8 +282,8 @@
           />
           <figcaption>
             I gave a 4-minute oral presentation in Japanese on the importance
-            and benefits of listening to other people's life stories. (It was
-            nerve-wracking.)
+            and benefits of listening to other people's life stories; it was
+            nerve-wracking.
           </figcaption>
         </figure>
         <p>
