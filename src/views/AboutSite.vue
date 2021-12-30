@@ -148,8 +148,9 @@ main {
 }
 
 .line-length-limit-wrapper {
+  margin: auto;
   @include p--16;
-  @include layout--limit-chars-per-line($line-char-limit--60);
+  @include layout--limit-chars-per-line($line-char-limit--75);
 }
 
 dd {
