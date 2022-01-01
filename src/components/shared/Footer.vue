@@ -4,7 +4,7 @@
 
 <template>
   <footer>
-    <div class="margin-wrapper">
+    <div class="content-wrapper">
       <div class="line-length-limit-wrapper">
         <nav>
           <router-link :to="{ name: 'Home' }" class="logo-anchor"
@@ -118,15 +118,10 @@ footer {
   background-color: $primary-black;
 }
 
-.margin-wrapper {
-  @include layout--main-margin-horz-nav-bar;
-
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  @include bp--laptop-and-up {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
+.content-wrapper {
+  @include layout--main-margin-horz-normal;
+  padding-top: 3rem; /* 48px */
+  padding-bottom: 3rem; /* 48 px */
 }
 
 .line-length-limit-wrapper {
