@@ -142,7 +142,6 @@ a {
 h2 {
   font-size: 2rem; /* 32px */
   font-weight: bold;
-  margin-top: 1em;
 
   @include bp--laptop-and-up() {
     font-size: 2.625rem; /* 42px */
