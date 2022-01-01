@@ -420,7 +420,12 @@ h3 {
 
 img {
   margin-bottom: 0.5rem;
-  box-shadow: 0 6px 12px 0 $shadow-black;
+}
+
+figure {
+  padding: 1rem;
+  border: $border-width solid $border-silver;
+  border-radius: $border-radius-04;
 }
 
 figcaption {
