@@ -5,7 +5,7 @@
 <template>
   <suspense>
     <template #default>
-      <div>
+      <div class="wrapper">
         <PostNotFound v-if="post === undefined"></PostNotFound>
         <component v-else :is="post.componentName" :post="post"></component>
         <Footer></Footer>
@@ -59,8 +59,10 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../assets/styles/global";
 
-main {
-  @include layout--push-footer;
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .margin-wrapper {
