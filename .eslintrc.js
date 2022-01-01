@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) 2021–2022 Cervon Wong.
+ */
+
 module.exports = {
   root: true,
   env: {
