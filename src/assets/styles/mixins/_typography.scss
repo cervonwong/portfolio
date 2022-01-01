@@ -38,6 +38,12 @@
   }
 }
 
+@mixin h2--writing {
+  @include h2--standard;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
 @mixin h3--standard {
   font-weight: 500;
 
@@ -51,6 +57,12 @@
   @include bp--laptop-and-up {
     font-size: 1.875rem;
   }
+}
+
+@mixin h3--writing {
+  @include h3--standard;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 @mixin p--14 {

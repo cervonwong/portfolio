@@ -411,6 +411,14 @@ main {
   @include layout--limit-chars-per-line($line-char-limit--75);
 }
 
+h2 {
+  @include h2--writing;
+}
+
+h3 {
+  @include h3--writing;
+}
+
 img {
   margin-bottom: 0.5rem;
   box-shadow: 0 6px 12px 0 $shadow-black;

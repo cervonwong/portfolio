@@ -153,6 +153,14 @@ main {
   @include layout--limit-chars-per-line($line-char-limit--75);
 }
 
+h2 {
+  @include h2--writing;
+}
+
+h3 {
+  @include h3--writing;
+}
+
 dd {
   font-weight: bold;
 }
