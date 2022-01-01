@@ -49,7 +49,10 @@ a {
   height: 100%;
 
   transition: all 0.3s cubic-bezier(0.65, 0, 0.35, 1); // Ease in out cubic
-  &:hover,
+  &:hover {
+    transform: translateY(-0.8rem) scale(1.02);
+    box-shadow: 0 12px 24px 0 $shadow-black;
+  }
   &:focus-visible {
     transform: translateY(-0.8rem) scale(1.02);
     box-shadow: 0 12px 24px 0 $shadow-black;
