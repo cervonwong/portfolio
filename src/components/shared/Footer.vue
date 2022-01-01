@@ -86,7 +86,7 @@
           </ul>
         </nav>
         <p>
-          Copyright (C) 2021 Cervon Wong.
+          © 2021–2022 Cervon Wong.
           <br />
           Last updated <time :datetime="lastUpdatedIso">{{ lastUpdated }}</time
           >.
