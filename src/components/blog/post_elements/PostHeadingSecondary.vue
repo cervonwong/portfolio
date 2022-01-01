@@ -18,17 +18,6 @@ export default defineComponent({
 @import "../../../assets/styles/global";
 
 .post-heading-secondary {
-  font-weight: bold;
-
-  font-size: 1.5rem;
-  @include bp--small-tablet-and-up {
-    font-size: 1.625rem;
-  }
-  @include bp--tablet-and-up {
-    font-size: 1.75rem;
-  }
-  @include bp--laptop-and-up {
-    font-size: 1.875rem;
-  }
+  @include h3--writing;
 }
 </style>
