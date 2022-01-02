@@ -37,7 +37,7 @@ export default defineComponent({
         {
           name: "Mint",
           description:
-            "A Progressive Web App (PWA) empowering café trainees who are illiterate and have mild intellectual disability to learn recipes independently",
+            "A Progressive Web App (PWA) that empowers café trainees with mild intellectual disability to learn recipes independently",
           storyRouteName: "Project story Mint",
           dateRange: "July 2021–pending",
           creators: "2 co-creators",

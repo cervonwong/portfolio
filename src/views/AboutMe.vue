@@ -201,8 +201,7 @@
             alt="A summary slide of the accessibility considerations of Mint."
           />
           <figcaption>
-            The accessibility considerations I took when designing Mint for
-            users who are illiterate and have mild intellectual disability.
+            The accessibility considerations I took when designing Mint.
           </figcaption>
         </figure>
         <h3 id="UI-design">UI design</h3>
