@@ -202,7 +202,7 @@
           />
           <figcaption>
             The accessibility considerations I took when designing Mint for
-            users with semi-illiteracy and mild intellectual disability.
+            users who are illiterate and have mild intellectual disability.
           </figcaption>
         </figure>
         <h3 id="UI-design">UI design</h3>
