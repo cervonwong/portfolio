@@ -45,6 +45,20 @@ export default defineComponent({
       );
     },
   },
+  created() {
+    const DEFAULT_TITLE = "Blog post - Cervon Wong";
+    const DEFAULT_DESCRIPTION = "A blog post.";
+
+    this.$nextTick(function () {
+      document.title = this.post?.title || DEFAULT_TITLE;
+      document
+        .querySelector('meta[name="description"]')
+        ?.setAttribute(
+          "content",
+          this.post?.description || DEFAULT_DESCRIPTION
+        );
+    });
+  },
   components: {
     Footer,
     PostNotFound,

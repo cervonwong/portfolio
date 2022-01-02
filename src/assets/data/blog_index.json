@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "This is the title of my first post, which is longer than usual to test layouts in extreme conditions [PLACEHOLDER]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
     "category": "Guide",
     "slug": "post-1",
     "componentName": "PostOne",
@@ -15,6 +16,7 @@
   {
     "id": 2,
     "title": "Second post [PLACEHOLDER]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
     "category": "Story",
     "slug": "post-2",
     "componentName": "PostTwo",
@@ -28,6 +30,7 @@
   {
     "id": 3,
     "title": "The third post has a moderate length title [PLACEHOLDER]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
     "category": "Opinion",
     "slug": "post-3",
     "componentName": "PostThree",
@@ -41,6 +44,7 @@
   {
     "id": 4,
     "title": "Fourth post [PLACEHOLDER]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
     "category": "Update",
     "slug": "post-4",
     "componentName": "PostFour",
