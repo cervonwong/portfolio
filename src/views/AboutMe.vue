@@ -201,7 +201,9 @@
             alt="A summary slide of the accessibility considerations of Mint."
           />
           <figcaption>
-            The accessibility considerations I took when designing Mint.
+            The accessibility considerations I took when designing
+            <router-link :to="{ name: 'Project story Mint' }">Mint</router-link
+            >.
           </figcaption>
         </figure>
         <h3 id="UI-design">UI design</h3>
