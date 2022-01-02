@@ -18,8 +18,7 @@
         {{ post.title }}
       </h1>
       <p class="subtitle">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt
+        {{ post.description }}
       </p>
       <div class="metadata">
         <span class="author-label">By Cervon Wong</span>
