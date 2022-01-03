@@ -163,9 +163,8 @@
         </ul>
         <figure>
           <img
-            src="../assets/images/about-me--nush-modules.jpg"
+            src="../assets/images/about-me--nush-modules-3.jpg"
             alt="The overview page of a NUS High module reference website I created."
-            class="img-bordered"
           />
           <figcaption>
             Students were encouraged to learn something new over the holidays. I
