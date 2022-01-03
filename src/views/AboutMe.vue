@@ -44,6 +44,7 @@
           <img
             src="../assets/images/about-me--excel.jpg"
             alt="A program containing a die and a button to roll the dice in Excel."
+            class="img-bordered"
           />
           <figcaption>I still remember how to do it till today.</figcaption>
         </figure>
@@ -67,6 +68,7 @@
           <img
             src="../assets/images/about-me--vitary-email.jpg"
             alt="An email of a teacher commending me for creating a hospital management app using JavaFX."
+            class="img-bordered"
           />
           <figcaption>
             I built a hospital management desktop app for a school contest using
@@ -94,6 +96,7 @@
           <img
             src="../assets/images/about-me--dsta-poster.jpg"
             alt="My team's research poster for the workshop contest."
+            class="img-bordered"
           />
           <figcaption>
             My team's final poster details how we used a convolutional neural
@@ -162,6 +165,7 @@
           <img
             src="../assets/images/about-me--nush-modules.jpg"
             alt="The overview page of a NUS High module reference website I created."
+            class="img-bordered"
           />
           <figcaption>
             Students were encouraged to learn something new over the holidays. I
@@ -199,6 +203,7 @@
           <img
             src="../assets/images/about-me--mint-accessibility.jpg"
             alt="A summary slide of the accessibility considerations of Mint."
+            class="img-bordered"
           />
           <figcaption>
             The accessibility considerations I took when designing
@@ -280,6 +285,7 @@
           <img
             src="../assets/images/about-me--speech-contest.jpg"
             alt="I stand on the auditorium stage holding my certificate and prize vouchers."
+            class="img-bordered"
           />
           <figcaption>
             I gave a 4-minute oral presentation in Japanese on the importance
@@ -423,10 +429,8 @@ img {
   margin-bottom: 0.5rem;
 }
 
-figure {
-  padding: 1rem;
+img.img-bordered {
   border: $border-width solid $border-silver;
-  border-radius: $border-radius-04;
 }
 
 figcaption {
