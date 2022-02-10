@@ -5,7 +5,10 @@
 <template>
   <main>
     <section class="section-intro">
-      <h1>Hi! I'm a front-end developer and UI/UX designer from Singapore.</h1>
+      <h1>
+        Hi! I'm a high school student pursuing front-end development and UI/UX
+        design.
+      </h1>
       <p class="intro-subtitle">Scroll to learn more about what I do!</p>
       <a href="#about" class="intro-scroll-anchor">
         <span class="material-icons-sharp">south</span>
