@@ -8,7 +8,7 @@
       <div class="line-length-limit-wrapper">
         <h1>About me</h1>
         <p>
-          Hi! I'm Cervon Wong. I'm currently studying my fourth year at NUS High
+          Hi! I'm Cervon Wong. I'm currently studying my fifth year at NUS High
           School of Math and Science. I have been working with code and design
           for about five years now.
         </p>
