@@ -6,14 +6,13 @@
   <main>
     <div class="margin-wrapper">
       <div class="line-length-limit-wrapper">
-        <h1>Résumé [WIP]</h1>
-        <p>This page is currently incomplete.</p>
-        <p>
-          This page might show a condensed, brief account of my education,
-          qualifications, and so on, along with a function to download my résumé
-          as a PDF.
-        </p>
+        <h1>Résumé</h1>
+        <p>My résumé for Computer Science as of 30 March 2022.</p>
       </div>
+      <iframe
+        :src="'/resume/CS_Resume_2022-03.pdf'"
+        title="Cervon Wong's Computer Science Resume PDF."
+      ></iframe>
     </div>
   </main>
   <Footer></Footer>
@@ -32,12 +31,17 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../assets/styles/global";
 
+iframe {
+  width: 100%;
+  aspect-ratio: 1/1.4;
+}
+
 main {
   @include layout--push-footer;
 }
 
 .margin-wrapper {
-  @include layout--main-margin-horz-normal;
+  @include layout--main-margin-horz-small;
   @include layout--main-margin-top-normal;
   @include layout--main-margin-bottom-large;
 }
