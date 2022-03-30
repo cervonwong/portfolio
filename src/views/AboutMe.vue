@@ -15,7 +15,8 @@
         <p>
           One thing that I enjoy about software development is creating products
           that others can use and find valuable. This has driven me to pursue
-          front-end development and UI/UX design, and to create
+          computer science and engineering, experimenting with front-end
+          development, UI/UX design and machine learning, and to create
           <em>never-done-before</em> experiences using my skills to benefit
           people around me.
         </p>
@@ -139,9 +140,7 @@
         <p>
           I love front-end development as it allows me to immediately see the
           effects of the code I write. I also do more front-end development as I
-          mostly create educational or informational websites and apps. (This
-          doesn't mean I don't do back-end development at all, as it is still
-          essential.)
+          mostly create educational or informational websites and apps.
         </p>
         <p>A non-exhaustive list of products I've developed:</p>
         <ul>
@@ -353,9 +352,9 @@
         </p>
         <h2 id="Where-next">Where next?</h2>
         <p>
-          I'm currently looking to expand my horizons in software development
-          and design by undertaking internships or attending courses and
-          workshops.
+          I'm currently looking to expand my horizons in various aspects of
+          computer science and design by undertaking internships or attending
+          courses and workshops.
         </p>
         <p>
           I'm continuously learning more about technologies that I find
