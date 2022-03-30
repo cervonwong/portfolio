@@ -6,8 +6,8 @@
   <main>
     <section class="section-intro">
       <h1>
-        Hi! I'm a high school student pursuing front-end development and UI/UX
-        design.
+        Hi! I'm a Year 5 NUS High School student pursuing Computer Science,
+        Engineering, and UI/UX design.
       </h1>
       <p class="intro-subtitle">Scroll to learn more about what I do!</p>
       <a href="#about" class="intro-scroll-anchor">
