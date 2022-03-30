@@ -10,7 +10,7 @@
         <p>
           Hi! I'm Cervon Wong. I'm currently studying my fifth year at NUS High
           School of Math and Science. I have been working with code and design
-          for about five years now.
+          for about six years now.
         </p>
         <p>
           One thing that I enjoy about software development is creating products
