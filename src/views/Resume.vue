@@ -18,6 +18,8 @@
       <img
         src="../assets/images/CS_Resume_2022-03.svg"
         alt="Cervon Wong's Computer Science Résumé"
+        width="595"
+        height="842"
       />
     </div>
   </main>
