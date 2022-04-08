@@ -8,11 +8,17 @@
       <div class="line-length-limit-wrapper">
         <h1>Résumé</h1>
         <p>My résumé for Computer Science as of 30 March 2022.</p>
+        <a
+          :href="'/resume/CS_Resume_2022-03.pdf'"
+          target="_blank"
+          rel="noopener"
+          >Download PDF.</a
+        >
       </div>
-      <iframe
-        :src="'/resume/CS_Resume_2022-03.pdf'"
-        title="Cervon Wong's Computer Science Resume PDF."
-      ></iframe>
+      <img
+        src="../assets/images/CS_Resume_2022-03.svg"
+        alt="Cervon Wong's Computer Science Résumé"
+      />
     </div>
   </main>
   <Footer></Footer>
@@ -36,6 +42,12 @@ iframe {
   aspect-ratio: 1/1.4;
 }
 
+img {
+  margin-top: 4rem;
+  border: $border-width solid $border-silver;
+  box-shadow: 0 6px 12px 0 $shadow-black;
+}
+
 main {
   @include layout--push-footer;
 }
@@ -43,7 +55,7 @@ main {
 .margin-wrapper {
   @include layout--main-margin-horz-small;
   @include layout--main-margin-top-normal;
-  @include layout--main-margin-bottom-large;
+  @include layout--main-margin-bottom-normal;
 }
 
 .line-length-limit-wrapper {
