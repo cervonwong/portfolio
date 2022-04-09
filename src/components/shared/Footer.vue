@@ -11,7 +11,12 @@
             ><h2>Cervon Wong</h2></router-link
           >
           <p>
-            Thanks for dropping by my personal portfolio site. Learn
+            Thanks for dropping by my personal portfolio site. This site has no
+            ads, no third-party cookies, no pop-ups, no auto-playing videos, and
+            loads fast!
+          </p>
+          <p>
+            Learn
             <router-link :to="{ name: 'Project story cervonwong.com' }"
               >how I built this site from scratch</router-link
             >
