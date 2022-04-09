@@ -7,16 +7,16 @@
     <div class="margin-wrapper">
       <div class="line-length-limit-wrapper">
         <h1>Résumé</h1>
-        <p>My résumé for Computer Science as of 30 March 2022.</p>
+        <p>My résumé for Computer Science as of 10 April 2022.</p>
         <a
-          :href="'/resume/CS_Resume_2022-03.pdf'"
+          :href="'/resume/CS_Resume_2022-04-10.pdf'"
           target="_blank"
           rel="noopener"
           >Download PDF.</a
         >
       </div>
       <img
-        src="../assets/images/CS_Resume_2022-03.svg"
+        :src="'/resume/CS_Resume_2022-04-10.svg'"
         alt="Cervon Wong's Computer Science Résumé"
         width="595"
         height="842"
