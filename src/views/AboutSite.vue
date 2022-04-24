@@ -49,8 +49,8 @@
           >.
         </p>
         <p>
-          <strong>Note:</strong> This site will not support Internet Explorer;
-          it's too much trouble.
+          <strong>Note:</strong> This site will not support Internet Explorer,
+          for obvious reasons.
         </p>
         <p>I test and verify that this site is functional on these browsers:</p>
         <ul>
