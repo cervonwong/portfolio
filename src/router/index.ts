@@ -73,7 +73,7 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       title: "Mint's story - Cervon Wong",
       description:
-        "Mint is a Progressive Web App (PWA) that empowers café trainees with mild intellectual disability to learn recipes independently.",
+        "Mint is a web app that enables trainees with mild intellectual disability to learn work skills independently.",
     },
   },
   {
