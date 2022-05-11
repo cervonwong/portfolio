@@ -145,9 +145,9 @@
         <p>A non-exhaustive list of products I've developed:</p>
         <ul>
           <li>
-            A Progressive Web App for café trainees with mild intellectual
-            disability to learn recipes independently and effectively.
-            (<router-link :to="{ name: 'Project story Mint' }"
+            A web app that enables trainees with mild intellectual disability to
+            learn work skills independently. (<router-link
+              :to="{ name: 'Project story Mint' }"
               >Learn more about Mint</router-link
             >.)
           </li>
