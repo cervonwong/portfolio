@@ -111,7 +111,7 @@
             target="_blank"
             rel="noopener"
             >Tech For Good 2021</a
-          >, a semester-long innovation challenge where finalists iterate and
+          >, a six-month-long innovation challenge where finalists iterate and
           design assistive technology based on real problem statements written
           by various organisations in Singapore. This is where
           <router-link :to="{ name: 'Project story Mint' }"
