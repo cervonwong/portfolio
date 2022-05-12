@@ -47,7 +47,7 @@
             alt="A program containing a die and a button to roll the dice in Excel."
             class="img-bordered"
           />
-          <figcaption>I still remember how to do it till today.</figcaption>
+          <figcaption>I still remember how to do it today.</figcaption>
         </figure>
         <p>
           I was proud to show what I have created to my friends and family. And
@@ -124,7 +124,7 @@
             alt="The booth to showcase Mint at a virtual festival on a virtual meeting platform."
           />
           <figcaption>
-            Due to Covid-19, the final demo day and festival was held online.
+            Due to Covid-19, the final demo day and festival were held online.
             This activity opened my eyes to the need for assistive technology in
             Singapore.
           </figcaption>
@@ -231,27 +231,14 @@
           </figcaption>
         </figure>
         <h2 id="Philosophy">Philosophy</h2>
+        <p><strong>Build for the user.</strong></p>
         <p>
-          A guiding principle that I abide by is to
-          <strong
-            ><i>develop products according to the needs of users</i></strong
-          >. (Aka <i>user-centred design</i>.)
-        </p>
-        <p>
-          Some of the failures from my early endeavours in software development
-          stem from creating products based on ideas that are not in line with
-          real-world needs or problems. That posed a great deal of trouble
-          because there was no real drive to accomplish the product, and there
-          was no one that would actually use the product.
-        </p>
-        <p>
-          Since then, I have taken note to design products around problems that
-          I directly observe around me. Hence, most of the projects that I
-          embark on revolve around education, information, or my interests and
-          hobbies.
+          One of my guiding principles is to design and build products according
+          to the needs of users. I approach this by observing problems that
+          people around me face and generating ideas to solve them.
         </p>
         <h2 id="Interests-and-hobbies">Interests & hobbies</h2>
-        <p>Some fun activities I do in my free time!</p>
+        <p>Here are some things I do in my free time:</p>
         <h3>Language learning</h3>
         <p>
           Aside from coding and designing, you can probably find me learning
@@ -292,27 +279,18 @@
           </figcaption>
         </figure>
         <p>
-          Language learning allows me to access a wider range of written works
-          and videos on the internet, as well as to communicate with a greater
-          proportion of the world. It also allows me to unlock a range of new
-          perspectives and opinions that can't be translated. That's why I find
-          language learning so fulfilling.
+          I enjoy studying languages as it allows me to be immersed in different
+          cultures than my own and enables me to learn about diverse viewpoints
+          from all over the globe!
         </p>
         <h3>Contributing to open-source projects</h3>
         <p>
-          If you
-          <a
-            href="https://github.com/cervonwong/"
-            target="_blank"
-            rel="noopener"
-            >visit my GitHub profile</a
-          >, you'd realise that I am quite active on there. Another one of my
-          hobbies is contributing to issues and documentation on GitHub,
-          depending on what I'm working on at the moment.
+          Another one of my hobbies is contributing to issues and documentation
+          on GitHub, depending on what I'm working on at the moment.
         </p>
         <p>
-          Most of the technologies that I am learning and using are open-source
-          projects.
+          I also love to use open-source technologies. Most of the technologies
+          that I use are open-source projects:
         </p>
         <ul>
           <li>
@@ -341,12 +319,17 @@
               rel="noopener"
               >DM Sans</a
             >
-            — the typeface that you are reading in right now!
+            and
+            <a
+              href="https://github.com/undercasetype/Fraunces"
+              target="_blank"
+              rel="noopener"
+              >Fraunces</a
+            >
+            — the typefaces that you are reading right now!
           </li>
         </ul>
         <p>
-          Interacting with developers who are actively involved in these
-          technologies is instrumental in accelerating my developer journey.
           Contributing to open-source projects allows me to make these projects
           that I love using even better.
         </p>
