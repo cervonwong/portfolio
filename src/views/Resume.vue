@@ -9,14 +9,14 @@
         <h1>Résumé</h1>
         <p>My résumé for Computer Science as of 10 April 2022.</p>
         <a
-          :href="'/resume/CS_Resume_2022-04-10.pdf'"
+          :href="'/resume/Cervon Wong - Resume (2022-06-09 Public).pdf'"
           target="_blank"
           rel="noopener"
           >Download PDF.</a
         >
       </div>
       <img
-        :src="'/resume/CS_Resume_2022-04-10.svg'"
+        :src="'/resume/Cervon Wong - Resume (2022-06-09 Public).svg'"
         alt="Cervon Wong's Computer Science Résumé"
         width="595"
         height="842"
