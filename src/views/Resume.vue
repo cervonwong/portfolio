@@ -7,7 +7,7 @@
     <div class="margin-wrapper">
       <div class="line-length-limit-wrapper">
         <h1>Résumé</h1>
-        <p>My résumé for Computer Science as of 10 April 2022.</p>
+        <p>My résumé for Computer Science as of 9 June 2022.</p>
         <a
           :href="'/resume/Cervon Wong - Resume (2022-06-09 Public).pdf'"
           target="_blank"
