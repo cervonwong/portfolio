@@ -179,7 +179,7 @@ declare module "vue-router" {
 
 const DEFAULT_TITLE = "Cervon Wong - Front-end, UI/UX";
 const DEFAULT_DESCRIPTION =
-  "Hi! I'm a high school student, front-end developer and UI/UX designer. Come and explore my portfolio, projects, blog, and more!";
+  "Hi! I'm a high school student pursuing computer science and engineering. Come and explore my portfolio, projects, blog, and more!";
 router.afterEach((to) => {
   nextTick(() => {
     document.title = to.meta.title || DEFAULT_TITLE;
