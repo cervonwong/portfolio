@@ -6,7 +6,7 @@
   <main>
     <section class="section-intro">
       <h1>
-        Hi! I'm a Year 5 NUS High School student pursuing Computer Science and
+        Hi! I'm a Year 6 NUS High School student pursuing Computer Science and
         Engineering.
       </h1>
       <p class="intro-subtitle">Scroll to learn more about what I do!</p>
