@@ -33,7 +33,6 @@
           <li><a href="#Where-next">Where next?</a></li>
         </ul>
         <h2 id="How-I-got-here">How I got here</h2>
-        <h3>The beginning</h3>
         <p>
           My first foray into coding was when I was twelve. With the help of
           YouTube videos and some free time during the holidays, I managed to
@@ -47,15 +46,16 @@
             alt="A program containing a die and a button to roll the dice in Excel."
             class="img-bordered"
           />
-          <figcaption>I still remember how to do it today.</figcaption>
+          <figcaption>It was revolutionary to me at the time.</figcaption>
         </figure>
         <p>
           I was proud to show what I have created to my friends and family. And
           I was also inspired by what I could build next.
         </p>
         <p>
-          Inadvertently, I had learnt the basics of algorithmic thinking, and
-          even software design concepts like encapsulation and abstraction.
+          From playing around with Python and Excel, I had unknowingly learnt
+          the basics of algorithmic thinking, and even software design concepts
+          like encapsulation and abstraction.
         </p>
         <h3>Pursuing my interests</h3>
         <p>
@@ -115,8 +115,9 @@
           design assistive technology based on real problem statements written
           by various organisations in Singapore. This is where
           <router-link :to="{ name: 'Project story Mint' }"
-            >my team and I created Mint</router-link
-          >.
+            >my team and I created Mint
+          </router-link>
+          .
         </p>
         <figure>
           <img
@@ -146,10 +147,11 @@
         <ul>
           <li>
             A web app that enables trainees with mild intellectual disability to
-            learn work skills independently. (<router-link
-              :to="{ name: 'Project story Mint' }"
-              >Learn more about Mint</router-link
-            >.)
+            learn work skills independently. (
+            <router-link :to="{ name: 'Project story Mint' }"
+              >Learn more about Mint
+            </router-link>
+            .)
           </li>
           <li>
             A website that organises NUS High School's modules to act as a
@@ -205,8 +207,10 @@
           />
           <figcaption>
             The accessibility considerations I took when designing
-            <router-link :to="{ name: 'Project story Mint' }">Mint</router-link
-            >.
+            <router-link :to="{ name: 'Project story Mint' }"
+              >Mint
+            </router-link>
+            .
           </figcaption>
         </figure>
         <h3 id="UI-design">UI design</h3>
@@ -345,24 +349,13 @@
           planning to check out in the future:
         </p>
         <ul>
-          <li>
-            <a
-              href="https://developer.android.com/jetpack/compose"
-              target="_blank"
-              rel="noopener"
-              >Jetpack Compose</a
-            >
-          </li>
+          <li>Robotics</li>
           <li>Server-side rendering for this website</li>
         </ul>
         <p>
-          I'm also working on some <em>secret</em> projects that I
-          <em>may or may not</em> write about in
-          <router-link :to="{ name: 'Blog catalog' }">my blog</router-link>.
-        </p>
-        <p>
           You can find my contact details on
-          <router-link :to="{ name: 'Contact' }">my contact page</router-link>.
+          <router-link :to="{ name: 'Contact' }">my contact page</router-link>
+          .
         </p>
       </div>
     </div>
