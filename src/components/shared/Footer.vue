@@ -18,8 +18,8 @@
           <p>
             Learn
             <router-link :to="{ name: 'Project story cervonwong.com' }"
-              >how I built this site from scratch</router-link
-            >
+              >how I built this site from scratch
+            </router-link>
             in my blog post. Check out the
             <a
               href="https://github.com/cervonwong/portfolio"
@@ -30,9 +30,16 @@
           </p>
           <p>
             Looking for something more fun and casual? Visit
-            <a href="https://play.cervonwong.com" target="_blank" rel="noopener"
-              >my online playground</a
-            >.
+            <a href="https://yard.cervonwong.com" target="_blank" rel="noopener"
+              >my yard</a
+            >.<br />Check out
+            <a
+              href="https://links.cervonwong.com"
+              target="_blank"
+              rel="noopener"
+              >my other websites</a
+            >
+            too!
           </p>
           <p>
             I hang out in various parts of the internet:
@@ -64,36 +71,37 @@
               <router-link
                 :to="{ name: 'About me' }"
                 class="list-anchor list-anchor--about-me"
-                >About me</router-link
-              >
+                >About me
+              </router-link>
             </li>
             <li>
               <router-link
                 :to="{ name: 'Blog catalog' }"
                 class="list-anchor list-anchor--blog"
-                >Blog</router-link
-              >
+                >Blog
+              </router-link>
             </li>
             <li>
               <router-link
                 :to="{ name: 'Contact' }"
                 class="list-anchor list-anchor--contact"
-                >Contact</router-link
-              >
+                >Contact
+              </router-link>
             </li>
             <li>
               <router-link
                 :to="{ name: 'About site' }"
                 class="list-anchor list-anchor--about-site"
-                >About this site</router-link
-              >
+                >About this site
+              </router-link>
             </li>
           </ul>
         </nav>
         <p>
-          © 2021–2022 Cervon Wong.
+          © 2021–2023 Cervon Wong.
           <br />
-          Last updated <time :datetime="lastUpdatedIso">{{ lastUpdated }}</time
+          Last updated
+          <time :datetime="lastUpdatedIso">{{ lastUpdated }}</time
           >.
         </p>
       </div>
