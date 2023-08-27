@@ -41,9 +41,9 @@ const routes: Array<RouteRecordRaw> = [
     name: "Home",
     component: Home,
     meta: {
-      title: "Cervon Wong - Front-end, UI/UX",
+      title: "Cervon Wong's Portfolio",
       description:
-        "Hi! I'm a high school student, front-end developer and UI/UX designer. Come and explore my portfolio, projects, blog, and more!",
+        "Hi! I'm a high school student pursuing Computer Science and Engineering. Explore my CV, projects and more!",
     },
   },
   {
@@ -53,7 +53,7 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       title: "About me - Cervon Wong",
       description:
-        "Learn more about how I got into design and coding, what I do, my philosophy, interests and more!",
+        "Learn more about how I got into design and coding, what I do, my philosophy and interests.",
     },
   },
   {
@@ -92,8 +92,7 @@ const routes: Array<RouteRecordRaw> = [
     component: Gallery,
     meta: {
       title: "Gallery - Cervon Wong",
-      description:
-        "Feast your eyes on all the cool and aesthetic images of my projects.",
+      description: "A museum of all the cool images of my projects.",
     },
   },
   {
@@ -179,7 +178,8 @@ declare module "vue-router" {
 
 const DEFAULT_TITLE = "Cervon Wong - Front-end, UI/UX";
 const DEFAULT_DESCRIPTION =
-  "Hi! I'm a high school student pursuing computer science and engineering. Come and explore my portfolio, projects, blog, and more!";
+  "Hi! I'm a high school student pursuing Computer Science and Engineering. Explore my CV, projects and more!";
+
 router.afterEach((to) => {
   nextTick(() => {
     document.title = to.meta.title || DEFAULT_TITLE;
