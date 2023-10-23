@@ -82,6 +82,7 @@ h1 {
   border: black 0.2rem solid;
   background-color: white;
   margin: 0 1rem;
+  margin-bottom: 1.5rem;
   border-radius: 100rem;
 
   box-shadow: 0.3rem 0.3rem 0 0 #000;
