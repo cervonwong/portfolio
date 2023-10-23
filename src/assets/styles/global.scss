@@ -14,7 +14,7 @@
 /* Typography */
 
 body {
-  font-family: "DM Sans", sans-serif; /* Sets default font-family for all elements. */
+  font-family: Commissioner, sans-serif; /* Sets default font-family for all elements. */
   color: $primary-black;
   background-color: $primary-white;
 }
@@ -23,21 +23,21 @@ a {
   color: inherit;
 }
 
-p {
-  @include p--16;
-}
+//p {
+//  @include p--16;
+//}
 
-h1 {
-  @include h1--standard;
-}
-
-h2 {
-  @include h2--standard;
-}
-
-h3 {
-  @include h3--standard;
-}
+//h1 {
+//  @include h1--standard;
+//}
+//
+//h2 {
+//  @include h2--standard;
+//}
+//
+//h3 {
+//  @include h3--standard;
+//}
 
 /* Layout */
 
