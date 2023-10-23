@@ -37,7 +37,7 @@ const Home = () => import(/* webpackChunkName: "home" */ "@/views/NewHome.vue");
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
+    path: "/:pathMatch(.*)*",
     name: "Home",
     component: Home,
     meta: {
