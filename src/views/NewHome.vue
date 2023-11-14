@@ -20,10 +20,10 @@
     <div class="button-row">
       <a
         class="button-link"
-        :href="'/resume/Cervon Wong - Resume (2023-07-09 CS Public).pdf'"
+        :href="'/resume/Cervon Wong - Resume (2023-11-14 CS Public).pdf'"
         target="_blank"
         rel="noopener"
-        >Download résumé</a
+        >View résumé</a
       >
       <a
         class="button-link"
