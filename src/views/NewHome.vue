@@ -14,7 +14,7 @@
       plan to pursue Computer Science in university.
     </p>
     <p class="p2">
-      I’ll update this portfolio site in Winter 2023. Till then, you can visit
+      I’ll update this portfolio site in December 2023. Till then, you can visit
       my LinkedIn and other sites to learn more about what I do.
     </p>
     <div class="button-row">
