@@ -14,8 +14,18 @@
       plan to pursue Computer Science in university.
     </p>
     <p class="p2">
-      I’ll update this portfolio site in December 2023. Till then, you can visit
-      my LinkedIn and other sites to learn more about what I do.
+      I’ll update this portfolio site by December 2023. Till then, you can visit
+      <a
+        href="https://www.linkedin.com/in/cervonwong/"
+        target="_blank"
+        rel="noopener"
+        >my LinkedIn</a
+      >
+      and
+      <a href="https://links.cervonwong.com" target="_blank" rel="noopener"
+        >my other sites</a
+      >
+      to learn more about what I do :)
     </p>
     <div class="button-row">
       <a
