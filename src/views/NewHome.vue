@@ -14,7 +14,7 @@
       plan to pursue Computer Science in university.
     </p>
     <p class="p2">
-      I’ll update this portfolio site by December 2023. Till then, you can visit
+      I’ll update this portfolio site by March 2024. Till then, you can visit
       <a
         href="https://www.linkedin.com/in/cervonwong/"
         target="_blank"
@@ -30,7 +30,7 @@
     <div class="button-row">
       <a
         class="button-link"
-        :href="'/resume/Cervon Wong (2023-11-25 CS Public COLOR).pdf'"
+        :href="'/resume/Cervon Wong (2023-12-05 CS Public TwoCol).pdf'"
         target="_blank"
         rel="noopener"
         >View résumé</a

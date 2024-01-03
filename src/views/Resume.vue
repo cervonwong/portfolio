@@ -21,7 +21,7 @@
         rel="noopener"
       >
         <img
-          :src="'/resume/Cervon Wong - Resume (2023-07-09 CS Public).svg'"
+          :src="'/resume/Cervon Wong - Resume (2023-12-05 CS Public TwoCol).svg'"
           alt="Cervon Wong's Computer Science Résumé"
           width="595"
           height="842"
