@@ -14,7 +14,7 @@
       plan to pursue Computer Science in university.
     </p>
     <p class="p2">
-      I’ll update this portfolio site by March 2024. Till then, you can visit
+      I’m migrating this portfolio site by March 2024 to use more modern technologies. Till then, you can visit
       <a
         href="https://www.linkedin.com/in/cervonwong/"
         target="_blank"
