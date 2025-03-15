@@ -10,28 +10,23 @@
     </div>
     <h1>Cervon Wong's Portfolio</h1>
     <p class="p1">
-      Hi! I’m Cervon Wong. I’m graduating from NUS High School this year and I
-      plan to pursue Computer Science in university.
+      Hi! I’m Cervon Wong. I’m pursuing Computer Science / Information Security
+      in university.
     </p>
     <p class="p2">
-      I’m migrating this portfolio site by March 2024 to use more modern
-      technologies. Till then, you can visit
+      Visit
       <a
         href="https://www.linkedin.com/in/cervonwong/"
         target="_blank"
         rel="noopener"
         >my LinkedIn</a
       >
-      and
-      <a href="https://links.cervonwong.com" target="_blank" rel="noopener"
-        >my other sites</a
-      >
       to learn more about what I do :)
     </p>
     <div class="button-row">
       <a
         class="button-link"
-        :href="'/resume/Cervon Wong (2023-12-05 CS Public TwoCol).pdf'"
+        :href="'/resume/Cervon Wong - Resume.pdf'"
         target="_blank"
         rel="noopener"
         >View résumé</a
