@@ -9,14 +9,14 @@
         <h1>Résumé</h1>
         <p>My résumé for Computer Science as of 9 July 2023.</p>
         <a
-          :href="'/resume/Cervon Wong - Resume (2023-07-09 CS Public).pdf'"
+          :href="'/resume/Cervon Wong - Computer Science, Computer Engineering, Cybersecurity.pdf'"
           target="_blank"
           rel="noopener"
           >Download PDF.</a
         >
       </div>
       <a
-        :href="'/resume/Cervon Wong - Resume (2023-07-09 CS Public).pdf'"
+        :href="'/resume/Cervon Wong - Computer Science, Computer Engineering, Cybersecurity.pdf'"
         target="_blank"
         rel="noopener"
       >

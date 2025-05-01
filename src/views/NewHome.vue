@@ -26,7 +26,7 @@
     <div class="button-row">
       <a
         class="button-link"
-        :href="'/resume/Cervon Wong - Resume.pdf'"
+        :href="'/resume/Cervon Wong - Computer Science, Computer Engineering, Cybersecurity.pdf'"
         target="_blank"
         rel="noopener"
         >View résumé</a
